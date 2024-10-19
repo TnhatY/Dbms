@@ -1,0 +1,27 @@
+﻿<UserControl x:Class="Do_an.UC_NhanVien"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Do_an"
+             mc:Ignorable="d" 
+             Height="170" Width="480">
+    <Grid>
+        <Border Background="#FFF2E3FB" CornerRadius="10" Margin="10">
+            <Grid>
+                <Image x:Name="hinhanh" Width="70" Height="70" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10"></Image>
+                <TextBlock x:Name="tennv" Height="30" VerticalAlignment="top" Margin="90 20 0 0" FontSize="14" FontWeight="Bold"></TextBlock>
+                <TextBlock x:Name="manv" Height="0" Width="0"></TextBlock>
+                <TextBlock  Text="Số điện thoại: " Height="30" Margin="20 60 0 0" FontSize="13">
+                 <Run x:Name="sdt" ></Run>
+                </TextBlock>
+                <TextBlock  Text="Địa chỉ: " Height="30" Margin="20 110 0 0" FontSize="13">
+                 <Run x:Name="diachi" ></Run>
+                </TextBlock>
+                <Button x:Name="xemchitiet" Width="90" Height="25" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="20" Click="xemchitiet_Click" Background="{x:Null}" BorderBrush="#FF5F0F92">
+                    <TextBlock Text="Xem chi tiết" FontSize="13"></TextBlock>
+                </Button>
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>

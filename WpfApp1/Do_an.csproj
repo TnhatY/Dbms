@@ -1,0 +1,473 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="HinhAnhSP\beptu1.jpg" />
+    <None Remove="HinhAnhSP\beptu2.jpg" />
+    <None Remove="HinhAnhSP\beptu3.jpg" />
+    <None Remove="HinhAnhSP\beptu4.jpg" />
+    <None Remove="HinhAnhSP\camera.jpg" />
+    <None Remove="HinhAnhSP\camera1.jpg" />
+    <None Remove="HinhAnhSP\camera2.jpg" />
+    <None Remove="HinhAnhSP\camera3.jpg" />
+    <None Remove="HinhAnhSP\dabanh01.jpg" />
+    <None Remove="HinhAnhSP\dabanh02.jpg" />
+    <None Remove="HinhAnhSP\dabanh03.jpg" />
+    <None Remove="HinhAnhSP\dabanh04.jpg" />
+    <None Remove="HinhAnhSP\edifice.jpg" />
+    <None Remove="HinhAnhSP\edifice1.jpg" />
+    <None Remove="HinhAnhSP\edifice2.jpg" />
+    <None Remove="HinhAnhSP\edifice3.jpg" />
+    <None Remove="HinhAnhSP\futal.jpg" />
+    <None Remove="HinhAnhSP\futal1.jpg" />
+    <None Remove="HinhAnhSP\futal2.jpg" />
+    <None Remove="HinhAnhSP\futal3.jpg" />
+    <None Remove="HinhAnhSP\futer.jpg" />
+    <None Remove="HinhAnhSP\futer1.jpg" />
+    <None Remove="HinhAnhSP\futer2.jpg" />
+    <None Remove="HinhAnhSP\futer3.jpg" />
+    <None Remove="HinhAnhSP\ghevanphong.jpg" />
+    <None Remove="HinhAnhSP\ghevanphong1.jpg" />
+    <None Remove="HinhAnhSP\ghevanphong2.jpg" />
+    <None Remove="HinhAnhSP\ghevanphong3.jpg" />
+    <None Remove="HinhAnhSP\giayspertar.jpg" />
+    <None Remove="HinhAnhSP\giayspertar1.jpg" />
+    <None Remove="HinhAnhSP\giayspertar2.jpg" />
+    <None Remove="HinhAnhSP\giayspertar3.jpg" />
+    <None Remove="HinhAnhSP\ip11.jpg" />
+    <None Remove="HinhAnhSP\ip14.jpg" />
+    <None Remove="HinhAnhSP\ip141.jpg" />
+    <None Remove="HinhAnhSP\ip142.jpg" />
+    <None Remove="HinhAnhSP\ip143.jpg" />
+    <None Remove="HinhAnhSP\ip144.jpg" />
+    <None Remove="HinhAnhSP\iphone11.png" />
+    <None Remove="HinhAnhSP\iphone111.png" />
+    <None Remove="HinhAnhSP\iphone112.png" />
+    <None Remove="HinhAnhSP\iphone113.png" />
+    <None Remove="HinhAnhSP\iphone5.jpg" />
+    <None Remove="HinhAnhSP\iphone51.jpg" />
+    <None Remove="HinhAnhSP\iphone52.jpg" />
+    <None Remove="HinhAnhSP\iphone53.jpg" />
+    <None Remove="HinhAnhSP\ipx.jpg" />
+    <None Remove="HinhAnhSP\ipx1.jpg" />
+    <None Remove="HinhAnhSP\ipx2.jpg" />
+    <None Remove="HinhAnhSP\ipx3.jpg" />
+    <None Remove="HinhAnhSP\loa marshall.jpg" />
+    <None Remove="HinhAnhSP\mac1.jpg" />
+    <None Remove="HinhAnhSP\mac2.jpg" />
+    <None Remove="HinhAnhSP\mac3.jpg" />
+    <None Remove="HinhAnhSP\mayep.jpg" />
+    <None Remove="HinhAnhSP\mayep1.jpg" />
+    <None Remove="HinhAnhSP\mayep2.jpg" />
+    <None Remove="HinhAnhSP\mayep3.jpg" />
+    <None Remove="HinhAnhSP\mec.jpg" />
+    <None Remove="HinhAnhSP\mecc.jpg" />
+    <None Remove="HinhAnhSP\mecc1.jpg" />
+    <None Remove="HinhAnhSP\mecc2.jpg" />
+    <None Remove="HinhAnhSP\mecc3.jpg" />
+    <None Remove="HinhAnhSP\PC_ADC.jpg" />
+    <None Remove="HinhAnhSP\PC_ADC1.jpg" />
+    <None Remove="HinhAnhSP\PC_ADC2.jpg" />
+    <None Remove="HinhAnhSP\PC_ADC3.jpg" />
+    <None Remove="HinhAnhSP\rolex.jpg" />
+    <None Remove="HinhAnhSP\rolex1.jpg" />
+    <None Remove="HinhAnhSP\rolex2.jpg" />
+    <None Remove="HinhAnhSP\rolex3.jpg" />
+    <None Remove="HinhAnhSP\RTX4090.png" />
+    <None Remove="HinhAnhSP\RTX40901.png" />
+    <None Remove="HinhAnhSP\RTX40902.png" />
+    <None Remove="HinhAnhSP\RTX40903.png" />
+    <None Remove="HinhAnhSP\tivi1.jpg" />
+    <None Remove="HinhAnhSP\tivi2.jpg" />
+    <None Remove="HinhAnhSP\topthethao.jpg" />
+    <None Remove="HinhAnhSP\vot.jpg" />
+    <None Remove="HinhAnhSP\vot1.jpg" />
+    <None Remove="HinhAnhSP\vot2.jpg" />
+    <None Remove="HinhAnhSP\vot3.JPG" />
+    <None Remove="HinhAnhSP\xedap.jpg" />
+    <None Remove="HinhAnhSP\xedap01.jpg" />
+    <None Remove="HinhAnhSP\xedap02.jpg" />
+    <None Remove="HinhAnhSP\xedap03.jpg" />
+    <None Remove="image\add.png" />
+    <None Remove="image\add2.png" />
+    <None Remove="image\admin.png" />
+    <None Remove="image\admin2.png" />
+    <None Remove="image\back.png" />
+    <None Remove="image\banghe.jpg" />
+    <None Remove="image\banhang.png" />
+    <None Remove="image\bell2.png" />
+    <None Remove="image\buy.png" />
+    <None Remove="image\buy2.png" />
+    <None Remove="image\buy3.png" />
+    <None Remove="image\buy4.png" />
+    <None Remove="image\buy5.png" />
+    <None Remove="image\caidat.png" />
+    <None Remove="image\caidat2.png" />
+    <None Remove="image\caidat3.png" />
+    <None Remove="image\cart.png" />
+    <None Remove="image\cart1.png" />
+    <None Remove="image\check.png" />
+    <None Remove="image\chuatim.png" />
+    <None Remove="image\condition_ad.png" />
+    <None Remove="image\damua.png" />
+    <None Remove="image\damua3.png" />
+    <None Remove="image\danhmuc.png" />
+    <None Remove="image\datim.png" />
+    <None Remove="image\dienthoai1.png" />
+    <None Remove="image\dienthoai2.png" />
+    <None Remove="image\dientu.jpg" />
+    <None Remove="image\dodientu1.png" />
+    <None Remove="image\dongho.jpg" />
+    <None Remove="image\edit.png" />
+    <None Remove="image\eye.png" />
+    <None Remove="image\fire.png" />
+    <None Remove="image\giadung.png" />
+    <None Remove="image\giadung1.png" />
+    <None Remove="image\giamgia.png" />
+    <None Remove="image\giamgia1.png" />
+    <None Remove="image\giaydabanh.jpg" />
+    <None Remove="image\giohang.png" />
+    <None Remove="image\giohang1.png" />
+    <None Remove="image\hinhnen.png" />
+    <None Remove="image\hinhnen2.png" />
+    <None Remove="image\home-2.png" />
+    <None Remove="image\home.png" />
+    <None Remove="image\Home1.png" />
+    <None Remove="image\h_thongke.png" />
+    <None Remove="image\iphone.jpg" />
+    <None Remove="image\ket.png" />
+    <None Remove="image\laptop.jpg" />
+    <None Remove="image\lich.png" />
+    <None Remove="image\location.png" />
+    <None Remove="image\location1.png" />
+    <None Remove="image\location2.png" />
+    <None Remove="image\logoUser.png" />
+    <None Remove="image\logout.png" />
+    <None Remove="image\logout1.png" />
+    <None Remove="image\macb.jpg" />
+    <None Remove="image\market1.png" />
+    <None Remove="image\market2.png" />
+    <None Remove="image\mayanh.jpg" />
+    <None Remove="image\maytinhban.jpg" />
+    <None Remove="image\member.png" />
+    <None Remove="image\menu.png" />
+    <None Remove="image\menu2.png" />
+    <None Remove="image\money.png" />
+    <None Remove="image\mua1.png" />
+    <None Remove="image\nen2.jpg" />
+    <None Remove="image\nen22.png" />
+    <None Remove="image\nenDangNhap.jpg" />
+    <None Remove="image\next.png" />
+    <None Remove="image\next1.png" />
+    <None Remove="image\nguoiban.png" />
+    <None Remove="image\nguoiban1.png" />
+    <None Remove="image\nguoimua.png" />
+    <None Remove="image\nguoimua1.png" />
+    <None Remove="image\noitro.jpg" />
+    <None Remove="image\Online.png" />
+    <None Remove="image\order.png" />
+    <None Remove="image\oto.jpeg" />
+    <None Remove="image\price.png" />
+    <None Remove="image\save.png" />
+    <None Remove="image\search.png" />
+    <None Remove="image\search2.png" />
+    <None Remove="image\setting.png" />
+    <None Remove="image\shoping.png" />
+    <None Remove="image\shopping.png" />
+    <None Remove="image\shutdown.png" />
+    <None Remove="image\shutdown2.png" />
+    <None Remove="image\sp.png" />
+    <None Remove="image\spdamua.png" />
+    <None Remove="image\th.jpg" />
+    <None Remove="image\thethao.png" />
+    <None Remove="image\thethao1.png" />
+    <None Remove="image\thoitrang.png" />
+    <None Remove="image\thoitrang1.png" />
+    <None Remove="image\thongke.png" />
+    <None Remove="image\title.png" />
+    <None Remove="image\tivi.jpg" />
+    <None Remove="image\tk1.png" />
+    <None Remove="image\top.png" />
+    <None Remove="image\trangchu.png" />
+    <None Remove="image\trangchu1.png" />
+    <None Remove="image\trash.png" />
+    <None Remove="image\uneye.png" />
+    <None Remove="image\uploadImage.png" />
+    <None Remove="image\user.png" />
+    <None Remove="image\user10.png" />
+    <None Remove="image\user11.png" />
+    <None Remove="image\user12.png" />
+    <None Remove="image\user13.png" />
+    <None Remove="image\user14.png" />
+    <None Remove="image\user2.png" />
+    <None Remove="image\user3.png" />
+    <None Remove="image\user4.png" />
+    <None Remove="image\user5.png" />
+    <None Remove="image\user6.png" />
+    <None Remove="image\user7.png" />
+    <None Remove="image\user8.png" />
+    <None Remove="image\user9.png" />
+    <None Remove="image\userT.png" />
+    <None Remove="image\vc.png" />
+    <None Remove="image\votcaulong.jpg" />
+    <None Remove="image\voucher.png" />
+    <None Remove="image\voucher1.png" />
+    <None Remove="image\x.png" />
+    <None Remove="image\xanh.PNG" />
+    <None Remove="image\xeco3.png" />
+    <None Remove="image\xedap.jpeg" />
+    <None Remove="image\xemay.jpeg" />
+    <None Remove="image\xuatfile.png" />
+    <None Remove="image\xuatfile2.png" />
+    <None Remove="image\xx.png" />
+    <None Remove="image\yeuthich01.png" />
+    <None Remove="image\yeuthich2.png" />
+    <None Remove="image\yeuthichtile.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="HinhAnhSP\beptu1.jpg" />
+    <Resource Include="HinhAnhSP\beptu2.jpg" />
+    <Resource Include="HinhAnhSP\beptu3.jpg" />
+    <Resource Include="HinhAnhSP\beptu4.jpg" />
+    <Resource Include="HinhAnhSP\camera.jpg" />
+    <Resource Include="HinhAnhSP\camera1.jpg" />
+    <Resource Include="HinhAnhSP\camera2.jpg" />
+    <Resource Include="HinhAnhSP\camera3.jpg" />
+    <Resource Include="HinhAnhSP\dabanh01.jpg" />
+    <Resource Include="HinhAnhSP\dabanh02.jpg" />
+    <Resource Include="HinhAnhSP\dabanh03.jpg" />
+    <Resource Include="HinhAnhSP\dabanh04.jpg" />
+    <Resource Include="HinhAnhSP\edifice.jpg" />
+    <Resource Include="HinhAnhSP\edifice1.jpg" />
+    <Resource Include="HinhAnhSP\edifice2.jpg" />
+    <Resource Include="HinhAnhSP\edifice3.jpg" />
+    <Resource Include="HinhAnhSP\futal.jpg" />
+    <Resource Include="HinhAnhSP\futal1.jpg" />
+    <Resource Include="HinhAnhSP\futal2.jpg" />
+    <Resource Include="HinhAnhSP\futal3.jpg" />
+    <Resource Include="HinhAnhSP\futer.jpg" />
+    <Resource Include="HinhAnhSP\futer1.jpg" />
+    <Resource Include="HinhAnhSP\futer2.jpg" />
+    <Resource Include="HinhAnhSP\futer3.jpg" />
+    <Resource Include="HinhAnhSP\ghevanphong.jpg" />
+    <Resource Include="HinhAnhSP\ghevanphong1.jpg" />
+    <Resource Include="HinhAnhSP\ghevanphong2.jpg" />
+    <Resource Include="HinhAnhSP\ghevanphong3.jpg" />
+    <Resource Include="HinhAnhSP\giayspertar.jpg" />
+    <Resource Include="HinhAnhSP\giayspertar1.jpg" />
+    <Resource Include="HinhAnhSP\giayspertar2.jpg" />
+    <Resource Include="HinhAnhSP\giayspertar3.jpg" />
+    <Resource Include="HinhAnhSP\ip11.jpg" />
+    <Resource Include="HinhAnhSP\ip14.jpg" />
+    <Resource Include="HinhAnhSP\ip141.jpg" />
+    <Resource Include="HinhAnhSP\ip142.jpg" />
+    <Resource Include="HinhAnhSP\ip143.jpg" />
+    <Resource Include="HinhAnhSP\ip144.jpg" />
+    <Resource Include="HinhAnhSP\iphone11.png" />
+    <Resource Include="HinhAnhSP\iphone111.png" />
+    <Resource Include="HinhAnhSP\iphone112.png" />
+    <Resource Include="HinhAnhSP\iphone113.png" />
+    <Resource Include="HinhAnhSP\iphone5.jpg" />
+    <Resource Include="HinhAnhSP\iphone51.jpg" />
+    <Resource Include="HinhAnhSP\iphone52.jpg" />
+    <Resource Include="HinhAnhSP\iphone53.jpg" />
+    <Resource Include="HinhAnhSP\ipx.jpg" />
+    <Resource Include="HinhAnhSP\ipx1.jpg" />
+    <Resource Include="HinhAnhSP\ipx2.jpg" />
+    <Resource Include="HinhAnhSP\ipx3.jpg" />
+    <Resource Include="HinhAnhSP\loa marshall.jpg" />
+    <Resource Include="HinhAnhSP\mac1.jpg" />
+    <Resource Include="HinhAnhSP\mac2.jpg" />
+    <Resource Include="HinhAnhSP\mac3.jpg" />
+    <Resource Include="HinhAnhSP\mayep.jpg" />
+    <Resource Include="HinhAnhSP\mayep1.jpg" />
+    <Resource Include="HinhAnhSP\mayep2.jpg" />
+    <Resource Include="HinhAnhSP\mayep3.jpg" />
+    <Resource Include="HinhAnhSP\mec.jpg" />
+    <Resource Include="HinhAnhSP\mecc.jpg" />
+    <Resource Include="HinhAnhSP\mecc1.jpg" />
+    <Resource Include="HinhAnhSP\mecc2.jpg" />
+    <Resource Include="HinhAnhSP\mecc3.jpg" />
+    <Resource Include="HinhAnhSP\PC_ADC.jpg" />
+    <Resource Include="HinhAnhSP\PC_ADC1.jpg" />
+    <Resource Include="HinhAnhSP\PC_ADC2.jpg" />
+    <Resource Include="HinhAnhSP\PC_ADC3.jpg" />
+    <Resource Include="HinhAnhSP\rolex.jpg" />
+    <Resource Include="HinhAnhSP\rolex1.jpg" />
+    <Resource Include="HinhAnhSP\rolex2.jpg" />
+    <Resource Include="HinhAnhSP\rolex3.jpg" />
+    <Resource Include="HinhAnhSP\RTX4090.png" />
+    <Resource Include="HinhAnhSP\RTX40901.png" />
+    <Resource Include="HinhAnhSP\RTX40902.png" />
+    <Resource Include="HinhAnhSP\RTX40903.png" />
+    <Resource Include="HinhAnhSP\tivi1.jpg" />
+    <Resource Include="HinhAnhSP\tivi2.jpg" />
+    <Resource Include="HinhAnhSP\topthethao.jpg" />
+    <Resource Include="HinhAnhSP\vot.jpg" />
+    <Resource Include="HinhAnhSP\vot1.jpg" />
+    <Resource Include="HinhAnhSP\vot2.jpg" />
+    <Resource Include="HinhAnhSP\vot3.JPG" />
+    <Resource Include="HinhAnhSP\xedap.jpg" />
+    <Resource Include="HinhAnhSP\xedap01.jpg" />
+    <Resource Include="HinhAnhSP\xedap02.jpg" />
+    <Resource Include="HinhAnhSP\xedap03.jpg" />
+    <Resource Include="image\bell2.png" />
+    <Resource Include="image\giamgia.png" />
+    <Resource Include="image\giamgia1.png" />
+    <Resource Include="image\lich.png" />
+    <Resource Include="image\location.png" />
+    <Resource Include="image\location1.png" />
+    <Resource Include="image\location2.png" />
+    <Resource Include="image\macb.jpg" />
+    <Resource Include="image\money.png" />
+    <Resource Include="image\mua1.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="image\nen2.jpg" />
+    <Resource Include="image\nen22.png" />
+    <Resource Include="image\nguoiban.png" />
+    <Resource Include="image\nguoiban1.png" />
+    <Resource Include="image\nguoimua.png" />
+    <Resource Include="image\nguoimua1.png" />
+    <Resource Include="image\sp.png" />
+    <Resource Include="image\tk1.png" />
+    <Resource Include="image\user12.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="LiveCharts.Wpf" Version="0.9.7" />
+    <PackageReference Include="MaterialDesignThemes" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="image\add.png" />
+    <Resource Include="image\add2.png" />
+    <Resource Include="image\admin.png" />
+    <Resource Include="image\admin2.png" />
+    <Resource Include="image\back.png" />
+    <Resource Include="image\banghe.jpg" />
+    <Resource Include="image\banhang.png" />
+    <Resource Include="image\buy2.png" />
+    <Resource Include="image\caidat.png" />
+    <Resource Include="image\caidat2.png" />
+    <Resource Include="image\caidat3.png" />
+    <Resource Include="image\cart.png" />
+    <Resource Include="image\check.png" />
+    <Resource Include="image\chuatim.png" />
+    <Resource Include="image\condition_ad.png" />
+    <Resource Include="image\damua.png" />
+    <Resource Include="image\damua3.png" />
+    <Resource Include="image\danhmuc.png" />
+    <Resource Include="image\datim.png" />
+    <Resource Include="image\dienthoai1.png" />
+    <Resource Include="image\dienthoai2.png" />
+    <Resource Include="image\dientu.jpg" />
+    <Resource Include="image\dodientu1.png" />
+    <Resource Include="image\dongho.jpg" />
+    <Resource Include="image\edit.png" />
+    <Resource Include="image\eye.png" />
+    <Resource Include="image\fire.png" />
+    <Resource Include="image\giadung.png" />
+    <Resource Include="image\giadung1.png" />
+    <Resource Include="image\giaydabanh.jpg" />
+    <Resource Include="image\giohang.png" />
+    <Resource Include="image\giohang1.png" />
+    <Resource Include="image\h_thongke.png" />
+    <Resource Include="image\iphone.jpg" />
+    <Resource Include="image\laptop.jpg" />
+    <Resource Include="image\logoUser.png" />
+    <Resource Include="image\logout.png" />
+    <Resource Include="image\market2.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="image\home.png" />
+    <Resource Include="image\mayanh.jpg" />
+    <Resource Include="image\maytinhban.jpg" />
+    <Resource Include="image\menu.png" />
+    <Resource Include="image\menu2.png" />
+    <Resource Include="image\nenDangNhap.jpg" />
+    <Resource Include="image\next.png" />
+    <Resource Include="image\next1.png" />
+    <Resource Include="image\noitro.jpg" />
+    <Resource Include="image\order.png" />
+    <Resource Include="image\oto.jpeg" />
+    <Resource Include="image\price.png" />
+    <Resource Include="image\save.png" />
+    <Resource Include="image\search.png" />
+    <Resource Include="image\search2.png" />
+    <Resource Include="image\setting.png" />
+    <Resource Include="image\shutdown2.png" />
+    <Resource Include="image\spdamua.png" />
+    <Resource Include="image\th.jpg" />
+    <Resource Include="image\thethao.png" />
+    <Resource Include="image\thethao1.png" />
+    <Resource Include="image\thoitrang.png" />
+    <Resource Include="image\thoitrang1.png" />
+    <Resource Include="image\thongke.png" />
+    <Resource Include="image\tivi.jpg" />
+    <Resource Include="image\top.png" />
+    <Resource Include="image\trangchu.png" />
+    <Resource Include="image\trash.png" />
+    <Resource Include="image\uneye.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="image\trangchu1.png" />
+    <Resource Include="image\uploadImage.png" />
+    <Resource Include="image\user11.png" />
+    <Resource Include="image\user13.png" />
+    <Resource Include="image\user14.png" />
+    <Resource Include="image\user2.png" />
+    <Resource Include="image\user3.png" />
+    <Resource Include="image\user4.png" />
+    <Resource Include="image\user5.png" />
+    <Resource Include="image\user6.png" />
+    <Resource Include="image\user7.png" />
+    <Resource Include="image\user8.png" />
+    <Resource Include="image\user9.png" />
+    <Resource Include="image\userT.png" />
+    <Resource Include="image\vc.png" />
+    <Resource Include="image\votcaulong.jpg" />
+    <Resource Include="image\voucher.png" />
+    <Resource Include="image\voucher1.png" />
+    <Resource Include="image\x.png" />
+    <Resource Include="image\xanh.PNG" />
+    <Resource Include="image\xeco3.png" />
+    <Resource Include="image\xedap.jpeg" />
+    <Resource Include="image\xemay.jpeg" />
+    <Resource Include="image\xuatfile.png" />
+    <Resource Include="image\xuatfile2.png" />
+    <Resource Include="image\xx.png" />
+    <Resource Include="image\yeuthich01.png" />
+    <Resource Include="image\yeuthich2.png" />
+    <Resource Include="image\yeuthichtile.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>
