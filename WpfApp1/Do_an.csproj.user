@@ -19,7 +19,13 @@
     <Compile Update="PhieuGiamGia.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="UC_SuaNhanVien.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="ThanhToan_Window.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UC_ThemNhanVien.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="ThemSP_Window.xaml.cs">
@@ -38,9 +44,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="TopSanPham_Window.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="UC_background.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="UC_CaiDat.xaml.cs">
@@ -62,9 +65,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="UC_NguoiBan.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="UC_NhanVien.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="UC_QL_NguoiBan.xaml.cs">
@@ -114,7 +114,13 @@
     <Page Update="PhieuGiamGia.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="UC_SuaNhanVien.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="ThanhToan_Window.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UC_ThemNhanVien.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ThemSP_Window.xaml">
@@ -135,9 +141,6 @@
     <Page Update="TopSanPham_Window.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="UC_background.xaml">
-      <SubType>Designer</SubType>
-    </Page>
     <Page Update="UC_CaiDat.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -150,6 +153,9 @@
     <Page Update="UC_gioHang.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="UC_NhanVien.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="UC_KhachHang.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -157,9 +163,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UC_NguoiBan.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="UC_NhanVien.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UC_QL_NguoiBan.xaml">

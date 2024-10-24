@@ -203,6 +203,7 @@ namespace Do_an
         }
         public static string texttimkiem = "";
         public static string menu1 = "";
+        public static string menu2 = "";
         private void timkiem_Click(object sender, RoutedEventArgs e)
         {
             timkiem1.Text = null;
@@ -283,8 +284,9 @@ namespace Do_an
 
         private void btnNhanVien_Click(object sender, RoutedEventArgs e)
         {
-            UC_background uC_Background=new UC_background();
+            UC_NhanVien uC_Background=new UC_NhanVien();
             user.Content = uC_Background;
+            menu2 = "nhanvien";
             btnCaiDat.BorderThickness = new Thickness(0);
             BitmapImage bitmap = new BitmapImage();
             bitmap.BeginInit();

@@ -28,7 +28,7 @@ namespace Do_an
         {
             InitializeComponent();
         }
-        public DataTable XemDanhMucNhaCungCap()
+        public DataTable XemDanhMucKhachHang()
         {
             SqlCommand cmd = new SqlCommand("SELECT * FROM DanhMucKhachHang", ConnectDB.getconnection());
             SqlDataAdapter adapter = new SqlDataAdapter(cmd);
@@ -39,7 +39,7 @@ namespace Do_an
 
         private void UserControl_Loaded(object sender, RoutedEventArgs e)
         {
-            dg_khachhang.ItemsSource = XemDanhMucNhaCungCap().DefaultView;
+            dg_khachhang.ItemsSource = XemDanhMucKhachHang().DefaultView;
         }
 
         private void btnTimkiem_Click(object sender, RoutedEventArgs e)
