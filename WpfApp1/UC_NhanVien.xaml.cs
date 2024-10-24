@@ -1,4 +1,6 @@
-﻿using System;
+﻿using MaterialDesignThemes.Wpf;
+using Microsoft.VisualBasic.ApplicationServices;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -27,7 +29,8 @@ namespace Do_an
 
         private void xemchitiet_Click(object sender, RoutedEventArgs e)
         {
-
+            UC_XemChiTietNhanVien detail_Empl = new UC_XemChiTietNhanVien();
+            detail_Empl.manv = this.manv.Text;
         }
     }
 }

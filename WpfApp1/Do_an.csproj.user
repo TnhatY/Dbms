@@ -22,6 +22,9 @@
     <Compile Update="ThanhToan_Window.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="ThemCaLam_Window.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="ThemSP_Window.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -50,6 +53,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="UC_DanhGia.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UC_DanhSachCaLam.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="UC_gioHang.xaml.cs">
@@ -94,7 +100,13 @@
     <Compile Update="UC_TopTimKiem.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="UC_XemChiTietNhanVien.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="XemDanhGia_Window.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="XoaCaLamViec_Window.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -115,6 +127,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ThanhToan_Window.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ThemCaLam_Window.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ThemSP_Window.xaml">
@@ -145,6 +160,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UC_DanhGia.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UC_DanhSachCaLam.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UC_gioHang.xaml">
@@ -190,6 +208,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="XemDanhGia_Window.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="XoaCaLamViec_Window.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

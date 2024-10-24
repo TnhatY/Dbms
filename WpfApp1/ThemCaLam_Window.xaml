@@ -1,0 +1,23 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Do_an"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" x:Name="window" x:Class="Do_an.ThemCaLam_Window"
+        mc:Ignorable="d"
+        Title="ThemCaLam_Window" Height="450" Width="800">
+    <Grid Background="#FF7D3E93">
+        <TextBox HorizontalAlignment="Left" Margin="227,71,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" Height="22" AutomationProperties.Name="txt_maclv"/>
+        <Label Content="Mã ca làm việc" HorizontalAlignment="Left" Margin="86,67,0,0" VerticalAlignment="Top" Width="101"/>
+        <Label Content="Ngày làm" HorizontalAlignment="Left" Margin="179,259,0,0" VerticalAlignment="Top" Width="101"/>
+        <Label Content="Giờ bắt đầu" HorizontalAlignment="Left" Margin="86,132,0,0" VerticalAlignment="Top"/>
+        <Label Content="Giờ két thúc" HorizontalAlignment="Left" Margin="86,170,0,0" VerticalAlignment="Top"/>
+        <Button Content="Ok" HorizontalAlignment="Left" Margin="716,384,0,0" VerticalAlignment="Top" Height="40" Width="74" Click="Button_Click"/>
+        <Button Content="Cancel" HorizontalAlignment="Left" Margin="632,384,0,0" VerticalAlignment="Top" Height="40" Width="79" Click="Button_Click_1"/>
+        <TextBox HorizontalAlignment="Left" Margin="227,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" Height="22" AutomationProperties.Name="start"/>
+        <TextBox HorizontalAlignment="Left" Margin="227,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" Height="22" AutomationProperties.Name="end"/>
+        <Calendar HorizontalAlignment="Left" Margin="336,256,0,0" VerticalAlignment="Top" AutomationProperties.Name="datetime"/>
+
+    </Grid>
+</Window>

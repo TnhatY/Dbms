@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Data.Entity.Infrastructure;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
@@ -15,7 +16,7 @@ namespace Do_an.dao
     {
         public DataTable XemThongTinNhanVien()
         {
-            SqlCommand cmd = new SqlCommand("SELECT * FROM ThongTinNhanVien", ConnectDB.getconnection());
+            SqlCommand cmd = new SqlCommand("SELECT * FROM NhanVien", ConnectDB.getconnection());
             SqlDataAdapter adapter = new SqlDataAdapter(cmd);
             DataTable dataTable = new DataTable();
             adapter.Fill(dataTable);
@@ -46,6 +47,37 @@ namespace Do_an.dao
             }
            
         }
-
+        public void them_CaLamViec(String manv, String maclv, DateTime ngaylam, String giobatdau, String giokethuc)
+        {
+            String sqlStr = $"exec them_CaLamViec {manv},  {maclv}, {ngaylam}, {giobatdau}, {giokethuc}";
+            try
+            {
+                SqlConnection conn = ConnectDB.getconnection();
+                conn.Open();
+                SqlCommand command = new SqlCommand(sqlStr, conn);
+                command.ExecuteNonQuery();
+                conn.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+        public void xoa_CalamViec(String manv, String maclv)
+        {
+            String sqlStr = $"exec xoa_calamviec {manv},  {maclv}";
+            try
+            {
+                SqlConnection conn = ConnectDB.getconnection();
+                conn.Open();
+                SqlCommand command = new SqlCommand(sqlStr, conn);
+                command.ExecuteNonQuery();
+                conn.Close();   
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
     }
 }
