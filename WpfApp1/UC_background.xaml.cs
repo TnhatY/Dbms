@@ -28,15 +28,22 @@ namespace Do_an
 
         private void UserControl_Loaded(object sender, RoutedEventArgs e)
         {
-            if (F_Main.menu1 == "khachhang")
+          
+            
+            if (F_Main.thanhmenu1 == "nhanvien")
             {
-                NhanVien_DAO nhanVien_DAO = new NhanVien_DAO();
-                listNhanVien.ItemsSource = nhanVien_DAO.listNhanvien();
-            }
-            else
-            {
-                NhanVien_DAO nhanVien_DAO = new NhanVien_DAO();
-                listNhanVien.ItemsSource = nhanVien_DAO.listNhanvien();
+                if (F_Main.texttimkiem == null)
+                {
+                    NhanVien_DAO nhanVien_DAO = new NhanVien_DAO();
+                    listNhanVien.ItemsSource = nhanVien_DAO.listNhanvien();
+                }
+                else
+                {
+                    NhanVien_DAO nhanVien_DAO = new NhanVien_DAO();
+                    listNhanVien.ItemsSource= nhanVien_DAO.timkiemNhanVien(F_Main.texttimkiem);
+                    F_Main.texttimkiem = "";
+                }
+                
             }
             
         }

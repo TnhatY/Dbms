@@ -854,3 +854,9 @@ D:\Deadline\DBMS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\UC_KhachHang.g.cs
 D:\Deadline\DBMS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\UC_KhachHang.baml
 D:\Deadline\DBMS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\UC_ThemKhachHang.g.cs
 D:\Deadline\DBMS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\UC_ThemKhachHang.baml
+D:\Deadline\DBMS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\UC_BangLuong.g.cs
+D:\Deadline\DBMS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\UC_BangLuong.baml
+D:\Deadline\DBMS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\UC_HoaDon.g.cs
+D:\Deadline\DBMS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\UC_HoaDon.baml
+D:\Deadline\DBMS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\TaoHoaDon.g.cs
+D:\Deadline\DBMS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\TaoHoaDon.baml

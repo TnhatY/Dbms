@@ -45,7 +45,7 @@ namespace Do_an
         private void btnTimkiem_Click(object sender, RoutedEventArgs e)
         {
             KhachHang_DAO khachHang_DAO = new KhachHang_DAO();
-            dg_khachhang.ItemsSource = khachHang_DAO.KhachHang_SDT(txtsdt.Text).DefaultView;
+            dg_khachhang.ItemsSource = khachHang_DAO.TimKiemKhachHang(txtsdt.Text).DefaultView;
         }
         private void dg_khachhang_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {

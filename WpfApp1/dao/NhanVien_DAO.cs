@@ -39,13 +39,80 @@ namespace Do_an.dao
                     list.Add(nhanvien);
                 }
                 return list;
-            }catch (Exception ex)
+            }
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
                 return null;
             }
-           
+
         }
 
+        public DataTable tinhLuongNV(int nam,int thang)
+        {
+            try
+            {
+
+                using (SqlConnection conn = new SqlConnection(ConnectDB.connectionString))
+                {
+                    conn.Open();
+
+                    using (SqlCommand cmd = new SqlCommand("sp_TinhLuongNhanVien", conn))
+                    {
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.Parameters.AddWithValue("@Thang", thang);
+                        cmd.Parameters.AddWithValue("@Nam", nam);
+
+                        SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+                        DataTable dataTable = new DataTable();
+                        adapter.Fill(dataTable);
+                        return dataTable;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Có lỗi xảy ra: " + ex.Message);
+                return null;
+            }
+
+        }
+
+        public List<UC_NhanVien> timkiemNhanVien(string keyword)
+        {
+            List<UC_NhanVien> listnv = new List<UC_NhanVien>();
+            using (SqlConnection conn = new SqlConnection(ConnectDB.connectionString))
+            {
+                try
+                {
+                    conn.Open();
+                    using (SqlCommand cmd = new SqlCommand("TimKiemNhanVien", conn))
+                    {
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.Parameters.AddWithValue("@MaNV", keyword);
+                        cmd.Parameters.AddWithValue("@TenNV", keyword);
+                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        {
+                            while (reader.Read())
+                            {
+                                UC_NhanVien uC_NhanVien = new UC_NhanVien();
+                                uC_NhanVien.tennv.Text = reader["TenNV"].ToString();
+                                uC_NhanVien.manv.Text = reader["MaNV"].ToString();
+                                uC_NhanVien.sdt.Text = reader["SoDT"].ToString();
+                                uC_NhanVien.diachi.Text = reader["DiaChi"].ToString();
+                                listnv.Add(uC_NhanVien);
+                            }
+                        }
+                    }
+                    return listnv;
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                    return null;
+                }
+            }
+
+        }
     }
 }

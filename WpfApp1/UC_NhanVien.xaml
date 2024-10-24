@@ -9,7 +9,7 @@
     <Grid>
         <Border Background="#FFF2E3FB" CornerRadius="10" Margin="10">
             <Grid>
-                <Image x:Name="hinhanh" Width="70" Height="70" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10"></Image>
+                <Image x:Name="hinhanh" Source="/image/user2.png" Width="70" Height="70" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10"></Image>
                 <TextBlock x:Name="tennv" Height="30" VerticalAlignment="top" Margin="90 20 0 0" FontSize="14" FontWeight="Bold"></TextBlock>
                 <TextBlock x:Name="manv" Height="0" Width="0"></TextBlock>
                 <TextBlock  Text="Số điện thoại: " Height="30" Margin="20 60 0 0" FontSize="13">

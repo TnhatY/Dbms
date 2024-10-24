@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Do_an"
         mc:Ignorable="d"
-        Title="UC_ThemKhachHang" Height="480" Width="400">
+        Title="UC_ThemKhachHang" Height="480" Width="400" WindowStartupLocation="CenterScreen">
     <Grid Margin="10" Background="#FFFFFF">
         <StackPanel Margin="10" VerticalAlignment="Top">
             <Label Content="Mã Khách Hàng:"

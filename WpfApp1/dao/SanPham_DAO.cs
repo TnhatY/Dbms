@@ -66,6 +66,45 @@ namespace Do_an.dao
                 return null;
             }
         }
+
+        public void themSanPham(SanPham sanPham)
+        {
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(ConnectDB.connectionString))
+                {
+                    conn.Open();
+                    using (SqlCommand cmd = new SqlCommand("sp_ThemSanPham", conn))
+                    {
+                        cmd.CommandType = CommandType.StoredProcedure;
+
+                        cmd.Parameters.AddWithValue("@MaSP", sanPham.MaSP);
+                        cmd.Parameters.AddWithValue("@TenSP", sanPham.TenSP);
+                        cmd.Parameters.AddWithValue("@MaLoaiSP", sanPham.DanhMucSP);
+                        cmd.Parameters.AddWithValue("@TinhTrang", sanPham.TinhTrang);
+                        cmd.Parameters.AddWithValue("@GiaGoc", sanPham.GiaGoc);
+                        cmd.Parameters.AddWithValue("@GiaBan", sanPham.GiaBan);
+                        cmd.Parameters.AddWithValue("@MaNCC", sanPham.NhaCC);
+                        cmd.Parameters.AddWithValue("@HinhAnh", sanPham.HinhAnh);
+
+                        int rowsAffected = cmd.ExecuteNonQuery();
+
+                        if (rowsAffected > 0)
+                        {
+                            MessageBox.Show("Thêm sản phẩm thành công.");
+                        }
+                        else
+                        {
+                            MessageBox.Show("Không thể thêm sản phẩm.");
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
         public List<SanPham> listSP()
         {
             SanPham_DAO sanPham_DAO = new SanPham_DAO();
@@ -89,6 +128,39 @@ namespace Do_an.dao
             {
                 MessageBox.Show(ex.Message);
                 return null;
+            }
+        }
+
+        public void xoaSanPham(string masp)
+        {
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(ConnectDB.connectionString))
+                {
+                    conn.Open();
+                    using (SqlCommand cmd = new SqlCommand("sp_XoaSanPham", conn))
+                    {
+                        cmd.CommandType = CommandType.StoredProcedure;
+
+                        cmd.Parameters.AddWithValue("@MaSP", masp);
+
+                        int rowsAffected = cmd.ExecuteNonQuery();
+
+                        if (rowsAffected > 0)
+                        {
+                            MessageBox.Show("Xoá sản phẩm thành công");
+                        }
+                        else
+                        {
+                            MessageBox.Show("Xoá không thành công");
+                        }
+                    }
+                    conn.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
             }
         }
     }
