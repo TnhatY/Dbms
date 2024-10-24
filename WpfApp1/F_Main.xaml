@@ -617,6 +617,12 @@
                                 <TextBlock Text="Khách hàng" Padding="0,0,35,0" VerticalAlignment="Center" HorizontalAlignment="Right" FontSize="14" FontWeight="Bold" Foreground="#FFDDDDDD" ></TextBlock>
                             </Grid>
                         </Button>
+                        <Button x:Name="btnThongKe" Style="{DynamicResource ButtonStyle3}"  Height="40" Width="130" Background="Transparent" BorderThickness="0,0,0,0" BorderBrush="#FFFCF8F8" Click="btnThongKe_Click"  >
+                            <Grid Width="150">
+                                <Image Source="/image/nguoimua1.png" Margin="10,0,0,0" HorizontalAlignment="Left" Width="22"/>
+                                <TextBlock Text="Thống kê" Padding="0,0,35,0" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="14" FontWeight="Bold" Foreground="#FFDDDDDD" Height="22" Margin="37,0,0,0" Width="113" />
+                            </Grid>
+                        </Button>
 
                     </StackPanel>
                     <!--Đăng xuất-->
@@ -628,7 +634,7 @@
                     </Button>
                 </Grid>
             </Border>
-            
+
 
             <!--logo user-->
             <Border x:Name="logo" Width="80" Height="80" BorderThickness="2" BorderBrush="Transparent"
@@ -658,7 +664,7 @@
                         <ToggleButton Style="{DynamicResource ToggleButtonStyle1}" x:Name="thanhmenu"  Width="35" Height="35" Background="Transparent" HorizontalAlignment="Left" Margin="20,0,0,0" BorderThickness="0,0,0,0" Checked="ToggleButton_Checked" Unchecked="ToggleButton_Unchecked">
                             <Image Source="/image/menu2.png"></Image>
                         </ToggleButton>
-                            <!--Tìm kiếm -->
+                        <!--Tìm kiếm -->
                         <Image x:Name="imageTittle" Width="180" Source="/image/trangchu.png"  Margin="150,0,0,0" HorizontalAlignment="Left" ></Image>
                         <Border Width="280"
                               Height="40"
@@ -669,7 +675,7 @@
                               Margin="100,0,0,0"
                               HorizontalAlignment="Center"
                               VerticalAlignment="Center">
-                            
+
                             <Grid>
                                 <TextBlock x:Name="timkiem1" Text=" Tìm kiếm... " FontSize="14" Margin="10,0,0,0" VerticalAlignment="Center"  Opacity="0.13"/>
 
@@ -681,9 +687,9 @@
                                     <Image Source="/image/search.png" Width="25" />
 
                                 </Button>
-                            
+
                             </Grid>
-                            
+
                         </Border>
                     </Grid>
                 </Border>
@@ -709,7 +715,7 @@
                 <ContentControl x:Name="user"></ContentControl>
 
             </Grid>
-           
+
         </Grid>
     </Border>
 </Window>

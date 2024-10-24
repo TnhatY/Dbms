@@ -17,12 +17,11 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Data.SqlClient;
 using Do_an.config;
+using Do_an.dao;
 
 namespace Do_an
 {
-    /// <summary>
-    /// Interaction logic for F_Main.xaml
-    /// </summary>
+
     public partial class F_Main : Window
     {
        
@@ -317,5 +316,11 @@ namespace Do_an
             btnNguoiMua.Background = new SolidColorBrush(Color.FromRgb(136, 0, 204));
             btnNguoiMua.BorderThickness = new Thickness(2, 0, 0, 2);
         }
-    }
+
+		private void btnThongKe_Click(object sender, RoutedEventArgs e)
+		{
+			UC_Thongke uC_Background = new UC_Thongke();
+			user.Content = uC_Background;			
+		}
+	}
 }
