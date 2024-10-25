@@ -109,7 +109,7 @@ namespace Do_an {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Do_an;V1.0.0.0;component/lydohuydon_wd.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Do_an;component/lydohuydon_wd.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\LyDoHuyDon_WD.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
