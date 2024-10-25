@@ -10,6 +10,7 @@
 //------------------------------------------------------------------------------
 
 using Do_an;
+using LiveCharts.Wpf;
 using System;
 using System.Diagnostics;
 using System.Windows;
@@ -85,7 +86,7 @@ namespace Do_an {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Do_an;component/uc_toptimkiem.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Do_an;V1.0.0.0;component/uc_toptimkiem.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\UC_TopTimKiem.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
