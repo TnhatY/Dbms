@@ -175,8 +175,7 @@ namespace Do_an
                 user.Content = uc;
             }else if (thanhmenu1 == "nhanvien")
             {
-                UC_background uc = new UC_background();
-                user.Content = uc;
+                
             }else if (thanhmenu1 == "hoadon")
             {
                 UC_HoaDon uc = new UC_HoaDon();
@@ -273,5 +272,10 @@ namespace Do_an
 			UC_Thongke uC_Background = new UC_Thongke();
 			user.Content = uC_Background;			
 		}
-	}
+
+        private void btnHoaDon_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+    }
 }

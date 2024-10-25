@@ -25,12 +25,8 @@ namespace Do_an
             InitializeComponent();
         }
 
-        private void InitializeComponent()
-        {
-            throw new NotImplementedException();
-        }
 
-        public String manv;
+        public string manv;
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             NhanVien_DAO nv = new NhanVien_DAO();
