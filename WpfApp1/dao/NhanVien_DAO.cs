@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Data.Entity.Infrastructure;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Security.RightsManagement;
@@ -18,7 +19,7 @@ namespace Do_an.dao
     {
         public DataTable XemThongTinNhanVien()
         {
-            SqlCommand cmd = new SqlCommand("SELECT * FROM ThongTinNhanVien", ConnectDB.getconnection());
+            SqlCommand cmd = new SqlCommand("SELECT * FROM NhanVien", ConnectDB.getconnection());
             SqlDataAdapter adapter = new SqlDataAdapter(cmd);
             DataTable dataTable = new DataTable();
             adapter.Fill(dataTable);
@@ -260,7 +261,7 @@ namespace Do_an.dao
                 MessageBox.Show(ex.Message);
             }
         }
-
+        
     }
 }
 

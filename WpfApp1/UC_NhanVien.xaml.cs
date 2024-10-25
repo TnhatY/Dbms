@@ -46,7 +46,7 @@ namespace Do_an
 
         private void btnTimkiem_Click(object sender, RoutedEventArgs e)
         {
-           
+
         }
         private void Dg_NhanVien_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {

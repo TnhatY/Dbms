@@ -12,8 +12,8 @@ namespace Do_an.config
     {
         public static SqlDataAdapter adapter;
         public static SqlCommand cmd;
-        public static string connectionString = @"Data Source=DESKTOP-LAN03PN;Initial Catalog=CUA_HANG_DO_CU;Integrated Security=True;TrustServerCertificate=True";
-        public SqlConnection con = ConnectDB.getconnection();
+        public static string connectionString = @"Data Source=localhost;Initial Catalog=CUA_HANG_DO_CU;Integrated Security=True; User ID=sa;Password=123456";
+
 
         public static SqlConnection getconnection()
         {
@@ -47,23 +47,23 @@ namespace Do_an.config
 
         public void openConnection()
         {
-            if (con == null)
-            {
-                con = new SqlConnection(connectionString);
-            }
+            //if (con == null)
+            //{
+            //    con = new SqlConnection(connectionString);
+            //}
 
-            if (con.State == ConnectionState.Closed)
-            {
-                con.Open();
-            }
+            //if (con.State == ConnectionState.Closed)
+            //{
+            //    con.Open();
+            //}
         }
 
         public void closeConnection()
         {
-            if (con != null && con.State == ConnectionState.Open)
-            {
-                con.Close();
-            }
+            //if (con != null && con.State == ConnectionState.Open)
+            //{
+            //    con.Close();
+            //}
         }
     }
 }
