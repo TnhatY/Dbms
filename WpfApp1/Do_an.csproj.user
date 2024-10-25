@@ -19,13 +19,10 @@
     <Compile Update="PhieuGiamGia.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="UC_SuaNhanVien.xaml.cs">
+    <Compile Update="TaoHoaDon.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="ThanhToan_Window.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="UC_ThemNhanVien.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="ThemSP_Window.xaml.cs">
@@ -46,6 +43,12 @@
     <Compile Update="TopSanPham_Window.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="UC_background.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UC_BangLuong.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="UC_CaiDat.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -58,6 +61,9 @@
     <Compile Update="UC_gioHang.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="UC_HoaDon.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="UC_KhachHang.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -65,6 +71,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="UC_NguoiBan.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UC_NhanVien.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="UC_QL_NguoiBan.xaml.cs">
@@ -85,7 +94,13 @@
     <Compile Update="UC_SP_ThanhToan.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="UC_SuaNhanVien.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="UC_ThemKhachHang.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UC_ThemNhanVien.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="UC_Thongke.xaml.cs">
@@ -114,13 +129,10 @@
     <Page Update="PhieuGiamGia.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="UC_SuaNhanVien.xaml">
+    <Page Update="TaoHoaDon.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ThanhToan_Window.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="UC_ThemNhanVien.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ThemSP_Window.xaml">
@@ -141,6 +153,12 @@
     <Page Update="TopSanPham_Window.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="UC_background.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UC_BangLuong.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="UC_CaiDat.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -153,7 +171,7 @@
     <Page Update="UC_gioHang.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="UC_NhanVien.xaml">
+    <Page Update="UC_HoaDon.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UC_KhachHang.xaml">
@@ -163,6 +181,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UC_NguoiBan.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UC_NhanVien.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UC_QL_NguoiBan.xaml">
@@ -183,7 +204,13 @@
     <Page Update="UC_SP_ThanhToan.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="UC_SuaNhanVien.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="UC_ThemKhachHang.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UC_ThemNhanVien.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UC_Thongke.xaml">

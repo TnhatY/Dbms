@@ -13,7 +13,7 @@ namespace Do_an.dao
 {
     public class KhachHang_DAO
     {
-        public DataTable KhachHang_SDT(string sdt)
+        public DataTable TimKiemKhachHang(string sdt)
         {
             DataTable dtKhachHang = new DataTable();
             try

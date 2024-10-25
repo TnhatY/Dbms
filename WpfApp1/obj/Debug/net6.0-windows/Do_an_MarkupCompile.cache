@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\huanc\Source\Repos\TnhatY\Dbms\WpfApp1\obj\Debug\net6.0-windows\
+D:\Deadline\DBMS\DA\Dbms\WpfApp1\obj\Debug\net6.0-windows\
 Do_an
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\huanc\Source\Repos\TnhatY\Dbms\WpfApp1\App.xaml
-32-1147796941
+D:\Deadline\DBMS\DA\Dbms\WpfApp1\App.xaml
+36-1922564476
 
-40887832055
-23132993676
-DanhGiaSp_Window.xaml;F_Main.xaml;LyDoHuyDon_WD.xaml;MainWindow.xaml;PhieuGiamGia.xaml;ThanhToan_Window.xaml;ThemSP_Window.xaml;ThemVoucher.xaml;ThongTin_Window.xaml;TongPhieuGiam.xaml;TopBan_Window.xaml;TopSanPham_Window.xaml;UC_CaiDat.xaml;UC_DaMua.xaml;UC_DanhGia.xaml;UC_gioHang.xaml;UC_KhachHang.xaml;UC_MuaSam.xaml;UC_NguoiBan.xaml;UC_NhanVien.xaml;UC_QL_NguoiBan.xaml;UC_SanPham.xaml;UC_SpBan.xaml;UC_SpGioHang.xaml;UC_SP_DaMua.xaml;UC_SP_ThanhToan.xaml;UC_SuaNhanVien.xaml;UC_ThemKhachHang.xaml;UC_ThemNhanVien.xaml;UC_Thongke.xaml;UC_TopTimKiem.xaml;XemDanhGia_Window.xaml;
+45-325110503
+229-258212841
+DanhGiaSp_Window.xaml;F_Main.xaml;LyDoHuyDon_WD.xaml;MainWindow.xaml;PhieuGiamGia.xaml;TaoHoaDon.xaml;ThanhToan_Window.xaml;ThemSP_Window.xaml;ThemVoucher.xaml;ThongTin_Window.xaml;TongPhieuGiam.xaml;TopBan_Window.xaml;TopSanPham_Window.xaml;UC_background.xaml;UC_BangLuong.xaml;UC_CaiDat.xaml;UC_DaMua.xaml;UC_DanhGia.xaml;UC_gioHang.xaml;UC_HoaDon.xaml;UC_KhachHang.xaml;UC_MuaSam.xaml;UC_NguoiBan.xaml;UC_NhanVien.xaml;UC_QL_NguoiBan.xaml;UC_SanPham.xaml;UC_SpBan.xaml;UC_SpGioHang.xaml;UC_SP_DaMua.xaml;UC_SP_ThanhToan.xaml;UC_SuaNhanVien.xaml;UC_ThemKhachHang.xaml;UC_ThemNhanVien.xaml;UC_Thongke.xaml;UC_TopTimKiem.xaml;XemDanhGia_Window.xaml;
 
 False
 
