@@ -133,7 +133,7 @@ namespace Do_an {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Do_an;component/uc_spban.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Do_an;V1.0.0.0;component/uc_spban.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\UC_SpBan.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

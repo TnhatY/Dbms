@@ -46,9 +46,6 @@
     <Compile Update="TopSanPham_Window.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="UC_background.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="UC_BangLuong.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -166,9 +163,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="TopSanPham_Window.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="UC_background.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UC_BangLuong.xaml">
