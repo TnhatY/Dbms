@@ -20,14 +20,22 @@ namespace Do_an
     /// </summary>
     public partial class UC_DanhSachCaLam : UserControl
     {
-        public UC_DanhSachCaLam()
+        public String manv = "";
+        public UC_DanhSachCaLam(String ID)
         {
             InitializeComponent();
+            this.manv = ID; 
+
         }
-        public String manv = "";
+        
         private void DataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
+        }
+        
+        private void load(Object sender, RoutedEventArgs e)
+        { 
+            
         }
 
         private void Button_add(object sender, RoutedEventArgs e)
@@ -38,8 +46,7 @@ namespace Do_an
 
         private void Button_remove(object sender, RoutedEventArgs e)
         {
-            XoaCaLamViec_Window remove = new XoaCaLamViec_Window(); 
-            remove.ShowDialog();    
+               
         }
     }
 }

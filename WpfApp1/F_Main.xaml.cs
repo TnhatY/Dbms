@@ -24,12 +24,13 @@ namespace Do_an
 
     public partial class F_Main : Window
     {
+        public static F_Main instance = new F_Main();
        
         public F_Main()
         {
             InitializeComponent();
             DataContext = this;
-            
+            instance = this;
            
         }
         public static string texttimkiem = "";

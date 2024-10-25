@@ -1,5 +1,6 @@
 ﻿using Do_an.config;
 using Do_an.dao;
+using MaterialDesignThemes.Wpf;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -86,5 +87,12 @@ namespace Do_an
             NhanVien_DAO nhanVien_DAO = new NhanVien_DAO();
             nhanVien_DAO.XoaNhanVien(ID);
         }
+
+        private void btn_calamviec_Click(object sender, RoutedEventArgs e)
+        {
+            UC_DanhSachCaLam uc_listCalam = new UC_DanhSachCaLam(ID);
+            F_Main.instance.user.Content = uc_listCalam;
+                
+         }
     }
 }

@@ -1000,7 +1000,6 @@ D:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\UC_
 D:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\UC_DanhSachCaLam.baml
 D:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\UC_XemChiTietNhanVien.baml
 D:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\ThemCaLam_Window.g.cs
-D:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\XoaCaLamViec_Window.g.cs
 D:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\TaoHoaDon.g.cs
 D:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\UC_BangLuong.g.cs
 D:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\UC_HoaDon.g.cs
@@ -1062,4 +1061,3 @@ D:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\UC_
 D:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\UC_HoaDon.baml
 D:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\UC_SuaNhanVien.baml
 D:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\UC_ThemNhanVien.baml
-D:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\XoaCaLamViec_Window.baml

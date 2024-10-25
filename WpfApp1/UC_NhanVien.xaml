@@ -176,7 +176,7 @@
     </UserControl.Resources>
     <Grid>
 
-        <Border  Background="#FFE0CDED" CornerRadius="10" Padding="10" BorderBrush="#FFCCCCCC" BorderThickness="2">
+        <Border  Background="#FFE0CDED" CornerRadius="10" Padding="10" BorderBrush="#FFCCCCCC" BorderThickness="2" Margin="0,0,-142,0">
             <Grid>
                 <TextBlock x:Name="maNV" Width="0" Height="0"></TextBlock>
                 <Button Style="{DynamicResource ButtonStyle1}" x:Name="btnThemNhanVien" Background="#1497a3" Width="120" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10" Click="btnThemNhanVien_Click">
@@ -201,6 +201,12 @@
                         SelectionChanged="dg_NhanVien_SelectionChanged"
                         SelectedItem="dg_NhanVien_SelectedItem"
                         RowHeight="40" Margin="0 50 0 0" />
+                <Button Style="{DynamicResource ButtonStyle1}" x:Name="btnXoaNhanVien_Copy" Background="#ff6652" Width="120" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="310 10 0 0" Click="btnXoaNhanVien_Click">
+                    <TextBlock Text="Xoá nhân viên"/>
+                </Button>
+                <Button Style="{DynamicResource ButtonStyle1}" x:Name="btn_calamviec" Background="Blue" Width="120" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="459,10,0,0" Click="btn_calamviec_Click" >
+                    <TextBlock Text="Ca làm việc"/>
+                </Button>
             </Grid>
         </Border>
     </Grid>
