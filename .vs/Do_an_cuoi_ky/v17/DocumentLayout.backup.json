@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\huanc\\source\\repos\\TnhatY\\Dbms\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|c:\\users\\huanc\\source\\repos\\tnhaty\\dbms\\wpfapp1\\uc_nhanvien.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\uc_nhanvien.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|c:\\users\\huanc\\source\\repos\\tnhaty\\dbms\\wpfapp1\\dao\\nhanvien_dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\dao\\nhanvien_dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -35,12 +39,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UC_NhanVien.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\huanc\\source\\repos\\TnhatY\\Dbms\\WpfApp1\\UC_NhanVien.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\UC_NhanVien.xaml.cs",
+              "ToolTip": "C:\\Users\\huanc\\source\\repos\\TnhatY\\Dbms\\WpfApp1\\UC_NhanVien.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\UC_NhanVien.xaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T07:40:16.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "NhanVien_DAO.cs",
               "DocumentMoniker": "C:\\Users\\huanc\\source\\repos\\TnhatY\\Dbms\\WpfApp1\\dao\\NhanVien_DAO.cs",
               "RelativeDocumentMoniker": "WpfApp1\\dao\\NhanVien_DAO.cs",
               "ToolTip": "C:\\Users\\huanc\\source\\repos\\TnhatY\\Dbms\\WpfApp1\\dao\\NhanVien_DAO.cs",
               "RelativeToolTip": "WpfApp1\\dao\\NhanVien_DAO.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-24T10:35:02.714Z",
               "EditorCaption": ""
