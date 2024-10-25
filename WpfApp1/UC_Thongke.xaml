@@ -33,11 +33,42 @@
             </lvc:CartesianChart>
             <TextBlock Text="Biểu đồ thống kê doanh thu" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="15" FontWeight="Bold" Margin="0,349,0,0" Height="20"/>
         </Grid>
-        <DatePicker x:Name="dp1" SelectedDateChanged="dp1_SelectedDateChanged" HorizontalAlignment="Left" Margin="316,35,0,0" VerticalAlignment="Top"/>
-        <!--<ComboBox x:Name="cb" HorizontalAlignment="Left" Margin="449,38,0,0" VerticalAlignment="Top" Width="118" Opacity="0.7" Height="18" SelectionChanged="cb_SelectionChanged">
+
+        <ComboBox x:Name="cb" HorizontalAlignment="Left" Margin="214,46,0,0" VerticalAlignment="Top" Width="150" Opacity="0.7" Height="18" SelectionChanged="cb_SelectionChanged" RenderTransformOrigin="0.5,0.5">
+            <ComboBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.157"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </ComboBox.RenderTransform>
             <ComboBoxItem Content="Doanh thu theo ngày"/>
             <ComboBoxItem Content="Doanh thu theo tháng"/>
             <ComboBoxItem Content="Doanh thu theo năm"/>
-        </ComboBox>-->
+        </ComboBox>
+
+        <ComboBox x:Name="cb_month" Visibility="Collapsed"  SelectionChanged="cb_month_SelectionChanged"  HorizontalAlignment="Left" Margin="392,46,0,0" VerticalAlignment="Top" Width="108" Height="18">
+            <ComboBoxItem Content="1"/>
+            <ComboBoxItem Content="2"/>
+            <ComboBoxItem Content="3"/>
+            <ComboBoxItem Content="4"/>
+            <ComboBoxItem Content="5"/>
+            <ComboBoxItem Content="6"/>
+            <ComboBoxItem Content="7"/>
+            <ComboBoxItem Content="8"/>
+            <ComboBoxItem Content="9"/>
+            <ComboBoxItem Content="10"/>
+            <ComboBoxItem Content="11"/>
+            <ComboBoxItem Content="12"/>
+        </ComboBox>
+
+        <TextBox x:Name="txtYear" Visibility="Collapsed"  TextChanged="txtNam_TextChanged" HorizontalAlignment="Left" Margin="533,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70" Background="#FFAFDFFF"/>
+        
+        <Label x:Name="lblOption"  Content="Lựa chọn thống kê" HorizontalAlignment="Left" Margin="207,15,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblChonThang" Visibility="Collapsed" Content="Chọn tháng" HorizontalAlignment="Left" Margin="392,15,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblChonNam" Visibility="Collapsed" Content="Chọn năm" HorizontalAlignment="Left" Margin="533,15,0,0" VerticalAlignment="Top"/>
+
+
     </Grid>
 </UserControl>

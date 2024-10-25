@@ -11,72 +11,12 @@
       "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\uc_thongke.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|c:\\users\\admin\\downloads\\dbms\\do_an_dbms\\wpfapp1\\f_main.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\f_main.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|c:\\users\\admin\\downloads\\dbms\\do_an_dbms\\wpfapp1\\dao\\hoadon_dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\dao\\hoadon_dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|c:\\users\\admin\\downloads\\dbms\\do_an_dbms\\wpfapp1\\model\\datapoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\model\\datapoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|c:\\users\\admin\\downloads\\dbms\\do_an_dbms\\wpfapp1\\config\\connectdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\config\\connectdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|c:\\users\\admin\\downloads\\dbms\\do_an_dbms\\wpfapp1\\model\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\model\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|c:\\users\\admin\\downloads\\dbms\\do_an_dbms\\wpfapp1\\f_main.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\f_main.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|c:\\users\\admin\\downloads\\dbms\\do_an_dbms\\wpfapp1\\uc_ql_nguoiban.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\uc_ql_nguoiban.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|c:\\users\\admin\\downloads\\dbms\\do_an_dbms\\wpfapp1\\do_an.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\do_an.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|c:\\users\\admin\\downloads\\dbms\\do_an_dbms\\wpfapp1\\dao\\khachhang_dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\dao\\khachhang_dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|c:\\users\\admin\\downloads\\dbms\\do_an_dbms\\wpfapp1\\model\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\model\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|c:\\users\\admin\\downloads\\dbms\\do_an_dbms\\wpfapp1\\uc_themkhachhang.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\uc_themkhachhang.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|c:\\users\\admin\\downloads\\dbms\\do_an_dbms\\wpfapp1\\uc_themkhachhang.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\uc_themkhachhang.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|c:\\users\\admin\\downloads\\dbms\\do_an_dbms\\wpfapp1\\uc_khachhang.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\uc_khachhang.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|c:\\users\\admin\\downloads\\dbms\\do_an_dbms\\wpfapp1\\dao\\sanpham_dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\dao\\sanpham_dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|c:\\users\\admin\\downloads\\dbms\\do_an_dbms\\wpfapp1\\uc_khachhang.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\uc_khachhang.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|c:\\users\\admin\\downloads\\dbms\\do_an_dbms\\wpfapp1\\themsp_window.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\themsp_window.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|c:\\users\\admin\\downloads\\dbms\\do_an_dbms\\wpfapp1\\themsp_window.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\themsp_window.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 286,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,65 +34,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DataPoint.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\DBMS\\do_an_dbms\\WpfApp1\\model\\DataPoint.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\model\\DataPoint.cs",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\DBMS\\do_an_dbms\\WpfApp1\\model\\DataPoint.cs",
-              "RelativeToolTip": "WpfApp1\\model\\DataPoint.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T11:15:57.931Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "ConnectDB.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Downloads\\DBMS\\do_an_dbms\\WpfApp1\\config\\ConnectDB.cs",
               "RelativeDocumentMoniker": "WpfApp1\\config\\ConnectDB.cs",
               "ToolTip": "C:\\Users\\admin\\Downloads\\DBMS\\do_an_dbms\\WpfApp1\\config\\ConnectDB.cs",
               "RelativeToolTip": "WpfApp1\\config\\ConnectDB.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBsAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAADwvzAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-24T09:20:12.306Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Do_an.csproj",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\DBMS\\do_an_dbms\\WpfApp1\\Do_an.csproj",
-              "RelativeDocumentMoniker": "WpfApp1\\Do_an.csproj",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\DBMS\\do_an_dbms\\WpfApp1\\Do_an.csproj",
-              "RelativeToolTip": "WpfApp1\\Do_an.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-23T13:42:12.997Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "F_Main.xaml",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\DBMS\\do_an_dbms\\WpfApp1\\F_Main.xaml",
-              "RelativeDocumentMoniker": "WpfApp1\\F_Main.xaml",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\DBMS\\do_an_dbms\\WpfApp1\\F_Main.xaml",
-              "RelativeToolTip": "WpfApp1\\F_Main.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-23T12:15:24.207Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "F_Main.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\DBMS\\do_an_dbms\\WpfApp1\\F_Main.xaml.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\F_Main.xaml.cs",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\DBMS\\do_an_dbms\\WpfApp1\\F_Main.xaml.cs",
-              "RelativeToolTip": "WpfApp1\\F_Main.xaml.cs",
-              "ViewState": "AgIAACkBAAAAAAAAAAAAwEIBAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T10:32:58.402Z",
               "EditorCaption": ""
             },
             {
@@ -175,153 +65,23 @@
               "RelativeDocumentMoniker": "WpfApp1\\UC_Thongke.xaml.cs",
               "ToolTip": "C:\\Users\\admin\\Downloads\\DBMS\\do_an_dbms\\WpfApp1\\UC_Thongke.xaml.cs",
               "RelativeToolTip": "WpfApp1\\UC_Thongke.xaml.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAA4wDMAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwD8AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-21T13:16:58.577Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "HoaDon_DAO.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Downloads\\DBMS\\do_an_dbms\\WpfApp1\\dao\\HoaDon_DAO.cs",
               "RelativeDocumentMoniker": "WpfApp1\\dao\\HoaDon_DAO.cs",
               "ToolTip": "C:\\Users\\admin\\Downloads\\DBMS\\do_an_dbms\\WpfApp1\\dao\\HoaDon_DAO.cs",
               "RelativeToolTip": "WpfApp1\\dao\\HoaDon_DAO.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAYwBkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAwHgAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-23T11:51:34.098Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UC_QL_NguoiBan.xaml",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\DBMS\\do_an_dbms\\WpfApp1\\UC_QL_NguoiBan.xaml",
-              "RelativeDocumentMoniker": "WpfApp1\\UC_QL_NguoiBan.xaml",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\DBMS\\do_an_dbms\\WpfApp1\\UC_QL_NguoiBan.xaml",
-              "RelativeToolTip": "WpfApp1\\UC_QL_NguoiBan.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-21T13:20:03.116Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HoaDon.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\DBMS\\do_an_dbms\\WpfApp1\\model\\HoaDon.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\model\\HoaDon.cs",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\DBMS\\do_an_dbms\\WpfApp1\\model\\HoaDon.cs",
-              "RelativeToolTip": "WpfApp1\\model\\HoaDon.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T11:40:11.102Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "SanPham.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\DBMS\\do_an_dbms\\WpfApp1\\model\\SanPham.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\model\\SanPham.cs",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\DBMS\\do_an_dbms\\WpfApp1\\model\\SanPham.cs",
-              "RelativeToolTip": "WpfApp1\\model\\SanPham.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T11:39:35.973Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UC_ThemKhachHang.xaml",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\DBMS\\do_an_dbms\\WpfApp1\\UC_ThemKhachHang.xaml",
-              "RelativeDocumentMoniker": "WpfApp1\\UC_ThemKhachHang.xaml",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\DBMS\\do_an_dbms\\WpfApp1\\UC_ThemKhachHang.xaml",
-              "RelativeToolTip": "WpfApp1\\UC_ThemKhachHang.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-20T10:32:58.402Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "KhachHang_DAO.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\DBMS\\do_an_dbms\\WpfApp1\\dao\\KhachHang_DAO.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\dao\\KhachHang_DAO.cs",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\DBMS\\do_an_dbms\\WpfApp1\\dao\\KhachHang_DAO.cs",
-              "RelativeToolTip": "WpfApp1\\dao\\KhachHang_DAO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T10:32:58.402Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UC_ThemKhachHang.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\DBMS\\do_an_dbms\\WpfApp1\\UC_ThemKhachHang.xaml.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\UC_ThemKhachHang.xaml.cs",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\DBMS\\do_an_dbms\\WpfApp1\\UC_ThemKhachHang.xaml.cs",
-              "RelativeToolTip": "WpfApp1\\UC_ThemKhachHang.xaml.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAIAwwCMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T10:32:58.402Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "SanPham_DAO.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\DBMS\\do_an_dbms\\WpfApp1\\dao\\SanPham_DAO.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\dao\\SanPham_DAO.cs",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\DBMS\\do_an_dbms\\WpfApp1\\dao\\SanPham_DAO.cs",
-              "RelativeToolTip": "WpfApp1\\dao\\SanPham_DAO.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAQwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T10:32:58.353Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UC_KhachHang.xaml",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\DBMS\\do_an_dbms\\WpfApp1\\UC_KhachHang.xaml",
-              "RelativeDocumentMoniker": "WpfApp1\\UC_KhachHang.xaml",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\DBMS\\do_an_dbms\\WpfApp1\\UC_KhachHang.xaml",
-              "RelativeToolTip": "WpfApp1\\UC_KhachHang.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-20T10:32:58.402Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "UC_KhachHang.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\DBMS\\do_an_dbms\\WpfApp1\\UC_KhachHang.xaml.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\UC_KhachHang.xaml.cs",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\DBMS\\do_an_dbms\\WpfApp1\\UC_KhachHang.xaml.cs",
-              "RelativeToolTip": "WpfApp1\\UC_KhachHang.xaml.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAD4vz4AAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T10:32:58.418Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ThemSP_Window.xaml",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\DBMS\\do_an_dbms\\WpfApp1\\ThemSP_Window.xaml",
-              "RelativeDocumentMoniker": "WpfApp1\\ThemSP_Window.xaml",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\DBMS\\do_an_dbms\\WpfApp1\\ThemSP_Window.xaml",
-              "RelativeToolTip": "WpfApp1\\ThemSP_Window.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-20T10:32:58.419Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ThemSP_Window.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\DBMS\\do_an_dbms\\WpfApp1\\ThemSP_Window.xaml.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\ThemSP_Window.xaml.cs",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\DBMS\\do_an_dbms\\WpfApp1\\ThemSP_Window.xaml.cs",
-              "RelativeToolTip": "WpfApp1\\ThemSP_Window.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T10:32:58.419Z"
             }
           ]
         }
