@@ -242,13 +242,11 @@
                     <Button x:Name="btnThem" Style="{DynamicResource ButtonStyle2}" Margin="310,40,0,0" Background="#FFFCFCFC" HorizontalAlignment="Left" Width="250" Height="40" VerticalAlignment="Top" Click="btnThem_Click_1" BorderBrush="DeepSkyBlue">
                     <TextBlock Text="Thêm" FontWeight="Bold" FontSize="14" Foreground="#FF0058FF"></TextBlock>
                 </Button>
-                <Button x:Name="chinhsua" Style="{DynamicResource ButtonStyle2}" Margin="10,-40,0,0" Background="#FFFCFCFC" HorizontalAlignment="Left" Width="250" Height="40" VerticalAlignment="Top" Click="btnChinhSua" BorderBrush="DeepSkyBlue">
+                <Button x:Name="btnchinhsua" Style="{DynamicResource ButtonStyle2}" Margin="310,40,0,0" Background="#FFFCFCFC" HorizontalAlignment="Left" Width="250" Height="40" VerticalAlignment="Top" Click="btnChinhSua" BorderBrush="DeepSkyBlue">
                     <TextBlock Text="Lưu" FontWeight="Bold" FontSize="14" Foreground="#FF0058FF"></TextBlock>
                 </Button>
 
-                    <Button x:Name="xoa" Style="{DynamicResource ButtonStyle2}" Margin="10,10,0,0" Background="#FFFCFCFC" HorizontalAlignment="Left" Width="250" Height="40" VerticalAlignment="Top" Click="btnXoa" BorderBrush="DeepSkyBlue">
-                        <TextBlock Text="Xoá" FontWeight="Bold" FontSize="14" Foreground="#FF0058FF"></TextBlock>
-                    </Button>
+                    
                 </StackPanel>
                 <Button x:Name="btnThoat" Style="{DynamicResource ButtonStyle1}" Margin="0,10,10,0" Click="btnThoat_Click" HorizontalAlignment="Right" Width="35" Height="35" VerticalAlignment="Top" BorderBrush="{x:Null}" Foreground="Black" >
                     <Button.Background>
