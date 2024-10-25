@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Do_an"
         mc:Ignorable="d"
-        Title="ThanhToan_Window" Height="700" Width="550" WindowStartupLocation="CenterScreen" WindowStyle="None" Loaded="Window_Loaded">
+        Title="ThanhToan_Window" Height="700" Width="500" WindowStartupLocation="CenterScreen" WindowStyle="None" Loaded="Window_Loaded">
     <Window.Resources>
         <Style x:Key="FocusVisual">
             <Setter Property="Control.Template">
@@ -291,11 +291,10 @@
         <TextBlock x:Name="tenshop" Width="0" Height="0"> </TextBlock>
         <TextBlock x:Name="masp" Width="0" Height="0" Margin="190,18,190,19"></TextBlock>
         <TextBlock Grid.Row="0" Text="  Thanh Toán" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,10" Width="130" />
-        <TextBlock Text="Địa chỉ nhận hàng:" FontWeight="Bold" FontSize="13" Margin="20 50 10 0" />
-        <ComboBox x:Name="sodiachi" Height="25" VerticalAlignment="Top" Margin="20 70 20 0"></ComboBox>
-        <TextBlock x:Name="diachi" TextWrapping="Wrap" Width="0" Height="0" />
-        <StackPanel Margin="20,110,0,10" >
-            <ScrollViewer MaxHeight="340" >
+        <TextBlock Text="Thông tin sản phẩm" Margin="20 60" FontSize="16"></TextBlock>
+        <Image x:Name="hinhanh" Width="100" Height="100" Margin="20 100 350 0" VerticalAlignment="Top"></Image>
+        <StackPanel Margin="20,100,0,10" >
+            <ScrollViewer MaxHeight="300" >
                 <Grid>
                     <ItemsControl x:Name="spmua" Margin="0 5 0 0">
                         <ItemsControl.ItemTemplate>
@@ -311,9 +310,6 @@
                     <TextBlock Text="Giá sản phẩm: ₫" FontSize="13" >
                         <Run x:Name="giaban1"></Run>
                     </TextBlock>
-                    <TextBlock Text="Phí vận chuyển: ₫" FontSize="13" Margin="0 5 0 0">
-                        <Run x:Name="phivanchuyen"></Run>
-                    </TextBlock>
                     <Separator Margin="0,10" />
                     <TextBlock Text="Tổng: ₫" FontWeight="Bold" Foreground="Green" FontSize="14" >
                         <Run x:Name="tongthanhtoan"></Run>
@@ -328,6 +324,6 @@
             <TextBlock Text="₫" FontWeight="Bold" Foreground="Red" Width="100" FontSize="14" ><Run x:Name="tongthanhtoan1"/></TextBlock>
         </StackPanel>
 
-        <Button Style="{DynamicResource ButtonStyle4}" x:Name="btnMua" Content="Mua Hàng" Background="#FFFC0000" Height="30" Foreground="White" Margin="40,0,40,10" FontWeight="Bold" Click="btnMua_Click" VerticalAlignment="Bottom"/>
+        <Button Style="{DynamicResource ButtonStyle4}" x:Name="btnMua" Content="Thanh toán" Background="#FFFC0000" Height="30" Foreground="White" Margin="40,0,40,10" FontWeight="Bold" Click="btnMua_Click" VerticalAlignment="Bottom"/>
     </Grid>
 </Window>
