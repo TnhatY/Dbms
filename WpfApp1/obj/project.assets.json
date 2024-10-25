@@ -2992,11 +2992,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\huanc\\source\\repos\\TnhatY\\Dbms\\WpfApp1\\Do_an.csproj",
+      "projectUniqueName": "C:\\Users\\huanc\\Source\\Repos\\TnhatY\\Dbms\\WpfApp1\\Do_an.csproj",
       "projectName": "Do_an",
-      "projectPath": "C:\\Users\\huanc\\source\\repos\\TnhatY\\Dbms\\WpfApp1\\Do_an.csproj",
+      "projectPath": "C:\\Users\\huanc\\Source\\Repos\\TnhatY\\Dbms\\WpfApp1\\Do_an.csproj",
       "packagesPath": "C:\\Users\\huanc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\huanc\\source\\repos\\TnhatY\\Dbms\\WpfApp1\\obj\\",
+      "outputPath": "C:\\Users\\huanc\\Source\\Repos\\TnhatY\\Dbms\\WpfApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\huanc\\AppData\\Roaming\\NuGet\\NuGet.Config",
