@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Do_an.dao;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -34,8 +35,10 @@ namespace Do_an
         }
         
         private void load(Object sender, RoutedEventArgs e)
+           
         { 
-            
+            Calam cl = new Calam();
+            dg_danhsachcalam.ItemsSource = cl.findbyidnv(manv).DefaultView;
         }
 
         private void Button_add(object sender, RoutedEventArgs e)

@@ -7,8 +7,20 @@
       "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\dao\\calam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|d:\\documents\\nam 3\\hocky i\\dbms\\cuoiky\\dbms\\wpfapp1\\dao\\nhanvien_dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\dao\\nhanvien_dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|d:\\documents\\nam 3\\hocky i\\dbms\\cuoiky\\dbms\\wpfapp1\\uc_danhsachcalam.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\uc_danhsachcalam.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|d:\\documents\\nam 3\\hocky i\\dbms\\cuoiky\\dbms\\wpfapp1\\uc_danhsachcalam.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\uc_danhsachcalam.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|d:\\documents\\nam 3\\hocky i\\dbms\\cuoiky\\dbms\\wpfapp1\\uc_nhanvien.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\uc_nhanvien.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|d:\\documents\\nam 3\\hocky i\\dbms\\cuoiky\\dbms\\wpfapp1\\uc_nhanvien.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\uc_nhanvien.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|d:\\documents\\nam 3\\hocky i\\dbms\\cuoiky\\dbms\\wpfapp1\\dao\\khachhang_dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,32 +31,20 @@
       "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\dao\\hoadon_dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|d:\\documents\\nam 3\\hocky i\\dbms\\cuoiky\\dbms\\wpfapp1\\dao\\nhanvien_dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\dao\\nhanvien_dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|d:\\documents\\nam 3\\hocky i\\dbms\\cuoiky\\dbms\\wpfapp1\\dao\\sanpham_dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\dao\\sanpham_dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|d:\\documents\\nam 3\\hocky i\\dbms\\cuoiky\\dbms\\wpfapp1\\uc_danhsachcalam.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\uc_danhsachcalam.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|d:\\documents\\nam 3\\hocky i\\dbms\\cuoiky\\dbms\\wpfapp1\\uc_danhsachcalam.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\uc_danhsachcalam.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|d:\\documents\\nam 3\\hocky i\\dbms\\cuoiky\\dbms\\wpfapp1\\uc_xemchitietnhanvien.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\uc_xemchitietnhanvien.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|d:\\documents\\nam 3\\hocky i\\dbms\\cuoiky\\dbms\\wpfapp1\\uc_nhanvien.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\uc_nhanvien.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|d:\\documents\\nam 3\\hocky i\\dbms\\cuoiky\\dbms\\wpfapp1\\f_main.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\f_main.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|d:\\documents\\nam 3\\hocky i\\dbms\\cuoiky\\dbms\\wpfapp1\\uc_nhanvien.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\uc_nhanvien.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|d:\\documents\\nam 3\\hocky i\\dbms\\cuoiky\\dbms\\wpfapp1\\config\\connectdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,24 +58,87 @@
       "DocumentGroups": [
         {
           "DockedWidth": 286,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NhanVien_DAO.cs",
-              "DocumentMoniker": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\dao\\NhanVien_DAO.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\dao\\NhanVien_DAO.cs",
-              "ToolTip": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\dao\\NhanVien_DAO.cs",
-              "RelativeToolTip": "WpfApp1\\dao\\NhanVien_DAO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "KhachHang_DAO.cs",
+              "DocumentMoniker": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\dao\\KhachHang_DAO.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\dao\\KhachHang_DAO.cs",
+              "ToolTip": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\dao\\KhachHang_DAO.cs",
+              "RelativeToolTip": "WpfApp1\\dao\\KhachHang_DAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T08:44:43.254Z",
+              "WhenOpened": "2024-10-25T08:44:36.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CaLam.cs",
+              "DocumentMoniker": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\dao\\CaLam.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\dao\\CaLam.cs",
+              "ToolTip": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\dao\\CaLam.cs",
+              "RelativeToolTip": "WpfApp1\\dao\\CaLam.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBYAAACJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T08:42:25.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UC_DanhSachCaLam.xaml",
+              "DocumentMoniker": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\UC_DanhSachCaLam.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\UC_DanhSachCaLam.xaml",
+              "ToolTip": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\UC_DanhSachCaLam.xaml",
+              "RelativeToolTip": "WpfApp1\\UC_DanhSachCaLam.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-25T08:37:03.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UC_DanhSachCaLam.xaml.cs",
+              "DocumentMoniker": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\UC_DanhSachCaLam.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\UC_DanhSachCaLam.xaml.cs",
+              "ToolTip": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\UC_DanhSachCaLam.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\UC_DanhSachCaLam.xaml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAACUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T08:37:06.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UC_NhanVien.xaml",
+              "DocumentMoniker": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\UC_NhanVien.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\UC_NhanVien.xaml",
+              "ToolTip": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\UC_NhanVien.xaml",
+              "RelativeToolTip": "WpfApp1\\UC_NhanVien.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-25T08:37:57.455Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "UC_NhanVien.xaml.cs",
+              "DocumentMoniker": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\UC_NhanVien.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\UC_NhanVien.xaml.cs",
+              "ToolTip": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\UC_NhanVien.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\UC_NhanVien.xaml.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAwF0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T08:38:01.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "HoaDon_DAO.cs",
               "DocumentMoniker": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\dao\\HoaDon_DAO.cs",
               "RelativeDocumentMoniker": "WpfApp1\\dao\\HoaDon_DAO.cs",
@@ -88,59 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "KhachHang_DAO.cs",
-              "DocumentMoniker": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\dao\\KhachHang_DAO.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\dao\\KhachHang_DAO.cs",
-              "ToolTip": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\dao\\KhachHang_DAO.cs",
-              "RelativeToolTip": "WpfApp1\\dao\\KhachHang_DAO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T08:44:36.882Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SanPham_DAO.cs",
-              "DocumentMoniker": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\dao\\SanPham_DAO.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\dao\\SanPham_DAO.cs",
-              "ToolTip": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\dao\\SanPham_DAO.cs",
-              "RelativeToolTip": "WpfApp1\\dao\\SanPham_DAO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T08:42:34.195Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CaLam.cs",
-              "DocumentMoniker": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\dao\\CaLam.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\dao\\CaLam.cs",
-              "ToolTip": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\dao\\CaLam.cs",
-              "RelativeToolTip": "WpfApp1\\dao\\CaLam.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T08:42:25.965Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UC_XemChiTietNhanVien.xaml.cs",
-              "DocumentMoniker": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\UC_XemChiTietNhanVien.xaml.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\UC_XemChiTietNhanVien.xaml.cs",
-              "ToolTip": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\UC_XemChiTietNhanVien.xaml.cs",
-              "RelativeToolTip": "WpfApp1\\UC_XemChiTietNhanVien.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T08:41:04.922Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "F_Main.xaml.cs",
               "DocumentMoniker": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\F_Main.xaml.cs",
               "RelativeDocumentMoniker": "WpfApp1\\F_Main.xaml.cs",
@@ -148,58 +159,43 @@
               "RelativeToolTip": "WpfApp1\\F_Main.xaml.cs",
               "ViewState": "AgIAAP8AAAAAAAAAAAAAABoBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T08:38:48.518Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T08:38:48.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UC_XemChiTietNhanVien.xaml.cs",
+              "DocumentMoniker": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\UC_XemChiTietNhanVien.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\UC_XemChiTietNhanVien.xaml.cs",
+              "ToolTip": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\UC_XemChiTietNhanVien.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\UC_XemChiTietNhanVien.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T08:41:04.922Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "UC_NhanVien.xaml.cs",
-              "DocumentMoniker": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\UC_NhanVien.xaml.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\UC_NhanVien.xaml.cs",
-              "ToolTip": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\UC_NhanVien.xaml.cs",
-              "RelativeToolTip": "WpfApp1\\UC_NhanVien.xaml.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAA/wF0AAAAiAAAAAAAAAA==",
+              "Title": "SanPham_DAO.cs",
+              "DocumentMoniker": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\dao\\SanPham_DAO.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\dao\\SanPham_DAO.cs",
+              "ToolTip": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\dao\\SanPham_DAO.cs",
+              "RelativeToolTip": "WpfApp1\\dao\\SanPham_DAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T08:38:01.949Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T08:42:34.195Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UC_NhanVien.xaml",
-              "DocumentMoniker": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\UC_NhanVien.xaml",
-              "RelativeDocumentMoniker": "WpfApp1\\UC_NhanVien.xaml",
-              "ToolTip": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\UC_NhanVien.xaml",
-              "RelativeToolTip": "WpfApp1\\UC_NhanVien.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-25T08:37:57.455Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UC_DanhSachCaLam.xaml.cs",
-              "DocumentMoniker": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\UC_DanhSachCaLam.xaml.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\UC_DanhSachCaLam.xaml.cs",
-              "ToolTip": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\UC_DanhSachCaLam.xaml.cs",
-              "RelativeToolTip": "WpfApp1\\UC_DanhSachCaLam.xaml.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACUAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "NhanVien_DAO.cs",
+              "DocumentMoniker": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\dao\\NhanVien_DAO.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\dao\\NhanVien_DAO.cs",
+              "ToolTip": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\dao\\NhanVien_DAO.cs",
+              "RelativeToolTip": "WpfApp1\\dao\\NhanVien_DAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T08:37:06.28Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UC_DanhSachCaLam.xaml",
-              "DocumentMoniker": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\UC_DanhSachCaLam.xaml",
-              "RelativeDocumentMoniker": "WpfApp1\\UC_DanhSachCaLam.xaml",
-              "ToolTip": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\UC_DanhSachCaLam.xaml",
-              "RelativeToolTip": "WpfApp1\\UC_DanhSachCaLam.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-25T08:37:03.312Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T08:44:43.254Z"
             },
             {
               "$type": "Document",
@@ -211,8 +207,7 @@
               "RelativeToolTip": "WpfApp1\\config\\ConnectDB.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T08:39:01.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T08:39:01.453Z"
             }
           ]
         }
