@@ -9,7 +9,7 @@
     <Grid Background="#FF653681">
         <Button Content="OK" HorizontalAlignment="Left" Margin="690,392,0,0" VerticalAlignment="Top" Height="32" Width="100" Click="Button_Click"/>
         <Label Content="Mã ca làm việc" HorizontalAlignment="Left" Margin="69,189,0,0" VerticalAlignment="Top" BorderBrush="#FF4B1919" Foreground="#FFEEE0E0" Height="28" Width="99"/>
-        <TextBox HorizontalAlignment="Left" Margin="228,194,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" TextChanged="TextBox_TextChanged" Height="23" AutomationProperties.Name="txt_maclv"/>
+        <TextBox Name="txt_maclv" HorizontalAlignment="Left" Margin="228,194,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" TextChanged="TextBox_TextChanged" Height="23" AutomationProperties.Name="txt_maclv"/>
 
     </Grid>
 </Window>

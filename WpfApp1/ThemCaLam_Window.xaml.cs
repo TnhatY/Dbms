@@ -24,6 +24,12 @@ namespace Do_an
         {
             InitializeComponent();
         }
+
+        private void InitializeComponent()
+        {
+            throw new NotImplementedException();
+        }
+
         public String manv;
         private void Button_Click(object sender, RoutedEventArgs e)
         {
