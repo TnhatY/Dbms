@@ -9,6 +9,8 @@ using System.Windows.Controls;
 using System.Windows.Media;
 using System.Data.Entity;
 using Do_an.config;
+using Do_an.dao;
+using System.Windows.Forms;
 
 namespace Do_an
 {
@@ -35,6 +37,8 @@ namespace Do_an
         public static bool kthongtin= false;
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
+            F_Main.checkThemSp= false;
+            kthongtin = false;
             try
             {
                 
@@ -88,6 +92,7 @@ namespace Do_an
 
         private void btnChinhSuaSP_Click(object sender, RoutedEventArgs e)
         {
+            kthongtin = true;
             try
             {
                 ThemSP_Window themSP_Window = new ThemSP_Window();
@@ -119,39 +124,21 @@ namespace Do_an
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                System.Windows.MessageBox.Show(ex.Message);
             }
         }
 
         private void btnXoaSP_Click(object sender, RoutedEventArgs e)
         {
-            try
+           SanPham_DAO sanPhamDAO = new SanPham_DAO();
+            MessageBoxResult result = System.Windows.MessageBox.Show("Bạn có chắc chắn muốn xóa sản phẩm này không?",
+                                               "Xác nhận xóa",
+                                               MessageBoxButton.YesNo,
+                                               MessageBoxImage.Warning);
+            if (result == MessageBoxResult.Yes)
             {
-                using (SqlConnection conn = new SqlConnection(ConnectDB.connectionString))
-                {
-                    conn.Open();
-                    using (SqlCommand cmd = new SqlCommand("sp_XoaSanPham", conn))
-                    {
-                        cmd.CommandType = CommandType.StoredProcedure;
-
-                        cmd.Parameters.AddWithValue("@MaSP", MaSP.Text);
-
-                        int rowsAffected = cmd.ExecuteNonQuery();
-
-                        if (rowsAffected > 0)
-                        {
-                            MessageBox.Show("Xoá sản phẩm thành công");
-                        }
-                        else
-                        {
-                            MessageBox.Show("Xoá không thành công");
-                        }
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
+                sanPhamDAO.xoaSanPham(MaSP.Text);
+                Close();
             }
         }
     }

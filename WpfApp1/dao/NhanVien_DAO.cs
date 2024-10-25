@@ -4,16 +4,23 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity.Infrastructure;
 using System.Data.SqlClient;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Controls;
 using System.Windows.Documents;
+using System.Windows.Forms;
+using ComboBox = System.Windows.Controls.ComboBox;
+using MessageBox = System.Windows.MessageBox;
 
 namespace Do_an.dao
 {
     public class NhanVien_DAO
     {
+        ConnectDB db = new ConnectDB();
+
         public DataTable XemThongTinNhanVien()
         {
             SqlCommand cmd = new SqlCommand("SELECT * FROM NhanVien", ConnectDB.getconnection());
@@ -23,21 +30,30 @@ namespace Do_an.dao
             return dataTable;
         }
 
-        public List<UC_NhanVien> listNhanvien()
+        public bool ThemNhanVien(string id, string ho, string ten, string diaChi, string sdt, string gt, DateTime ngaySinh, string maCV)
         {
-            List<UC_NhanVien> list = new List<UC_NhanVien>();
+            SqlConnection connection = ConnectDB.getconnection();
+            connection.Open();
             try
             {
-                DataTable dt = XemThongTinNhanVien();
+                SqlCommand cmd = new SqlCommand("EXEC ThemNhanVien @manv, @honv, @tennv, @diachi," +
+                    " @sodt, @gioitinh, @ngaysinh, @macv", connection);
 
-                foreach (DataRow dr in dt.Rows)
+                cmd.Parameters.AddWithValue("@manv", id);
+                cmd.Parameters.AddWithValue("@honv", ho);
+                cmd.Parameters.AddWithValue("@tennv", ten);
+                cmd.Parameters.AddWithValue("@diachi", diaChi);
+                cmd.Parameters.AddWithValue("@sodt", sdt);
+                cmd.Parameters.AddWithValue("@gioitinh", gt);
+                cmd.Parameters.Add("@ngaysinh", SqlDbType.Date).Value = ngaySinh;
+                cmd.Parameters.AddWithValue("@macv", maCV);
+                db.openConnection();
+                try
                 {
-                    UC_NhanVien nhanvien = new UC_NhanVien();
-                    nhanvien.manv.Text = dr["MaNV"].ToString();
-                    nhanvien.tennv.Text = dr["TenNV"].ToString();
-                    nhanvien.sdt.Text = dr["SoDT"].ToString();
-                    nhanvien.diachi.Text = dr["DiaChi"].ToString();
-                    list.Add(nhanvien);
+                    cmd.ExecuteNonQuery();
+                    MessageBox.Show("Thêm nhân viên thành công!");
+                    return true;
+                    
                 }
                 return list;
             }catch (Exception ex)

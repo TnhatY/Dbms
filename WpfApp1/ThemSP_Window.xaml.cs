@@ -68,7 +68,16 @@ namespace Do_an
             }
 
             cbDanhMuc.ItemsSource = lsp;
-           
+            if (F_Main.checkThemSp == true)
+            {
+                btnchinhsua.Visibility = Visibility.Collapsed;
+                btnThem.Visibility = Visibility.Visible;
+            }
+            else if (ThongTin_Window.kthongtin)
+            {
+                btnThem.Visibility = Visibility.Collapsed;
+                btnchinhsua.Visibility = Visibility.Visible;
+            }
         }
         
 
@@ -91,13 +100,14 @@ namespace Do_an
                         cmd.Parameters.AddWithValue("@GiaBan", float.Parse(txtGiaBan.Text));
                         cmd.Parameters.AddWithValue("@MaNCC", cbNcc.SelectedItem);
 
-                        cmd.Parameters.AddWithValue("@HinhAnh", imgHinhAnh.ToString());
+                        cmd.Parameters.AddWithValue("@HinhAnh", imgHinhAnh.Source.ToString());
 
                         int rowsAffected = cmd.ExecuteNonQuery();
 
                         if (rowsAffected > 0)
                         {
                             MessageBox.Show("Thêm sản phẩm thành công.");
+                            Close();
                         }
                         else
                         {
@@ -109,10 +119,6 @@ namespace Do_an
             {
                 MessageBox.Show(ex.Message);
             }
-            
-
-
-
         }
 
         private void btnChinhSua(object sender, RoutedEventArgs e)
@@ -122,16 +128,17 @@ namespace Do_an
                 using (SqlConnection conn = new SqlConnection(ConnectDB.connectionString))
                 {
                     conn.Open();
-                    using (SqlCommand cmd = new SqlCommand("sp_CapNhatSanPham2", conn))
+                    using (SqlCommand cmd = new SqlCommand("sp_CapNhatSanPham", conn))
                     {
                         cmd.CommandType = CommandType.StoredProcedure;
-
-                        cmd.Parameters.AddWithValue("@MaSP", txtMaSP.Text);
-                        cmd.Parameters.AddWithValue("@TenSP", txtTenSP.Text);
-                        cmd.Parameters.AddWithValue("@TinhTrang", txtTinhTrang.Text);
-                        cmd.Parameters.AddWithValue("@GiaGoc", float.Parse(txtGiaGoc.Text));
-                        cmd.Parameters.AddWithValue("@GiaBan", float.Parse(txtGiaBan.Text));
-                        cmd.Parameters.AddWithValue("@HinhAnh", imgHinhAnh.ToString());
+                        cmd.Parameters.AddWithValue("@maloai", cbDanhMuc.Text);
+                        cmd.Parameters.AddWithValue("@mancc", cbNcc.Text.Trim());
+                        cmd.Parameters.AddWithValue("@masp", txtMaSP.Text);
+                        cmd.Parameters.AddWithValue("@tensp", txtTenSP.Text);
+                        cmd.Parameters.AddWithValue("@tinhtrang", txtTinhTrang.Text);
+                        cmd.Parameters.AddWithValue("@giagoc", float.Parse(txtGiaGoc.Text));
+                        cmd.Parameters.AddWithValue("@giaban", float.Parse(txtGiaBan.Text));
+                        cmd.Parameters.AddWithValue("@hinhanh", imgHinhAnh.Source.ToString());
 
                         int rowsAffected = cmd.ExecuteNonQuery();
 
@@ -145,6 +152,7 @@ namespace Do_an
                         }
                     }
                 }
+                Close();
             }
             catch (Exception ex)
             {

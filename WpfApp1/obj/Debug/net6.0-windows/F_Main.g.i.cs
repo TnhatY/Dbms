@@ -92,7 +92,7 @@ namespace Do_an {
         
         #line 596 "..\..\..\F_Main.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.Button btnyeuthich;
+        internal System.Windows.Controls.Button btnHoaDon;
         
         #line default
         #line hidden
@@ -100,7 +100,7 @@ namespace Do_an {
         
         #line 602 "..\..\..\F_Main.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.Button btnCaiDat;
+        internal System.Windows.Controls.Button btnTinhLuong;
         
         #line default
         #line hidden
@@ -314,19 +314,19 @@ namespace Do_an {
             #line hidden
             return;
             case 8:
-            this.btnyeuthich = ((System.Windows.Controls.Button)(target));
+            this.btnHoaDon = ((System.Windows.Controls.Button)(target));
             
             #line 596 "..\..\..\F_Main.xaml"
-            this.btnyeuthich.Click += new System.Windows.RoutedEventHandler(this.btnYeuThich_Click);
+            this.btnHoaDon.Click += new System.Windows.RoutedEventHandler(this.btnHoaDon_Click);
             
             #line default
             #line hidden
             return;
             case 9:
-            this.btnCaiDat = ((System.Windows.Controls.Button)(target));
+            this.btnTinhLuong = ((System.Windows.Controls.Button)(target));
             
             #line 602 "..\..\..\F_Main.xaml"
-            this.btnCaiDat.Click += new System.Windows.RoutedEventHandler(this.btnVoucher_Click);
+            this.btnTinhLuong.Click += new System.Windows.RoutedEventHandler(this.btnTinhLuong_Click);
             
             #line default
             #line hidden

@@ -1,0 +1,113 @@
+﻿<Window x:Class="Do_an.UC_SuaNhanVien"
+         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+         xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+         xmlns:local="clr-namespace:Do_an"
+         mc:Ignorable="d" 
+         Loaded="Window_Loaded"
+         Title="UC_SuaNhanVien" Height="720" Width="400">
+    <Grid Margin="10,10,10,10" Background="#FFFFFF">
+        <StackPanel Margin="10,10,10,10">
+            <Label Content="Họ Nhân Viên:"
+           HorizontalAlignment="Left"
+           Margin="0,10,0,0"
+           FontWeight="Bold"
+           />
+            <TextBox x:Name="txtHoNV"
+             HorizontalAlignment="Stretch"
+             Margin="0,5,0,10"
+             Height="30"
+             Background="#FFF2F2F2"
+             BorderBrush="#FFB4A8C8"
+             BorderThickness="1"
+             Padding="5"/>
+
+            <Label Content="Tên Nhân Viên:"
+           HorizontalAlignment="Left"
+           Margin="0,10,0,0"
+           FontWeight="Bold"
+           />
+            <TextBox x:Name="txtTenNV"
+             HorizontalAlignment="Stretch"
+             Margin="0,5,0,10"
+             Height="30"
+             Background="#FFF2F2F2"
+             BorderBrush="#FFB4A8C8"
+             BorderThickness="1"
+             Padding="5"/>
+
+            <Label Content="Địa Chỉ:"
+           HorizontalAlignment="Left"
+           Margin="0,10,0,0"
+           FontWeight="Bold"
+           />
+            <TextBox x:Name="txtDiaChi"
+             HorizontalAlignment="Stretch"
+             Margin="0,5,0,10"
+             Height="30"
+             Background="#FFF2F2F2"
+             BorderBrush="#FFB4A8C8"
+             BorderThickness="1"
+             Padding="5"/>
+            <Label Content="Số Điện Thoại:"
+            HorizontalAlignment="Left"
+            Margin="0,10,0,0"
+            FontWeight="Bold"
+        />
+
+            <TextBox x:Name="txtsdt"
+            Height="30"
+            Background="#FFF2F2F2"
+            BorderBrush="#FFB4A8C8"
+            BorderThickness="1"
+            Padding="5"/>
+            <Label Content="Giới Tính:"
+            HorizontalAlignment="Left"
+            Margin="0,10,0,0"
+            FontWeight="Bold"
+            />
+            <TextBox x:Name="txtgt"
+                Height="30"
+                Background="#FFF2F2F2"
+                BorderBrush="#FFB4A8C8"
+                BorderThickness="1"
+                Padding="5"/>
+            <Label Content="Ngày Sinh:"
+                HorizontalAlignment="Left"
+                Margin="0,10,0,0"
+                FontWeight="Bold"
+            />
+            <DatePicker x:Name="dpNgaySinh"
+                Height="30"
+                Background="#FFF2F2F2"
+                BorderBrush="#FFB4A8C8"
+                BorderThickness="1"
+                Padding="5"/>
+            <Label Content="Mã Công Việc:"
+                HorizontalAlignment="Left"
+                Margin="0,10,0,0"
+                FontWeight="Bold"
+            />
+            <ComboBox x:Name="cbmaCV"
+                Height="30"
+                Background="#FFF2F2F2"
+                BorderBrush="#FFB4A8C8"
+                BorderThickness="1"
+                Padding="5"/>
+            <Button x:Name="btSuaNV"
+                Content="Sửa"
+                HorizontalAlignment="Center"
+                Margin="0,20,0,0"
+                Width="100"
+                Height="35"
+                Background="#d996d0"
+    
+                FontWeight="Bold"
+                Click="bt_SuaNV_Click"
+                BorderThickness="0"
+                Cursor="Hand"
+        ></Button>
+        </StackPanel>
+    </Grid>
+</Window>

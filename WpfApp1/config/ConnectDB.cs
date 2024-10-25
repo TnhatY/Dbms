@@ -45,6 +45,25 @@ namespace Do_an.config
             }
         }
 
+        public void openConnection()
+        {
+            if (con == null)
+            {
+                con = new SqlConnection(connectionString);
+            }
 
+            if (con.State == ConnectionState.Closed)
+            {
+                con.Open();
+            }
+        }
+
+        public void closeConnection()
+        {
+            if (con != null && con.State == ConnectionState.Open)
+            {
+                con.Close();
+            }
+        }
     }
 }
