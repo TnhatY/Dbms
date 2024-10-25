@@ -3,36 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\huanc\\source\\repos\\TnhatY\\Dbms\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|c:\\users\\huanc\\source\\repos\\tnhaty\\dbms\\wpfapp1\\uc_toptimkiem.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\uc_toptimkiem.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|c:\\users\\huanc\\source\\repos\\tnhaty\\dbms\\wpfapp1\\uc_suanhanvien.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\uc_suanhanvien.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|c:\\users\\huanc\\source\\repos\\tnhaty\\dbms\\wpfapp1\\uc_nhanvien.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\uc_nhanvien.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|c:\\users\\huanc\\source\\repos\\tnhaty\\dbms\\wpfapp1\\dao\\nhanvien_dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\dao\\nhanvien_dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|c:\\users\\huanc\\source\\repos\\tnhaty\\dbms\\wpfapp1\\uc_themnhanvien.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\uc_themnhanvien.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|c:\\users\\huanc\\source\\repos\\tnhaty\\dbms\\wpfapp1\\uc_themnhanvien.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\uc_themnhanvien.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|c:\\users\\huanc\\source\\repos\\tnhaty\\dbms\\wpfapp1\\uc_suanhanvien.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\uc_suanhanvien.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|c:\\users\\huanc\\source\\repos\\tnhaty\\dbms\\wpfapp1\\uc_nhanvien.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\uc_nhanvien.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,49 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 286,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UC_NhanVien.xaml",
-              "DocumentMoniker": "C:\\Users\\huanc\\source\\repos\\TnhatY\\Dbms\\WpfApp1\\UC_NhanVien.xaml",
-              "RelativeDocumentMoniker": "WpfApp1\\UC_NhanVien.xaml",
-              "ToolTip": "C:\\Users\\huanc\\source\\repos\\TnhatY\\Dbms\\WpfApp1\\UC_NhanVien.xaml",
-              "RelativeToolTip": "WpfApp1\\UC_NhanVien.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-23T16:34:54.871Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UC_NhanVien.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\huanc\\source\\repos\\TnhatY\\Dbms\\WpfApp1\\UC_NhanVien.xaml.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\UC_NhanVien.xaml.cs",
-              "ToolTip": "C:\\Users\\huanc\\source\\repos\\TnhatY\\Dbms\\WpfApp1\\UC_NhanVien.xaml.cs",
-              "RelativeToolTip": "WpfApp1\\UC_NhanVien.xaml.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAADwv1MAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T16:22:53.379Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NhanVien_DAO.cs",
-              "DocumentMoniker": "C:\\Users\\huanc\\source\\repos\\TnhatY\\Dbms\\WpfApp1\\dao\\NhanVien_DAO.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\dao\\NhanVien_DAO.cs",
-              "ToolTip": "C:\\Users\\huanc\\source\\repos\\TnhatY\\Dbms\\WpfApp1\\dao\\NhanVien_DAO.cs",
-              "RelativeToolTip": "WpfApp1\\dao\\NhanVien_DAO.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAgwHwAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T10:46:53.217Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -103,64 +34,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UC_SuaNhanVien.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\huanc\\source\\repos\\TnhatY\\Dbms\\WpfApp1\\UC_SuaNhanVien.xaml.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\UC_SuaNhanVien.xaml.cs",
-              "ToolTip": "C:\\Users\\huanc\\source\\repos\\TnhatY\\Dbms\\WpfApp1\\UC_SuaNhanVien.xaml.cs",
-              "RelativeToolTip": "WpfApp1\\UC_SuaNhanVien.xaml.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAuwGoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T09:54:00.046Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UC_TopTimKiem.xaml",
-              "DocumentMoniker": "C:\\Users\\huanc\\source\\repos\\TnhatY\\Dbms\\WpfApp1\\UC_TopTimKiem.xaml",
-              "RelativeDocumentMoniker": "WpfApp1\\UC_TopTimKiem.xaml",
-              "ToolTip": "C:\\Users\\huanc\\source\\repos\\TnhatY\\Dbms\\WpfApp1\\UC_TopTimKiem.xaml",
-              "RelativeToolTip": "WpfApp1\\UC_TopTimKiem.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-24T09:53:57.592Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UC_SuaNhanVien.xaml",
-              "DocumentMoniker": "C:\\Users\\huanc\\Source\\Repos\\TnhatY\\Dbms\\WpfApp1\\UC_SuaNhanVien.xaml",
-              "RelativeDocumentMoniker": "WpfApp1\\UC_SuaNhanVien.xaml",
-              "ToolTip": "C:\\Users\\huanc\\Source\\Repos\\TnhatY\\Dbms\\WpfApp1\\UC_SuaNhanVien.xaml",
-              "RelativeToolTip": "WpfApp1\\UC_SuaNhanVien.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-24T09:53:53.037Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UC_ThemNhanVien.xaml",
-              "DocumentMoniker": "C:\\Users\\huanc\\source\\repos\\TnhatY\\Dbms\\WpfApp1\\UC_ThemNhanVien.xaml",
-              "RelativeDocumentMoniker": "WpfApp1\\UC_ThemNhanVien.xaml",
-              "ToolTip": "C:\\Users\\huanc\\source\\repos\\TnhatY\\Dbms\\WpfApp1\\UC_ThemNhanVien.xaml",
-              "RelativeToolTip": "WpfApp1\\UC_ThemNhanVien.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-24T09:50:05.825Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UC_ThemNhanVien.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\huanc\\source\\repos\\TnhatY\\Dbms\\WpfApp1\\UC_ThemNhanVien.xaml.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\UC_ThemNhanVien.xaml.cs",
-              "ToolTip": "C:\\Users\\huanc\\source\\repos\\TnhatY\\Dbms\\WpfApp1\\UC_ThemNhanVien.xaml.cs",
-              "RelativeToolTip": "WpfApp1\\UC_ThemNhanVien.xaml.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAgwDwAAACzAAAAAAAAAA==",
+              "Title": "NhanVien_DAO.cs",
+              "DocumentMoniker": "C:\\Users\\huanc\\source\\repos\\TnhatY\\Dbms\\WpfApp1\\dao\\NhanVien_DAO.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\dao\\NhanVien_DAO.cs",
+              "ToolTip": "C:\\Users\\huanc\\source\\repos\\TnhatY\\Dbms\\WpfApp1\\dao\\NhanVien_DAO.cs",
+              "RelativeToolTip": "WpfApp1\\dao\\NhanVien_DAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T09:50:04.106Z",
+              "WhenOpened": "2024-10-24T10:35:02.714Z",
               "EditorCaption": ""
             }
           ]
