@@ -17,7 +17,7 @@
             <Grid Height="396" VerticalAlignment="Bottom" Margin="0,0,28,31" Grid.Column="1" Grid.ColumnSpan="3">
                 <TextBlock VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="15" FontWeight="Bold" Margin="25,0,0,346"><Run Language="en-gb" Text="Ca làm"/><LineBreak/><Run Language="en-gb"/></TextBlock>
             </Grid>
-            <DataGrid Grid.Column="1" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,68,0,31" Background="#FFAD78B7" BorderBrush="#FF7F3292" HorizontalAlignment="Left" Width="776" Grid.ColumnSpan="3" SelectionChanged="DataGrid_SelectionChanged" AutomationProperties.Name="dtg_danhsachcalam"/>
+            <DataGrid Loaded="load" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="12,63,0,36" Background="#FFAD78B7" BorderBrush="#FF7F3292" HorizontalAlignment="Left" Width="776" Grid.ColumnSpan="4" SelectionChanged="DataGrid_SelectionChanged" AutomationProperties.Name="dtg_danhsachcalam"/>
             <Button Grid.Column="3" Content="Thêm ca làm" HorizontalAlignment="Left" Margin="36,23,0,0" VerticalAlignment="Top" Height="40" Width="121" Click="Button_add" AutomationProperties.Name="btn_themcalam"/>
             <Button Grid.Column="3" Content="Xóa ca làm" HorizontalAlignment="Left" Margin="190,23,0,0" VerticalAlignment="Top" Height="40" Width="121" Click="Button_remove" AutomationProperties.Name="btn_xoacalam"/>
         </Grid>

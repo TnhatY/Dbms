@@ -118,9 +118,6 @@
     <Compile Update="XemDanhGia_Window.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="XoaCaLamViec_Window.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="DanhGiaSp_Window.xaml">
@@ -232,9 +229,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="XemDanhGia_Window.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="XoaCaLamViec_Window.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

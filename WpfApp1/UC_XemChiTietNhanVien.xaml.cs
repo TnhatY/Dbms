@@ -30,8 +30,7 @@ namespace Do_an
         public String manv = ""; 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            UC_DanhSachCaLam listcalam = new UC_DanhSachCaLam();
-            listcalam.manv = this.manv;
+           
         }
     }
 }
