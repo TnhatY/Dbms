@@ -101,7 +101,7 @@ namespace Do_an {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Do_an;V1.0.0.0;component/taohoadon.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Do_an;component/taohoadon.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\TaoHoaDon.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

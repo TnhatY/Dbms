@@ -33,7 +33,7 @@ namespace Do_an
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             NhanVien_DAO nv = new NhanVien_DAO();
-            nv.xoa_CalamViec(manv, this.txt_maclv.Text());
+            nv.xoa_CalamViec(manv, this.txt_maclv.Text);
             this.Close();   
         }
     }

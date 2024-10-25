@@ -77,7 +77,7 @@ namespace Do_an {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Do_an;V1.0.0.0;component/xemdanhgia_window.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Do_an;component/xemdanhgia_window.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\XemDanhGia_Window.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

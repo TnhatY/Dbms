@@ -931,7 +931,6 @@ D:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\Tho
 D:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\TongPhieuGiam.g.cs
 D:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\TopBan_Window.g.cs
 D:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\TopSanPham_Window.g.cs
-D:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\UC_background.g.cs
 D:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\UC_CaiDat.g.cs
 D:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\UC_DaMua.g.cs
 D:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\UC_DanhGia.g.cs
@@ -966,7 +965,6 @@ D:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\Tho
 D:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\TongPhieuGiam.baml
 D:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\TopBan_Window.baml
 D:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\TopSanPham_Window.baml
-D:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\UC_background.baml
 D:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\UC_CaiDat.baml
 D:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\UC_DaMua.baml
 D:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\UC_DanhGia.baml
@@ -1055,3 +1053,13 @@ D:\Deadline\DBMS\DA\Dbms\WpfApp1\obj\Debug\net6.0-windows\Do_an_MarkupCompile.lr
 D:\Deadline\DBMS\DA\Dbms\WpfApp1\obj\Debug\net6.0-windows\Do_an.dll
 D:\Deadline\DBMS\DA\Dbms\WpfApp1\obj\Debug\net6.0-windows\refint\Do_an.dll
 D:\Deadline\DBMS\DA\Dbms\WpfApp1\obj\Debug\net6.0-windows\Do_an.pdb
+D:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\bin\Debug\net6.0-windows\DocumentFormat.OpenXml.dll
+D:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\bin\Debug\net6.0-windows\DocumentFormat.OpenXml.Framework.dll
+D:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\bin\Debug\net6.0-windows\System.IO.Packaging.dll
+D:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\TaoHoaDon.baml
+D:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\ThemCaLam_Window.baml
+D:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\UC_BangLuong.baml
+D:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\UC_HoaDon.baml
+D:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\UC_SuaNhanVien.baml
+D:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\UC_ThemNhanVien.baml
+D:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\XoaCaLamViec_Window.baml
