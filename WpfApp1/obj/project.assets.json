@@ -2992,19 +2992,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< Updated upstream
-      "projectUniqueName": "D:\\Deadline\\DBMS\\DA\\Dbms\\WpfApp1\\Do_an.csproj",
-      "projectName": "Do_an",
-      "projectPath": "D:\\Deadline\\DBMS\\DA\\Dbms\\WpfApp1\\Do_an.csproj",
-      "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-      "outputPath": "D:\\Deadline\\DBMS\\DA\\Dbms\\WpfApp1\\obj\\",
-=======
       "projectUniqueName": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\Do_an.csproj",
       "projectName": "Do_an",
       "projectPath": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\Do_an.csproj",
       "packagesPath": "C:\\Users\\DoanQ\\.nuget\\packages\\",
       "outputPath": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\obj\\",
->>>>>>> Stashed changes
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DoanQ\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3088,12 +3080,6 @@
     }
   },
   "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\Deadline\\DBMS\\DA\\Dbms\\WpfApp1\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    },
     {
       "code": "NU1701",
       "level": "Warning",
