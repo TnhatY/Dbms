@@ -90,9 +90,12 @@ namespace Do_an
 
         private void btn_calamviec_Click(object sender, RoutedEventArgs e)
         {
-            UC_DanhSachCaLam uc_listCalam = new UC_DanhSachCaLam(ID);
-            F_Main.instance.user.Content = uc_listCalam;
-                
-         }
+            if (dg_NhanVien.SelectedItem != null)
+            {
+                UC_DanhSachCaLam uc_listCalam = new UC_DanhSachCaLam(ID);
+                F_Main.instance.user.Content = uc_listCalam;
+            }
+
+        }
     }
 }
