@@ -23,15 +23,41 @@ namespace Do_an
         public ThemCaLam_Window()
         {
             InitializeComponent();
+            load_combobox();
         }
 
+        void load_combobox()
+        {
+            cbb_maclv.Items.Add("clv1");
+            cbb_maclv.Items.Add("clv2");
+            cbb_maclv.Items.Add("clv3");
 
-        public string manv;
+        }
+        public String manv;
+        CaLam_Dao caLam = new CaLam_Dao();
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            NhanVien_DAO nv = new NhanVien_DAO();
-            DateTime selectedDate = datetime.SelectedDate.Value;
-            nv.them_CaLamViec(manv, this.txt_maclv.Text, selectedDate, start.Text, end.Text);
+            try
+            {
+                if(cbb_maclv.Text.Length > 0)
+            {
+                    NhanVien_DAO nv = new NhanVien_DAO();
+                    DateTime selectedDate = datetime.SelectedDate.Value;
+                    String year = selectedDate.Year.ToString();
+                    String month = selectedDate.Month.ToString();
+                    String day = selectedDate.Day.ToString();
+                    String yymmdd = year + month + day;
+                    caLam.them_CaLamViec(manv, cbb_maclv.Text, yymmdd);
+                    MessageBox.Show("Thêm ca làm việc thành công");
+                    this.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            
+            
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)

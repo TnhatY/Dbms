@@ -6,18 +6,26 @@
         xmlns:local="clr-namespace:Do_an"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" x:Name="window" x:Class="Do_an.ThemCaLam_Window"
         mc:Ignorable="d"
-        Title="ThemCaLam_Window" Height="450" Width="800">
-    <Grid Background="#FF7D3E93">
-        <TextBox Name="txt_maclv" HorizontalAlignment="Left" Margin="227,71,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" Height="22" AutomationProperties.Name="txt_maclv"/>
-        <Label Content="Mã ca làm việc" HorizontalAlignment="Left" Margin="86,67,0,0" VerticalAlignment="Top" Width="101"/>
-        <Label Content="Ngày làm" HorizontalAlignment="Left" Margin="179,259,0,0" VerticalAlignment="Top" Width="101"/>
-        <Label Content="Giờ bắt đầu" HorizontalAlignment="Left" Margin="86,132,0,0" VerticalAlignment="Top"/>
-        <Label Content="Giờ két thúc" HorizontalAlignment="Left" Margin="86,170,0,0" VerticalAlignment="Top"/>
-        <Button Content="Ok" HorizontalAlignment="Left" Margin="716,384,0,0" VerticalAlignment="Top" Height="40" Width="74" Click="Button_Click"/>
-        <Button Content="Cancel" HorizontalAlignment="Left" Margin="632,384,0,0" VerticalAlignment="Top" Height="40" Width="79" Click="Button_Click_1"/>
-        <TextBox Name="start" HorizontalAlignment="Left" Margin="227,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" Height="22" AutomationProperties.Name="start"/>
-        <TextBox Name="end" HorizontalAlignment="Left" Margin="227,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" Height="22" AutomationProperties.Name="end"/>
-        <Calendar HorizontalAlignment="Left" Margin="336,256,0,0" VerticalAlignment="Top" x:Name="datetime"/>
+        Title="ThemCaLam_Window" Height="420" Width="582">
+    <Grid Background="#FF7D3E93" Margin="0,0,1,2" RenderTransformOrigin="0.5,0.5">
+        <Grid.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform/>
+                <SkewTransform/>
+                <RotateTransform Angle="-0.234"/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </Grid.RenderTransform>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="42*"/>
+            <ColumnDefinition Width="797*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Mã ca làm việc" HorizontalAlignment="Left" Margin="0,67,0,0" VerticalAlignment="Top" Width="101" Grid.Column="1" Height="26"/>
+        <Label Content="Ngày làm" HorizontalAlignment="Left" Margin="12,142,0,0" VerticalAlignment="Top" Width="101" Grid.Column="1" Height="26"/>
+        <Button Content="Ok" HorizontalAlignment="Left" Margin="440,345,0,0" VerticalAlignment="Top" Height="40" Width="74" Click="Button_Click" Grid.Column="1"/>
+        <Button Content="Cancel" HorizontalAlignment="Left" Margin="314,347,0,0" VerticalAlignment="Top" Height="40" Width="79" Click="Button_Click_1" Grid.Column="1"/>
+        <Calendar HorizontalAlignment="Left" Margin="149,137,0,0" VerticalAlignment="Top" x:Name="datetime" Grid.Column="1" Height="168" Width="179"/>
+        <ComboBox Name="cbb_maclv" Grid.Column="1" HorizontalAlignment="Left" Margin="148,77,0,0" VerticalAlignment="Top" Width="161"/>
 
     </Grid>
 </Window>

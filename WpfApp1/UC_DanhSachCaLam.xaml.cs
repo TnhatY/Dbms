@@ -1,6 +1,7 @@
 ﻿using Do_an.dao;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,6 +14,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using static MaterialDesignThemes.Wpf.Theme;
 
 namespace Do_an
 {
@@ -37,19 +39,40 @@ namespace Do_an
         private void load(Object sender, RoutedEventArgs e)
            
         { 
-            Calam cl = new Calam();
+            CaLam_Dao cl = new CaLam_Dao();
             dg_danhsachcalam.ItemsSource = cl.findbyidnv(manv).DefaultView;
         }
 
         private void Button_add(object sender, RoutedEventArgs e)
         {
             ThemCaLam_Window add = new ThemCaLam_Window();  
+            add.manv = manv;
             add.ShowDialog();
+            this.load(sender, e);
         }
 
         private void Button_remove(object sender, RoutedEventArgs e)
         {
+
+            if (dg_danhsachcalam.SelectedItem != null)
+            {
+                MessageBoxResult result = MessageBox.Show("Bạn có chắc chắn muốn xóa ca làm không?", "Xác nhận", MessageBoxButton.YesNo, MessageBoxImage.Question);
+
+                if (result == MessageBoxResult.Yes)
+                {
+                    CaLam_Dao calam = new CaLam_Dao();
+                    if (dg_danhsachcalam.SelectedItem is DataRowView selectedRow)
+                    {
+                        // Lấy giá trị của cột "maclv" từ dòng được chọn
+                        String maclv = selectedRow["MaCLV"].ToString();
+
+                        calam.xoa_CalamViec(manv, maclv);
+                        this.load(sender, e);   
+                    }
+                }
                
+            }
+        
         }
     }
 }
