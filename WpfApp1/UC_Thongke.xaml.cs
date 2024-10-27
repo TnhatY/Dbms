@@ -84,15 +84,15 @@ namespace Do_an
 			DataTable? data = null;
 			if (type == "Ngay" && month.HasValue && year.HasValue)
 			{
-				data = hoaDonDao.doanhThuNgay(month.Value, year.Value);
+				data = hoaDonDao.layDoanhThu("Ngay" ,month.Value, year.Value);
 			}
 			else if (type == "Thang" && year.HasValue)
 			{
-				data = hoaDonDao.doanhThuThang(year.Value);
+				data = hoaDonDao.layDoanhThu("Thang", null, year.Value);
 			}
 			else if (type == "Nam")
 			{
-				data = hoaDonDao.doanhThuNam();
+				data = hoaDonDao.layDoanhThu("Nam", null, null);
 			}
 
 			if (data == null)
