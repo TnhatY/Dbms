@@ -1,0 +1,51 @@
+﻿<UserControl x:Class="Do_an.UC_ConfigAutoPhanca"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Do_an"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Loaded="load_config" Background="#FFC378BF">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="29*"/>
+            <RowDefinition Height="196*"/>
+        </Grid.RowDefinitions>
+        <Label Content="Ngày (ca) không làm " Margin="38,39,640,386" Background="#FFC378BF" Grid.RowSpan="2"/>
+        <ComboBox Name="ccb_thushop"  HorizontalAlignment="Left" Margin="235,36,0,0" VerticalAlignment="Top" Width="91" Height="27" Grid.RowSpan="2" RenderTransformOrigin="2.02,1.022">
+            <ComboBox.Background>
+                <LinearGradientBrush EndPoint="0,1">
+                    <GradientStop Color="#FFF0F0F0"/>
+                    <GradientStop Color="#FFE5E5E5" Offset="1"/>
+                    <GradientStop Color="#FFEEEEEE" Offset="0.174"/>
+                </LinearGradientBrush>
+            </ComboBox.Background>
+        </ComboBox>
+        <ComboBox Name="ccb_cashop" HorizontalAlignment="Left" Margin="361,36,0,0" VerticalAlignment="Top" Width="232" Height="28" Grid.RowSpan="2"/>
+        <Button Name="btn_update_offday_shop" Content="Cập nhật" HorizontalAlignment="Left" Margin="619,36,0,0" VerticalAlignment="Top" Width="77" Height="28" Click="btn_update_offday_Click" Grid.RowSpan="2"/>
+        <Button Name="btn_quit" Content="Thoát" HorizontalAlignment="Left" Margin="739,10,0,0" VerticalAlignment="Top" Height="40" Width="51" Background="#FFFD0505" Click="Button_Click"/>
+        <Button Name="btn_excute" Content="Phân ca" HorizontalAlignment="Left" Margin="726,345,0,0" VerticalAlignment="Top" Width="64" Height="37" Background="#FFE5D224" Grid.Row="1" Click="btn_excute_Click"/>
+        <Label Content="Thêm điều kiện cho mỗi nhân viên (nếu có)" Margin="38,11,-38,353" Grid.Row="1"/>
+        <Label Content="Nhân viên " Margin="38,66,693,301" Background="#FFC378BF" Grid.Row="1"/>
+        <ComboBox x:Name="ccb_manv" SelectionChanged="select_manv" HorizontalAlignment="Left" Margin="235,65,0,0" VerticalAlignment="Top" Width="91" Height="27" Grid.Row="1"/>
+        <Label x:Name="lbl_hotennhanvien" Content="Họ và tên" HorizontalAlignment="Left" Margin="361,65,0,0" VerticalAlignment="Top" Width="232" Background="#FFEEE9E9" Grid.Row="1"/>
+        <Label Content="Cách ca" Margin="38,120,701,247" Background="#FFC378BF" Grid.Row="1"/>
+        <ComboBox x:Name="ccb_cachca" HorizontalAlignment="Left" Margin="235,117,0,0" VerticalAlignment="Top" Width="91" Height="27" Grid.Row="1"/>
+        <Label Content="Ca không làm" Margin="38,175,680,191" Background="#FFC378BF" Grid.Row="1"/>
+        <ComboBox x:Name="ccb_noworkweek_staff" HorizontalAlignment="Left" Margin="235,173,0,0" VerticalAlignment="Top" Width="91" Height="27" Grid.Row="1">
+            <ComboBox.Background>
+                <LinearGradientBrush EndPoint="0,1">
+                    <GradientStop Color="#FFF0F0F0"/>
+                    <GradientStop Color="#FFE5E5E5" Offset="1"/>
+                    <GradientStop Color="#FFEEEEEE" Offset="0.174"/>
+                </LinearGradientBrush>
+            </ComboBox.Background>
+        </ComboBox>
+        <Label Content="Số ca tối đa(&lt;=21)" Margin="361,115,328,252" Background="#FFC378BF" Grid.Row="1"/>
+        <ComboBox x:Name="ccb_noworkshift_staff" HorizontalAlignment="Left" Margin="361,173,0,0" VerticalAlignment="Top" Width="91" Height="28" Grid.Row="1"/>
+        <Button x:Name="btn_update_offshift_staff" Content="Cập nhật" HorizontalAlignment="Left" Margin="477,173,0,0" VerticalAlignment="Top" Width="77" Height="26" Grid.Row="1"/>
+        <TextBox x:Name="txt_max_numshifts" HorizontalAlignment="Left" Margin="477,115,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="25"/>
+        <Button x:Name="btn_save" Content="Lưu" HorizontalAlignment="Left" Margin="38,245,0,0" VerticalAlignment="Top" Width="77" Height="29" Background="#FFDDCD37" Grid.Row="1"/>
+
+    </Grid>
+</UserControl>

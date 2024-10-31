@@ -97,5 +97,10 @@ namespace Do_an
             }
 
         }
+
+        private void btn_bangphanca_Click(object sender, RoutedEventArgs e)
+        {
+            F_Main.instance.user.Content = new UC_BangPhanCa();
+        }
     }
 }
