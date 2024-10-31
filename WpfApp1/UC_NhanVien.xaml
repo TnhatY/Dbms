@@ -4,9 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Do_an"
-             mc:Ignorable="d" 
-             
-    d:DesignHeight="450" d:DesignWidth="800" Loaded="UserControl_Loaded">
+             mc:Ignorable="d" Loaded="UserControl_Loaded" Height="452" Width="788">
     <UserControl.Resources>
         <Style x:Key="FocusVisual">
             <Setter Property="Control.Template">
@@ -174,41 +172,51 @@
             </Setter>
         </Style>
     </UserControl.Resources>
-    <Grid>
+    <Grid Margin="0,0,0,32">
 
-        <Border  Background="#FFE0CDED" CornerRadius="10" Padding="10" BorderBrush="#FFCCCCCC" BorderThickness="2" Margin="0,0,-142,0">
+        <Border  Background="#FFE0CDED" CornerRadius="10" Padding="10" BorderBrush="#FFCCCCCC" BorderThickness="2" Margin="-23,0,0,0" HorizontalAlignment="Left" Width="811">
             <Grid>
-                <TextBlock x:Name="maNV" Width="0" Height="0"></TextBlock>
-                <Button Style="{DynamicResource ButtonStyle1}" x:Name="btnThemNhanVien" Background="#1497a3" Width="120" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10" Click="btnThemNhanVien_Click">
-                    <TextBlock Text="Thêm nhân viên"></TextBlock>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="779*"/>
+                    <ColumnDefinition Width="81*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock x:Name="maNV" Width="0" Height="0" Margin="430,229,349,229"></TextBlock>
+                <Button Style="{DynamicResource ButtonStyle1}" x:Name="btnThemNhanVien" Background="#1497a3" Width="99" Height="35" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" Click="btnThemNhanVien_Click">
+                    <TextBlock Text="Thêm nhân viên" Height="15" Width="88"></TextBlock>
                 </Button>
 
-                <Button Style="{DynamicResource ButtonStyle2}" x:Name="btnSuaNhanVien" Background="#1497a3" Width="120" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="160 10 0 0" Click="btnSuaNhanVien_Click">
+                <Button Style="{DynamicResource ButtonStyle2}" x:Name="btnSuaNhanVien" Background="#1497a3" Width="97" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="127,13,0,0" Click="btnSuaNhanVien_Click">
                     <TextBlock Text="Sửa nhân viên"></TextBlock>
                 </Button>
-
-                <Button Style="{DynamicResource ButtonStyle1}" x:Name="btnXoaNhanVien" Background="#ff6652" Width="120" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="310 10 0 0" Click="btnXoaNhanVien_Click">
-                    <TextBlock Text="Xoá nhân viên"></TextBlock>
-                </Button>
-
-                <TextBlock Text="N:" HorizontalAlignment="Right" Height="20" VerticalAlignment="Top" Margin="00 15 280 0"></TextBlock>
-
-                <TextBox Height="25" Width="170" x:Name="txtsdt" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0 13 100 0"></TextBox>
-
-                <Button Style="{DynamicResource ButtonStyle3}" x:Name="btnTimkiem" Width="80" BorderBrush="#9b02a3b4" Background="Transparent" Height="25" Content="Tìm kiếm" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0 13 10 0" Click="btnTimkiem_Click"></Button>
                 <DataGrid x:Name="dg_NhanVien"
                         AutoGenerateColumns="True"
                         SelectionChanged="dg_NhanVien_SelectionChanged"
                         SelectedItem="dg_NhanVien_SelectedItem"
-                        RowHeight="40" Margin="0 50 0 0" />
-                <Button Style="{DynamicResource ButtonStyle1}" x:Name="btnXoaNhanVien_Copy" Background="#ff6652" Width="120" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="310 10 0 0" Click="btnXoaNhanVien_Click">
+                        RowHeight="40" Margin="0,50,8,0" Grid.ColumnSpan="2" />
+                <Button Style="{DynamicResource ButtonStyle1}" x:Name="btnXoaNhanVien_Copy" Background="#ff6652" Width="102" Height="31" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="229,12,0,0" Click="btnXoaNhanVien_Click">
                     <TextBlock Text="Xoá nhân viên"/>
                 </Button>
-                <Button Style="{DynamicResource ButtonStyle1}" x:Name="btn_calamviec" Background="Blue" Width="120" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="459,10,0,0" Click="btn_calamviec_Click" >
+                <Button Style="{DynamicResource ButtonStyle1}" x:Name="btn_calamviec" Background="Blue" Width="88" Height="33" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="336,10,0,0" Click="btn_calamviec_Click" >
                     <TextBlock Text="Ca làm việc"/>
+                </Button>
+                <Button Style="{DynamicResource ButtonStyle1}" x:Name="btn_timkiem" Background="Blue" Width="86" Height="33" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="678,11,0,0" Grid.ColumnSpan="2" >
+                    <TextBlock Text="Tìm kiếm" RenderTransformOrigin="0.5,0.5">
+                        <TextBlock.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="1.573"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </TextBlock.RenderTransform>
+                    </TextBlock>
                 </Button>
             </Grid>
         </Border>
+        <Button Name="btn_bangphanca" Style="{DynamicResource ButtonStyle1}" Background="Blue" Width="88" Height="33" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="428,22,0,0" Click="btn_bangphanca_Click"  >
+            <TextBlock Text="Bảng phân ca"/>
+        </Button>
+        <TextBox TextWrapping="Wrap" Height="32" Margin="525,24,124,0" VerticalAlignment="Top" FontSize="14"/>
     </Grid>
 
 </UserControl>

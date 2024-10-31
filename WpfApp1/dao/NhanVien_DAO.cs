@@ -84,6 +84,40 @@ namespace Do_an.dao
             }
         }
 
+        public Dictionary<String, String> get_staff()
+        {
+            Dictionary<String, String> rs = new Dictionary<String, String>();
+            String sql = "select MaNV, HoNV, TenNV from NhanVien";
+            using (SqlConnection conn = new SqlConnection(ConnectDB.connectionString))
+            {
+                try
+                {
+                    conn.Open();
+                    using (SqlCommand cmd = new SqlCommand(sql, conn))
+                    {
+                        SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+                        DataTable dataTable = new DataTable();
+                        adapter.Fill(dataTable);
+                        foreach(DataRow row in dataTable.Rows)
+                        {
+                            String manv = row["MaNV"].ToString();
+                            String ten = row["HoNV"].ToString() + " "+ row["TenNv"].ToString();
+                            rs.Add(manv, ten);  
+                        }
+                    }
+
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                    return rs;
+                }
+            }
+
+            
+            return rs;  
+        }
+
         //public List<UC_NhanVien> timkiemNhanVien(string keyword)
         //{
         //    List<UC_NhanVien> listnv = new List<UC_NhanVien>();

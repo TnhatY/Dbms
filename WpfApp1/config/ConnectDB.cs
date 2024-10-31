@@ -39,7 +39,7 @@ namespace Do_an.config
                 }
                 return dataTable;
             }
-            catch (Exception ex)
+            catch 
             {
                 return null;
             }
