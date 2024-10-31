@@ -12,7 +12,7 @@
             <RowDefinition Height="196*"/>
         </Grid.RowDefinitions>
         <Label Content="Ngày (ca) không làm " Margin="38,39,640,386" Background="#FFC378BF" Grid.RowSpan="2"/>
-        <ComboBox Name="ccb_thushop"  HorizontalAlignment="Left" Margin="235,36,0,0" VerticalAlignment="Top" Width="91" Height="27" Grid.RowSpan="2" RenderTransformOrigin="2.02,1.022">
+        <ComboBox Name="ccb_thushop"  SelectionChanged="select_thu_shop"  HorizontalAlignment="Left" Margin="235,36,0,0" VerticalAlignment="Top" Width="91" Height="27" Grid.RowSpan="2" RenderTransformOrigin="2.02,1.022">
             <ComboBox.Background>
                 <LinearGradientBrush EndPoint="0,1">
                     <GradientStop Color="#FFF0F0F0"/>
@@ -32,7 +32,7 @@
         <Label Content="Cách ca" Margin="38,120,701,247" Background="#FFC378BF" Grid.Row="1"/>
         <ComboBox x:Name="ccb_cachca" HorizontalAlignment="Left" Margin="235,117,0,0" VerticalAlignment="Top" Width="91" Height="27" Grid.Row="1"/>
         <Label Content="Ca không làm" Margin="38,175,680,191" Background="#FFC378BF" Grid.Row="1"/>
-        <ComboBox x:Name="ccb_noworkweek_staff" HorizontalAlignment="Left" Margin="235,173,0,0" VerticalAlignment="Top" Width="91" Height="27" Grid.Row="1">
+        <ComboBox x:Name="ccb_noworkweek_staff" SelectionChanged="select_thu_staff" HorizontalAlignment="Left" Margin="235,173,0,0" VerticalAlignment="Top" Width="91" Height="27" Grid.Row="1">
             <ComboBox.Background>
                 <LinearGradientBrush EndPoint="0,1">
                     <GradientStop Color="#FFF0F0F0"/>
@@ -41,11 +41,11 @@
                 </LinearGradientBrush>
             </ComboBox.Background>
         </ComboBox>
-        <Label Content="Số ca tối đa(&lt;=21)" Margin="361,115,328,252" Background="#FFC378BF" Grid.Row="1"/>
+        <Label Content="Số ca tối đa" Margin="361,115,328,252" Background="#FFC378BF" Grid.Row="1"/>
         <ComboBox x:Name="ccb_noworkshift_staff" HorizontalAlignment="Left" Margin="361,173,0,0" VerticalAlignment="Top" Width="91" Height="28" Grid.Row="1"/>
-        <Button x:Name="btn_update_offshift_staff" Content="Cập nhật" HorizontalAlignment="Left" Margin="477,173,0,0" VerticalAlignment="Top" Width="77" Height="26" Grid.Row="1"/>
+        <Button x:Name="btn_update_offshift_staff" Content="Cập nhật" HorizontalAlignment="Left" Margin="477,173,0,0" VerticalAlignment="Top" Width="77" Height="26" Grid.Row="1" Click="btn_update_offshift_staff_Click"/>
         <TextBox x:Name="txt_max_numshifts" HorizontalAlignment="Left" Margin="477,115,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="25"/>
-        <Button x:Name="btn_save" Content="Lưu" HorizontalAlignment="Left" Margin="38,245,0,0" VerticalAlignment="Top" Width="77" Height="29" Background="#FFDDCD37" Grid.Row="1"/>
+        <Button x:Name="btn_save" Content="Lưu" HorizontalAlignment="Left" Margin="38,245,0,0" VerticalAlignment="Top" Width="77" Height="29" Background="#FFDDCD37" Grid.Row="1" Click="btn_save_Click"/>
 
     </Grid>
 </UserControl>
