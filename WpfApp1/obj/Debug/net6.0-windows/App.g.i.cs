@@ -45,11 +45,7 @@ namespace WpfApp1 {
         /// InitializeComponent
         /// </summary>
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
-<<<<<<< HEAD
         [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "8.0.10.0")]
-=======
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "8.0.8.0")]
->>>>>>> origin/master
         public void InitializeComponent() {
             
             #line 5 "..\..\..\App.xaml"
@@ -64,11 +60,7 @@ namespace WpfApp1 {
         /// </summary>
         [System.STAThreadAttribute()]
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
-<<<<<<< HEAD
         [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "8.0.10.0")]
-=======
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "8.0.8.0")]
->>>>>>> origin/master
         public static void Main() {
             WpfApp1.App app = new WpfApp1.App();
             app.InitializeComponent();
