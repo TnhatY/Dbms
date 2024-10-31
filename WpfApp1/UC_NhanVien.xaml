@@ -199,7 +199,7 @@
                 <Button Name="btn_bangphanca" Style="{DynamicResource ButtonStyle1}" Background="#1497a3" Width="88" Height="33" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="210,12,0,0" Click="btn_bangphanca_Click"  >
                     <TextBlock Text="Bảng phân ca"/>
                 </Button>
-                <TextBox TextWrapping="Wrap" Margin="0,13,100,0" FontSize="14" Height="25" VerticalAlignment="Top" HorizontalAlignment="Right" Width="170"/>
+                <TextBox x:Name="txttimkiem" TextWrapping="Wrap" Margin="0,13,100,0" FontSize="14" Height="25" VerticalAlignment="Top" HorizontalAlignment="Right" Width="170"/>
             </Grid>
         </Border>
     </Grid>

@@ -276,7 +276,41 @@ namespace Do_an
 
         private void btnHoaDon_Click(object sender, RoutedEventArgs e)
         {
+            thanhmenu1 = "hoadon";
+            UC_HoaDon uC_HoaDon = new UC_HoaDon();
+            user.Content = uC_HoaDon;
 
+            btnTrangChu.BorderThickness = new Thickness(0);
+            btnTinhLuong.BorderThickness = new Thickness(0);
+            BitmapImage bitmap = new BitmapImage();
+            bitmap.BeginInit();
+            bitmap.UriSource = new Uri("/image/yeuthichtile.png", UriKind.RelativeOrAbsolute);
+            bitmap.EndInit();
+            imageTittle.Source = bitmap;
+            btnTrangChu.Background = null;
+            btnTinhLuong.Background = null;
+            btnHoaDon.Background = new SolidColorBrush(Color.FromRgb(136, 0, 204));
+            btnHoaDon.BorderThickness = new Thickness(2, 0, 0, 2);
+            btnNguoiMua.Background = null;
+            btnNguoiMua.BorderThickness = new Thickness(0);
+            btnNhanvien.Background = null;
+            btnNhanvien.BorderThickness = new Thickness(0);
+        }
+
+        private void btnTinhLuong_Click(object sender, RoutedEventArgs e)
+        {
+            UC_BangLuong uC_BangLuong = new UC_BangLuong();
+            user.Content = uC_BangLuong;
+            btnHoaDon.Background = null;
+            btnHoaDon.BorderThickness = new Thickness(0);
+            btnTrangChu.BorderThickness = new Thickness(0);
+            btnTinhLuong.BorderThickness = new Thickness(2, 0, 0, 2);
+            btnTrangChu.Background = null;
+            btnTinhLuong.Background = new SolidColorBrush(Color.FromRgb(136, 0, 204));
+            btnNguoiMua.Background = null;
+            btnNguoiMua.BorderThickness = new Thickness(0);
+            btnNhanvien.Background = null;
+            btnNhanvien.BorderThickness = new Thickness(0);
         }
     }
 }

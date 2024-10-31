@@ -47,7 +47,14 @@ namespace Do_an
 
         private void btnTimkiem_Click(object sender, RoutedEventArgs e)
         {
-
+            if(txttimkiem.Text.Length == 0) {
+                System.Windows.MessageBox.Show("Chưa nhập thông tin tìm kiếm");
+            }
+            else
+            {
+                NhanVien_DAO nhanVien_DAO = new NhanVien_DAO();
+                dg_NhanVien.ItemsSource = nhanVien_DAO.timKiemNhanVien(txttimkiem.Text).DefaultView;
+            }
         }
         private void Dg_NhanVien_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
