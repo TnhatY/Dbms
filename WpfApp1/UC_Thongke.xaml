@@ -15,29 +15,59 @@
         </Style>
     </UserControl.Resources>
     <Grid Background="#FFE2C7E6" Margin="0,0,-98,-106">
-        <!-- Thông tin tổng số sản phẩm -->
-        <Border Width="167" Height="89" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,10,0,0" CornerRadius="10" Background="#FFBE6ECA">
-            <Grid Margin="0,0,-59,0">
-                <Border Width="63" Height="89" VerticalAlignment="Center" HorizontalAlignment="Left" CornerRadius="0 10 10 90" Background="#FFAE51BC" Margin="104,0,0,0">
-                    <Image Source="/image/sp.png" Width="50" Margin="10 15 0 0" VerticalAlignment="Top"></Image>
-                </Border>
-                <TextBlock Text="Tổng số sản phẩm" Foreground="#FFF8F8F8" Margin="10 10 100 0" FontSize="12" TextWrapping="Wrap" FontWeight="Bold"></TextBlock>
-                <TextBlock x:Name="tongsanpham" Margin="10,50,105,5" FontSize="20" FontWeight="Bold" Foreground="White"></TextBlock>
-            </Grid>
-        </Border>
+         <!-- Thông tin tổng số sản phẩm -->
+ <Border Width="167" Height="89" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,10,0,0" CornerRadius="10" Background="#FFBE6ECA">
+     <Grid Margin="0,0,-59,0">
+         <Border Width="63" Height="89" VerticalAlignment="Center" HorizontalAlignment="Left" CornerRadius="0 10 10 90" Background="#FFAE51BC" Margin="104,0,0,0">
+             <Image Source="/image/sp.png" Width="50" Margin="10 15 0 0" VerticalAlignment="Top"></Image>
+         </Border>
+         <TextBlock Text="Tổng số sản phẩm" Foreground="#FFF8F8F8" Margin="10 10 100 0" FontSize="12" TextWrapping="Wrap" FontWeight="Bold"></TextBlock>
+         <TextBlock x:Name="tongsanpham" Margin="10,50,105,5" FontSize="20" FontWeight="Bold" Foreground="White"></TextBlock>
+     </Grid>
+ </Border>
 
-        <!-- Biểu đồ doanh thu -->
-        <Grid Height="367" VerticalAlignment="Top" Margin="44,140,106,0">
-            <lvc:CartesianChart Name="barChart" LegendLocation="Right" Margin="10,20,26,23">
-                <!-- Bạn có thể thêm các trục vào biểu đồ tại đây -->
-            </lvc:CartesianChart>
-            <TextBlock Text="Biểu đồ thống kê doanh thu" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="15" FontWeight="Bold" Margin="0,349,0,0" Height="20"/>
-        </Grid>
-        <DatePicker x:Name="dp1" SelectedDateChanged="dp1_SelectedDateChanged" HorizontalAlignment="Left" Margin="316,35,0,0" VerticalAlignment="Top"/>
-        <!--<ComboBox x:Name="cb" HorizontalAlignment="Left" Margin="449,38,0,0" VerticalAlignment="Top" Width="118" Opacity="0.7" Height="18" SelectionChanged="cb_SelectionChanged">
-            <ComboBoxItem Content="Doanh thu theo ngày"/>
-            <ComboBoxItem Content="Doanh thu theo tháng"/>
-            <ComboBoxItem Content="Doanh thu theo năm"/>
-        </ComboBox>-->
+ <!-- Biểu đồ doanh thu -->
+ <Grid Height="367" VerticalAlignment="Top" Margin="44,140,106,0">
+     <lvc:CartesianChart Name="barChart" LegendLocation="Right" Margin="10,20,26,23">
+         <!-- Bạn có thể thêm các trục vào biểu đồ tại đây -->
+     </lvc:CartesianChart>
+     <TextBlock Text="Biểu đồ thống kê doanh thu" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="15" FontWeight="Bold" Margin="0,349,0,0" Height="20"/>
+ </Grid>
+
+ <ComboBox x:Name="cb" HorizontalAlignment="Left" Margin="214,46,0,0" VerticalAlignment="Top" Width="150" Opacity="0.7" Height="18" SelectionChanged="cb_SelectionChanged" RenderTransformOrigin="0.5,0.5">
+     <ComboBox.RenderTransform>
+         <TransformGroup>
+             <ScaleTransform/>
+             <SkewTransform/>
+             <RotateTransform Angle="-0.157"/>
+             <TranslateTransform/>
+         </TransformGroup>
+     </ComboBox.RenderTransform>
+     <ComboBoxItem Content="Doanh thu theo ngày"/>
+     <ComboBoxItem Content="Doanh thu theo tháng"/>
+     <ComboBoxItem Content="Doanh thu theo năm"/>
+ </ComboBox>
+
+ <ComboBox x:Name="cb_month" Visibility="Collapsed"  SelectionChanged="cb_month_SelectionChanged"  HorizontalAlignment="Left" Margin="392,46,0,0" VerticalAlignment="Top" Width="108" Height="18">
+     <ComboBoxItem Content="1"/>
+     <ComboBoxItem Content="2"/>
+     <ComboBoxItem Content="3"/>
+     <ComboBoxItem Content="4"/>
+     <ComboBoxItem Content="5"/>
+     <ComboBoxItem Content="6"/>
+     <ComboBoxItem Content="7"/>
+     <ComboBoxItem Content="8"/>
+     <ComboBoxItem Content="9"/>
+     <ComboBoxItem Content="10"/>
+     <ComboBoxItem Content="11"/>
+     <ComboBoxItem Content="12"/>
+ </ComboBox>
+
+ <TextBox x:Name="txtYear" Visibility="Collapsed"  TextChanged="txtNam_TextChanged" HorizontalAlignment="Left" Margin="533,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70" Background="#FFAFDFFF"/>
+ 
+ <Label x:Name="lblOption"  Content="Lựa chọn thống kê" HorizontalAlignment="Left" Margin="207,15,0,0" VerticalAlignment="Top"/>
+ <Label x:Name="lblChonThang" Visibility="Collapsed" Content="Chọn tháng" HorizontalAlignment="Left" Margin="392,15,0,0" VerticalAlignment="Top"/>
+ <Label x:Name="lblChonNam" Visibility="Collapsed" Content="Chọn năm" HorizontalAlignment="Left" Margin="533,15,0,0" VerticalAlignment="Top"/>
+
     </Grid>
 </UserControl>
