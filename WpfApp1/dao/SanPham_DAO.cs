@@ -74,7 +74,7 @@ namespace Do_an.dao
                 using (SqlConnection conn = new SqlConnection(ConnectDB.connectionString))
                 {
                     conn.Open();
-                    using (SqlCommand cmd = new SqlCommand("sp_ThemSanPham", conn))
+                    using (SqlCommand cmd = new SqlCommand("proc_ThemSanPham", conn))
                     {
                         cmd.CommandType = CommandType.StoredProcedure;
 
@@ -130,7 +130,6 @@ namespace Do_an.dao
                 return null;
             }
         }
-
         public void xoaSanPham(string masp)
         {
             try
@@ -138,7 +137,7 @@ namespace Do_an.dao
                 using (SqlConnection conn = new SqlConnection(ConnectDB.connectionString))
                 {
                     conn.Open();
-                    using (SqlCommand cmd = new SqlCommand("sp_XoaSanPham", conn))
+                    using (SqlCommand cmd = new SqlCommand("proc_XoaSanPham", conn))
                     {
                         cmd.CommandType = CommandType.StoredProcedure;
 

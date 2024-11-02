@@ -13,11 +13,14 @@ using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
+
 using System.Data.SqlClient;
 using Do_an.config;
 using Do_an.dao;
+using System.Drawing;
+using System.Windows.Media;
+using Color = System.Windows.Media.Color;
+using System.Windows.Media.Imaging;
 
 namespace Do_an
 {
@@ -52,7 +55,7 @@ namespace Do_an
             bitmap.BeginInit();
             bitmap.UriSource = new Uri("/image/trangchu1.png", UriKind.RelativeOrAbsolute);
             bitmap.EndInit();
-         
+            imageTittle.Source = bitmap;
             UC_MuaSam uC_MuaSam = new UC_MuaSam();
             user.Content = uC_MuaSam;
             btnTinhLuong.Background = null;
@@ -64,6 +67,8 @@ namespace Do_an
             btnNhanvien.BorderThickness = new Thickness(0);
             btnHoaDon.Background = null;
             btnHoaDon.BorderThickness = new Thickness(0);
+            btnThongKe.Background = null;
+            btnThongKe.BorderThickness = new Thickness(0);
         }
         public static bool checkThemSp = false;
 
@@ -79,87 +84,8 @@ namespace Do_an
             Close();
         }
 
-        private void btnDaMua_Click(object sender, RoutedEventArgs e)  
-        {
-           
-            UC_DaMua uC_DaMua = new UC_DaMua();
-            user.Content = uC_DaMua;
-            
-            btnTrangChu.BorderThickness = new Thickness(0);
-          
-           
-           
-            BitmapImage bitmap = new BitmapImage();
-            bitmap.BeginInit();
-            bitmap.UriSource = new Uri("/image/spdamua.png", UriKind.RelativeOrAbsolute); 
-            bitmap.EndInit();
-           
-            btnTinhLuong.Background = null;
-            btnTinhLuong.BorderThickness = new Thickness(0);
-            btnNguoiMua.Background = null;
-            btnNguoiMua.BorderThickness = new Thickness(0);
-            btnNhanvien.Background = null;
-            btnNhanvien.BorderThickness = new Thickness(0);
-            btnHoaDon.Background = null;
-            btnHoaDon.BorderThickness = new Thickness(0);
-        }
-
-        public void btnGioHang_Click(object sender, RoutedEventArgs e)
-        {
-            //thanhmenu.IsChecked = true;
-
-            UC_DaMua uC_GioHang = new UC_DaMua();
-            uC_GioHang.tittle.Text = "Sản phẩm đã thêm vào giỏ";
-            user.Content = uC_GioHang;
-            
-            btnTrangChu.BorderThickness = new Thickness(0);
-           
-           
-
-            BitmapImage bitmap = new BitmapImage();
-            bitmap.BeginInit();
-            bitmap.UriSource = new Uri("/image/giohang1.png", UriKind.RelativeOrAbsolute);
-            bitmap.EndInit();
-            
-            btnTrangChu.Background = null;
-            
-            btnTinhLuong.Background = null;
-            btnTinhLuong.BorderThickness = new Thickness(0);
-            btnNguoiMua.Background = null;
-            btnNguoiMua.BorderThickness = new Thickness(0);
-            btnNhanvien.Background = null;
-            btnNhanvien.BorderThickness = new Thickness(0);
-            btnHoaDon.Background = null;
-            btnHoaDon.BorderThickness = new Thickness(0);
-        }
-
-        private void btnBanHang_Click(object sender, RoutedEventArgs e)
-        {
-            //thanhmenu.IsChecked = true;
-          
-
-          
-            btnTrangChu.BorderThickness = new Thickness(0);
-            // btnThongKe.BorderThickness = new Thickness(0);
-            
-            BitmapImage bitmap = new BitmapImage();
-            bitmap.BeginInit();
-            bitmap.UriSource = new Uri("/image/banhang.png", UriKind.RelativeOrAbsolute); 
-            bitmap.EndInit();
-           
-            btnTrangChu.Background = null;
-            btnTinhLuong.Background = null;
-            UC_DaMua uC_BanHang = new UC_DaMua();
-            uC_BanHang.tittle.Text = "Sản phẩm đang bán";
-            user.Content = uC_BanHang;
-            btnTinhLuong.BorderThickness = new Thickness(0);
-            btnNguoiMua.Background = null;
-            btnNguoiMua.BorderThickness = new Thickness(0);
-            btnNhanvien.Background = null;
-            btnNhanvien.BorderThickness = new Thickness(0);
-            btnHoaDon.Background = null;
-            btnHoaDon.BorderThickness = new Thickness(0);
-        }
+     
+     
         private void Them_Click(object sender, EventArgs e)
         {
            
@@ -209,24 +135,7 @@ namespace Do_an
             themSP_Window.Show();
         }
 
-        private void btnNguoiBan_Click(object sender, RoutedEventArgs e)
-        {
-            UC_QL_NguoiBan uC_QL_NguoiBan=new UC_QL_NguoiBan();
-            user.Content = uC_QL_NguoiBan;
-            btnTinhLuong.BorderThickness = new Thickness(0);
-            BitmapImage bitmap = new BitmapImage();
-            bitmap.BeginInit();
-            bitmap.UriSource = new Uri("/image/nguoiban.png", UriKind.RelativeOrAbsolute);
-            bitmap.EndInit();
-           
-            btnTinhLuong.Background = null;
-            btnHoaDon.Background = null;
-            btnHoaDon.BorderThickness = new Thickness(0);
-            btnNguoiMua.Background = null;
-            btnNguoiMua.BorderThickness = new Thickness(0);
-            btnNhanvien.Background = new SolidColorBrush(Color.FromRgb(136, 0, 204));
-            btnNhanvien.BorderThickness = new Thickness(2, 0, 0, 2);
-        }
+      
 
         private void btnNhanVien_Click(object sender, RoutedEventArgs e)
         {
@@ -236,9 +145,11 @@ namespace Do_an
             btnTinhLuong.BorderThickness = new Thickness(0);
             BitmapImage bitmap = new BitmapImage();
             bitmap.BeginInit();
-            bitmap.UriSource = new Uri("/image/nguoimua.png", UriKind.RelativeOrAbsolute);
+            bitmap.UriSource = new Uri("/image/nhanvien.png", UriKind.RelativeOrAbsolute);
             bitmap.EndInit();
-           
+            imageTittle.Source = bitmap;
+            btnThongKe.Background = null;
+            btnThongKe.BorderThickness = new Thickness(0);
             btnTinhLuong.Background = null;
             btnHoaDon.BorderThickness = new Thickness(0);
             btnTrangChu.Background = null;
@@ -257,34 +168,55 @@ namespace Do_an
             btnTinhLuong.BorderThickness = new Thickness(0);
             BitmapImage bitmap = new BitmapImage();
             bitmap.BeginInit();
-            bitmap.UriSource = new Uri("/image/nguoimua.png", UriKind.RelativeOrAbsolute);
+            bitmap.UriSource = new Uri("/image/khachhang.png", UriKind.RelativeOrAbsolute);
             bitmap.EndInit();
-            
+            imageTittle.Source = bitmap;
+            btnThongKe.Background = null;
+            btnThongKe.BorderThickness = new Thickness(0);
+
             btnTinhLuong.Background = null;
             btnHoaDon.BorderThickness = new Thickness(0);
             btnNhanvien.Background = null;
             btnNhanvien.BorderThickness = new Thickness(0);
-            btnNguoiMua.Background = new SolidColorBrush(Color.FromRgb(136, 0, 204));
+            btnNguoiMua.Background = new SolidColorBrush(System.Windows.Media.Color.FromRgb(136, 0, 204));
             btnNguoiMua.BorderThickness = new Thickness(2, 0, 0, 2);
         }
 
 		private void btnThongKe_Click(object sender, RoutedEventArgs e)
 		{
 			UC_Thongke uC_Background = new UC_Thongke();
-			user.Content = uC_Background;			
-		}
+			user.Content = uC_Background;
+            btnThongKe.Background = new SolidColorBrush(Color.FromRgb(136, 0, 204));
+            btnThongKe.BorderThickness = new Thickness(2, 0, 0, 2);
+            btnHoaDon.Background = null;
+            btnHoaDon.BorderThickness = new Thickness(0);
+            btnTrangChu.BorderThickness = new Thickness(0);
+            btnTinhLuong.BorderThickness = new Thickness(0);
+            btnTrangChu.Background = null;
+            btnTinhLuong.Background = null;
+            btnNguoiMua.Background = null;
+            btnNguoiMua.BorderThickness = new Thickness(0);
+            btnNhanvien.Background = null;
+            btnNhanvien.BorderThickness = new Thickness(0);
+            BitmapImage bitmap = new BitmapImage();
+            bitmap.BeginInit();
+            bitmap.UriSource = new Uri("/image/thongke1.png", UriKind.RelativeOrAbsolute);
+            bitmap.EndInit();
+            imageTittle.Source = bitmap;
+        }
 
         private void btnHoaDon_Click(object sender, RoutedEventArgs e)
         {
             thanhmenu1 = "hoadon";
             UC_HoaDon uC_HoaDon = new UC_HoaDon();
             user.Content = uC_HoaDon;
-
+            btnThongKe.Background = null;
+            btnThongKe.BorderThickness = new Thickness(0);
             btnTrangChu.BorderThickness = new Thickness(0);
             btnTinhLuong.BorderThickness = new Thickness(0);
             BitmapImage bitmap = new BitmapImage();
             bitmap.BeginInit();
-            bitmap.UriSource = new Uri("/image/yeuthichtile.png", UriKind.RelativeOrAbsolute);
+            bitmap.UriSource = new Uri("/image/hoadon.png", UriKind.RelativeOrAbsolute);
             bitmap.EndInit();
             imageTittle.Source = bitmap;
             btnTrangChu.Background = null;
@@ -311,6 +243,13 @@ namespace Do_an
             btnNguoiMua.BorderThickness = new Thickness(0);
             btnNhanvien.Background = null;
             btnNhanvien.BorderThickness = new Thickness(0);
+            BitmapImage bitmap = new BitmapImage();
+            bitmap.BeginInit();
+            bitmap.UriSource = new Uri("/image/tinhluong.png", UriKind.RelativeOrAbsolute);
+            bitmap.EndInit();
+            imageTittle.Source = bitmap;
+            btnThongKe.Background = null;
+            btnThongKe.BorderThickness = new Thickness(0);
         }
     }
 }

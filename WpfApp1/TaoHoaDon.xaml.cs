@@ -71,13 +71,14 @@ namespace Do_an
             try
             {
                 XuatHoaDon(txtMahd.Text, ngayGioHienTai, txtMakh.Text, txtManv.Text, float.Parse(txtTrigiahd.Text));
-                string sql = "INSERT INTO ChiTietHoaDon (MaSP, MaHD) VALUES (@masp, @mahd)";
+                string sql = "INSERT INTO ChiTietHoaDon (MaSP, MaHD,SoLuong) VALUES (@masp, @mahd,@soluong)";
                 using (SqlConnection conn = new SqlConnection(ConnectDB.connectionString))
                 {
                     conn.Open();
                     SqlCommand command = new SqlCommand(sql, conn);
                     command.Parameters.AddWithValue("@masp", masp.Text);
                     command.Parameters.AddWithValue("@mahd", txtMahd.Text);
+                    command.Parameters.AddWithValue("@soluong", 1);
                     command.ExecuteNonQuery();
                 }
 

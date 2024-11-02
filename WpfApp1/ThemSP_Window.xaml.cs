@@ -88,7 +88,7 @@ namespace Do_an
                 using (SqlConnection conn = new SqlConnection(ConnectDB.connectionString))
                 {
                     conn.Open();
-                    using (SqlCommand cmd = new SqlCommand("sp_ThemSanPham", conn))
+                    using (SqlCommand cmd = new SqlCommand("proc_ThemSanPham", conn))
                     {
                         cmd.CommandType = CommandType.StoredProcedure;
 
@@ -114,8 +114,24 @@ namespace Do_an
                             MessageBox.Show("Không thể thêm sản phẩm.");
                         }
                     }
+                    using (SqlCommand cmd = new SqlCommand("INSERT INTO KhoHang (MaSP, SoLuong) VALUES (@MaSP, @SoLuong)", conn))
+                    {
+                        cmd.Parameters.AddWithValue("@MaSP", txtMaSP.Text);
+                        cmd.Parameters.AddWithValue("@SoLuong", 10);
+
+                        int rowsAffected = cmd.ExecuteNonQuery();
+
+                        if (rowsAffected > 0)
+                        {
+                           // MessageBox.Show("Thêm sản phẩm thành công.");
+                            Close();
+                        }
+                       
+                    }
+
                 }
-            }catch (Exception ex)
+            }
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
@@ -128,7 +144,7 @@ namespace Do_an
                 using (SqlConnection conn = new SqlConnection(ConnectDB.connectionString))
                 {
                     conn.Open();
-                    using (SqlCommand cmd = new SqlCommand("sp_CapNhatSanPham", conn))
+                    using (SqlCommand cmd = new SqlCommand("proc_CapNhatSanPham", conn))
                     {
                         cmd.CommandType = CommandType.StoredProcedure;
                         cmd.Parameters.AddWithValue("@maloai", cbDanhMuc.Text);
@@ -154,9 +170,17 @@ namespace Do_an
                 }
                 Close();
             }
-            catch (Exception ex)
+            catch (SqlException ex)
             {
-                MessageBox.Show(ex.Message);
+                if (ex.Number == 229)
+                {
+                    MessageBox.Show("Bạn không có quyền truy cập");
+                }
+                else
+                {
+                    // Hiển thị thông báo lỗi khác nếu không phải lỗi quyền
+                    MessageBox.Show("Có lỗi xảy ra: " + ex.Message);
+                }
             }
 
 

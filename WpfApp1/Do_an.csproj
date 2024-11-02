@@ -136,12 +136,14 @@
     <None Remove="image\giohang1.png" />
     <None Remove="image\hinhnen.png" />
     <None Remove="image\hinhnen2.png" />
+    <None Remove="image\hoadon.png" />
     <None Remove="image\home-2.png" />
     <None Remove="image\home.png" />
     <None Remove="image\Home1.png" />
     <None Remove="image\h_thongke.png" />
     <None Remove="image\iphone.jpg" />
     <None Remove="image\ket.png" />
+    <None Remove="image\khachhang.png" />
     <None Remove="image\laptop.jpg" />
     <None Remove="image\lich.png" />
     <None Remove="image\location.png" />
@@ -169,6 +171,7 @@
     <None Remove="image\nguoiban1.png" />
     <None Remove="image\nguoimua.png" />
     <None Remove="image\nguoimua1.png" />
+    <None Remove="image\nhanvien.png" />
     <None Remove="image\noitro.jpg" />
     <None Remove="image\Online.png" />
     <None Remove="image\order.png" />
@@ -190,6 +193,8 @@
     <None Remove="image\thoitrang.png" />
     <None Remove="image\thoitrang1.png" />
     <None Remove="image\thongke.png" />
+    <None Remove="image\thongke1.png" />
+    <None Remove="image\tinhluong.png" />
     <None Remove="image\title.png" />
     <None Remove="image\tivi.jpg" />
     <None Remove="image\tk1.png" />
@@ -321,6 +326,8 @@
     <Resource Include="image\bell2.png" />
     <Resource Include="image\giamgia.png" />
     <Resource Include="image\giamgia1.png" />
+    <Resource Include="image\hoadon.png" />
+    <Resource Include="image\khachhang.png" />
     <Resource Include="image\lich.png" />
     <Resource Include="image\location.png" />
     <Resource Include="image\location1.png" />
@@ -337,7 +344,9 @@
     <Resource Include="image\nguoiban1.png" />
     <Resource Include="image\nguoimua.png" />
     <Resource Include="image\nguoimua1.png" />
+    <Resource Include="image\nhanvien.png" />
     <Resource Include="image\sp.png" />
+    <Resource Include="image\thongke1.png" />
     <Resource Include="image\tk1.png" />
     <Resource Include="image\user12.png" />
   </ItemGroup>
@@ -454,6 +463,10 @@
     <Resource Include="image\yeuthich01.png" />
     <Resource Include="image\yeuthich2.png" />
     <Resource Include="image\yeuthichtile.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="image\tinhluong.png" />
   </ItemGroup>
 
   <ItemGroup>

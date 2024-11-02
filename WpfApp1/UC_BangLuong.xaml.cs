@@ -40,7 +40,12 @@ namespace Do_an
             int thang = int.Parse(cbThang.Text);
             int nam = int.Parse(cbNam.Text);
             NhanVien_DAO nhanVien_DAO = new NhanVien_DAO();
-            dataGridBangLuong.ItemsSource = nhanVien_DAO.tinhLuongNV(nam,thang).DefaultView;
+
+            if(nhanVien_DAO.tinhLuongNV(nam, thang)!=null )
+            {
+                dataGridBangLuong.ItemsSource = nhanVien_DAO.tinhLuongNV(nam, thang).DefaultView;
+            }
+            
         }
     }
 }

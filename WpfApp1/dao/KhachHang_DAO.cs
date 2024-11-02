@@ -34,7 +34,7 @@ namespace Do_an.dao
            
             SqlConnection connection = ConnectDB.getconnection();
             connection.Open();
-            SqlCommand command = new SqlCommand("ThemKhachHang", connection);
+            SqlCommand command = new SqlCommand("proc_ThemKhachHang", connection);
             command.CommandType = CommandType.StoredProcedure;
 
             command.Parameters.AddWithValue("@MaKH", maKH);

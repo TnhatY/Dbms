@@ -12,8 +12,17 @@ namespace Do_an.config
     {
         public static SqlDataAdapter adapter;
         public static SqlCommand cmd;
-        public static string connectionString = @"Data Source=localhost;Initial Catalog=CUA_HANG_DO_CU;User ID=sa;Password=123456;Encrypt=True;TrustServerCertificate=True";
+        public static string username = "sa";
+        public static string password ="123456";
+       // public static string connectionString = $@"Data Source=localhost;Initial Catalog=CUA_HANG_DO_CU;User ID={username};Password={password};Encrypt=True;TrustServerCertificate=True";
 
+        public static string connectionString
+        {
+            get
+            {
+                return $@"Data Source=localhost;Initial Catalog=CUA_HANG_DO_CU;User ID={username};Password={password};Encrypt=True;TrustServerCertificate=True";
+            }
+        }
 
         public static SqlConnection getconnection()
         {

@@ -38,7 +38,7 @@ namespace Do_an.dao
                 {
                     conn.Open();
 
-                    using (SqlCommand cmd = new SqlCommand("sp_TinhLuongNhanVien", conn))
+                    using (SqlCommand cmd = new SqlCommand("proc_TinhLuongNhanVien", conn))
                     {
                         cmd.CommandType = CommandType.StoredProcedure;
                         cmd.Parameters.AddWithValue("@Thang", thang);
@@ -51,9 +51,16 @@ namespace Do_an.dao
                     }
                 }
             }
-            catch (Exception ex)
+            catch (SqlException ex)
             {
-                MessageBox.Show("Có lỗi xảy ra: " + ex.Message);
+                if (ex.Number == 229)
+                {
+                    MessageBox.Show("Bạn không có quyền truy cập");
+                }
+                else
+                {
+                    MessageBox.Show("Có lỗi xảy ra: " + ex.Message);
+                }
                 return null;
             }
 
@@ -65,7 +72,7 @@ namespace Do_an.dao
                 try
                 {
                     conn.Open();
-                    using (SqlCommand cmd = new SqlCommand("TimKiemNhanVien", conn))
+                    using (SqlCommand cmd = new SqlCommand("proc_TimKiemNhanVien", conn))
                     {
                         cmd.CommandType = CommandType.StoredProcedure;
                         cmd.Parameters.AddWithValue("@MaNV", keyword);
@@ -118,42 +125,7 @@ namespace Do_an.dao
             return rs;  
         }
 
-        //public List<UC_NhanVien> timkiemNhanVien(string keyword)
-        //{
-        //    List<UC_NhanVien> listnv = new List<UC_NhanVien>();
-        //    using (SqlConnection conn = new SqlConnection(ConnectDB.connectionString))
-        //    {
-        //        try
-        //        {
-        //            conn.Open();
-        //            using (SqlCommand cmd = new SqlCommand("TimKiemNhanVien", conn))
-        //            {
-        //                cmd.CommandType = CommandType.StoredProcedure;
-        //                cmd.Parameters.AddWithValue("@MaNV", keyword);
-        //                cmd.Parameters.AddWithValue("@TenNV", keyword);
-        //                using (SqlDataReader reader = cmd.ExecuteReader())
-        //                {
-        //                    while (reader.Read())
-        //                    {
-        //                        UC_NhanVien uC_NhanVien = new UC_NhanVien();
-        //                        uC_NhanVien.tennv.Text = reader["TenNV"].ToString();
-        //                        uC_NhanVien.manv.Text = reader["MaNV"].ToString();
-        //                        uC_NhanVien.sdt.Text = reader["SoDT"].ToString();
-        //                        uC_NhanVien.diachi.Text = reader["DiaChi"].ToString();
-        //                        listnv.Add(uC_NhanVien);
-        //                    }
-        //                }
-        //            }
-        //            return listnv;
-        //        }
-        //        catch (Exception ex)
-        //        {
-        //            MessageBox.Show(ex.Message);
-        //            return null;
-        //        }
-        //    }
-
-        //}
+      
 
         public bool ThemNhanVien(string id, string ho, string ten, string diaChi, string sdt, string gt, DateTime ngaySinh, string maCV)
         {
@@ -161,7 +133,7 @@ namespace Do_an.dao
             
             try
             {
-                SqlCommand cmd = new SqlCommand("EXEC ThemNhanVien @manv, @honv, @tennv, @diachi," +
+                SqlCommand cmd = new SqlCommand("EXEC proc_ThemNhanVien @manv, @honv, @tennv, @diachi," +
                     " @sodt, @gioitinh, @ngaysinh, @macv", connection);
 
                 cmd.Parameters.AddWithValue("@manv", id);
@@ -173,23 +145,23 @@ namespace Do_an.dao
                 cmd.Parameters.Add("@ngaysinh", SqlDbType.Date).Value = ngaySinh;
                 cmd.Parameters.AddWithValue("@macv", maCV);
                 connection.Open();
-                try
-                {
+               
                     cmd.ExecuteNonQuery();
                     MessageBox.Show("Thêm nhân viên thành công!");
-                    return true;
+                    connection.Close();
+                return true;
 
+            }
+            catch (SqlException ex)
+            {
+                if (ex.Number == 229)
+                {
+                    MessageBox.Show("Bạn không có quyền truy cập");
                 }
-                catch (SqlException ex)
+                else
                 {
                     MessageBox.Show("Có lỗi xảy ra: " + ex.Message);
-                    connection.Close();
-                    return false;
-
                 }
-            }
-            catch
-            {
                 connection.Close();
                 return false;
             }
@@ -204,7 +176,7 @@ namespace Do_an.dao
                     "Remove Employee", (MessageBoxButton)MessageBoxButtons.YesNo, (MessageBoxImage)MessageBoxIcon.Question);
                 if (result == DialogResult.Yes)
                 {
-                    SqlCommand cmd = new SqlCommand("EXEC XoaNhanVien @manv", connection);
+                    SqlCommand cmd = new SqlCommand("EXEC proc_XoaNhanVien @manv", connection);
                     cmd.Parameters.AddWithValue("@manv", ID);
                     connection.Open();
                     if (cmd.ExecuteNonQuery() != 0)
@@ -223,10 +195,18 @@ namespace Do_an.dao
                     }
                 }
             }
-            catch (Exception ex)
+            catch (SqlException ex)
             {
-                MessageBox.Show("Xóa nhân viên thất bại! \n" + ex.Message, "Remove Employee", (MessageBoxButton)MessageBoxButtons.OK,
-                    (MessageBoxImage)MessageBoxIcon.Error);
+                if (ex.Number == 229)
+                {
+                    MessageBox.Show("Bạn không có quyền truy cập");
+                }
+                else
+                {
+                    MessageBox.Show("Xóa nhân viên thất bại! \n" + ex.Message, "Remove Employee", (MessageBoxButton)MessageBoxButtons.OK,
+                   (MessageBoxImage)MessageBoxIcon.Error);
+                }
+               
             }
         }
 
@@ -236,7 +216,7 @@ namespace Do_an.dao
            
             try
             {
-                SqlCommand cmd = new SqlCommand("EXEC SuaNhanVien @manv, @honv, @tennv, @diachi, @sodt, @gioitinh, @ngaysinh, @macv", connection);
+                SqlCommand cmd = new SqlCommand("EXEC proc_SuaNhanVien @manv, @honv, @tennv, @diachi, @sodt, @gioitinh, @ngaysinh, @macv", connection);
 
 
                 cmd.Parameters.AddWithValue("@manv", id);
@@ -256,8 +236,16 @@ namespace Do_an.dao
                     
                 
             }
-            catch
+            catch(SqlException ex)
             {
+                if (ex.Number == 229)
+                {
+                    MessageBox.Show("Bạn không có quyền truy cập");
+                }
+                else
+                {
+                    MessageBox.Show("Có lỗi xảy ra: " + ex.Message);
+                }
                 connection.Close();
                 return false;
             }
@@ -274,9 +262,16 @@ namespace Do_an.dao
                 command.ExecuteNonQuery();
                 conn.Close();
             }
-            catch (Exception ex)
+            catch (SqlException ex)
             {
-                MessageBox.Show(ex.Message);
+                if (ex.Number == 229)
+                {
+                    MessageBox.Show("Bạn không có quyền truy cập");
+                }
+                else
+                {
+                    MessageBox.Show("Có lỗi xảy ra: " + ex.Message);
+                }
             }
         }
         public void xoa_CalamViec(String manv, String maclv)
@@ -290,9 +285,16 @@ namespace Do_an.dao
                 command.ExecuteNonQuery();
                 conn.Close();
             }
-            catch (Exception ex)
+            catch (SqlException ex)
             {
-                MessageBox.Show(ex.Message);
+                if (ex.Number == 229)
+                {
+                    MessageBox.Show("Bạn không có quyền truy cập");
+                }
+                else
+                {
+                    MessageBox.Show("Có lỗi xảy ra: " + ex.Message);
+                }
             }
         }
         
