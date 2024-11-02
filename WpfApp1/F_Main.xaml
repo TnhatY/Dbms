@@ -575,24 +575,6 @@
                                 <TextBlock Text="Trang Chủ"  Padding="0,0,40,0" VerticalAlignment="Center" HorizontalAlignment="Right" FontSize="14" FontWeight="Bold" Foreground="#FFDDDDDD" ></TextBlock>
                             </Grid>
                         </Button>
-                        <Button Style="{DynamicResource ButtonStyle3}" x:Name="btnDaMua" Margin="0,10,0,0" Height="40" Width="130" Background="Transparent" Click="btnDaMua_Click" BorderBrush="#FFFCFBFB" BorderThickness="0,0,0,0" >
-                            <Grid Width="150">
-                                <Image Source="/image/order.png" Margin="10,0,0,0" HorizontalAlignment="Left" Width="22"></Image>
-                                <TextBlock Text="Đơn Hàng" Padding="0,0,40,0" VerticalAlignment="Center" HorizontalAlignment="Right"  FontSize="14" FontWeight="Bold" Foreground="#FFDDDDDD" ></TextBlock>
-                            </Grid>
-                        </Button>
-                        <Button Style="{DynamicResource ButtonStyle3}" x:Name="btnGioHang"  Height="40" Width="130" Margin="0,10,0,0" Background="Transparent" BorderThickness="0,0,0,0" Click="btnGioHang_Click" BorderBrush="#FFFCF8F8">
-                            <Grid Width="150">
-                                <Image Source="/image/cart.png" Margin="10,0,0,0" HorizontalAlignment="Left" Width="22"></Image>
-                                <TextBlock Text="Giỏ Hàng" Padding="0,0,45,0" VerticalAlignment="Center" HorizontalAlignment="Right" FontSize="14" FontWeight="Bold" Foreground="#FFDDDDDD" ></TextBlock>
-                            </Grid>
-                        </Button>
-                        <Button x:Name="btnBanHang"  Style="{DynamicResource ButtonStyle3}"  Height="40" Width="130" Margin="0,10,0,0" Background="Transparent" BorderThickness="0,0,0,0" BorderBrush="#FFFCF8F8" Click="btnBanHang_Click" >
-                            <Grid Width="150">
-                                <Image Source="/image/market2.png" Margin="10,0,0,0" HorizontalAlignment="Left" Width="22"></Image>
-                                <TextBlock Text="Bán Hàng" Padding="0,0,45,0" VerticalAlignment="Center" HorizontalAlignment="Right" FontSize="14" FontWeight="Bold" Foreground="#FFDDDDDD" ></TextBlock>
-                            </Grid>
-                        </Button>
                         <Button x:Name="btnHoaDon"  Style="{DynamicResource ButtonStyle3}"  Height="40" Width="130" Margin="0,10,0,0" Background="Transparent" BorderThickness="0,0,0,0" BorderBrush="#FFFCF8F8" Click="btnHoaDon_Click" >
                             <Grid Width="150">
                                 <Image Source="/image/yeuthich2.png" Margin="10,0,0,0" HorizontalAlignment="Left" Width="22"></Image>
