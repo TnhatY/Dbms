@@ -1,4 +1,4 @@
-﻿using Do_an.dao;
+using Do_an.dao;
 using LiveCharts;
 using LiveCharts.Defaults;
 using LiveCharts.Wpf;
@@ -21,138 +21,139 @@ namespace Do_an
 	public partial class UC_Thongke : UserControl
 	{
 		HoaDon_DAO hoaDonDao = new HoaDon_DAO();
+		
 
+		public UC_Thongke()
+		{
+			InitializeComponent();
+		}
 
-public UC_Thongke()
-{
-	InitializeComponent();
-}
+		private void cb_SelectionChanged(object sender, SelectionChangedEventArgs e)
+		{
 
-private void UserControl_Loaded(object sender, RoutedEventArgs e)
-{
+			ComboBoxItem? selectedItem = cb.SelectedItem as ComboBoxItem;
+			string? content = selectedItem?.Content.ToString();
+			
+			cb_thang.Visibility = Visibility.Collapsed;
+			cb_nam.Visibility = Visibility.Collapsed;
 
-	LoadChartBySelection();
-}
+			if (content == "Doanh thu theo ngày")
+			{
+				lblChonThang.Visibility = Visibility.Visible;
+				lblChonNam.Visibility = Visibility.Visible;
+				cb_thang.Visibility = Visibility.Visible;
+				cb_nam.Visibility = Visibility.Visible; 
+			}
+			else if (content == "Doanh thu theo tháng")
+			{
+				lblChonThang.Visibility = Visibility.Collapsed;
+				lblChonNam.Visibility = Visibility.Visible;
+				cb_nam.Visibility = Visibility.Visible; 
+			}
+			else if (content == "Doanh thu theo năm")
+			{
+				lblChonThang.Visibility = Visibility.Collapsed;
+				lblChonNam.Visibility = Visibility.Collapsed;
+				//LoadChartData("Nam", null, null); 
+			}
+			//LoadChartBySelection();
+		}
 
-private void cb_SelectionChanged(object sender, SelectionChangedEventArgs e)
-{
-	LoadChartBySelection();
-	ComboBoxItem? selectedItem = cb.SelectedItem as ComboBoxItem;
-	string? content = selectedItem?.Content.ToString();
+		private void cb_thang_SelectionChanged(object sender, SelectionChangedEventArgs e)
+		{
+			//LoadChartBySelection();
+		}
 
-	// Reset visibility of other controls
-	cb_month.Visibility = Visibility.Collapsed;
-	txtYear.Visibility = Visibility.Collapsed;
+		private void LoadChartData(string type, int? month, int? year)
+		{
+			HoaDon_DAO hoaDonDao = new HoaDon_DAO();
+			DataTable? data = null;
+			if (type == "Ngay" && month.HasValue && year.HasValue)
+			{
+				data = hoaDonDao.layDoanhThu("Ngay" ,month.Value, year.Value);
+			}
+			else if (type == "Thang" && year.HasValue)
+			{
+				data = hoaDonDao.layDoanhThu("Thang", null, year.Value);
+			}
+			else if (type == "Nam")
+			{
+				data = hoaDonDao.layDoanhThu("Nam", null, null);
+			}
 
-	if (content == "Doanh thu theo ngày")
-	{
-		lblChonThang.Visibility = Visibility.Visible;
-		lblChonNam.Visibility = Visibility.Visible;
-		cb_month.Visibility = Visibility.Visible; 
-		txtYear.Visibility = Visibility.Visible; 
-	}
-	else if (content == "Doanh thu theo tháng")
-	{
-		lblChonThang.Visibility = Visibility.Collapsed;
-		lblChonNam.Visibility = Visibility.Visible;
-		txtYear.Visibility = Visibility.Visible; 
-	}
-	else if (content == "Doanh thu theo năm")
-	{
-		lblChonThang.Visibility = Visibility.Collapsed;
-		lblChonNam.Visibility = Visibility.Collapsed;
-		LoadChartData("Nam", null, null); 
-	}
-}
+			if (data == null)
+			{
+				MessageBox.Show("Không có dữ liệu cho khoảng thời gian đã chọn.");
+				return;
+			}
 
-private void cb_month_SelectionChanged(object sender, SelectionChangedEventArgs e)
-{
-	LoadChartBySelection();
-}
+			LineSeries doanhThuSeries = new LineSeries
+			{
+				Title = $"Doanh thu theo {type}",
+				Values = new ChartValues<float>()
+			};
 
-private void txtNam_TextChanged(object sender, TextChangedEventArgs e)
-{
-	if (txtYear.Text.Length == 4)
-	{
-		LoadChartBySelection();
-	}
-}
+			List<string> labels = new List<string>();
+			foreach (DataRow row in data.Rows)
+			{
+				string? label = type == "Ngay" ? row["Ngay"].ToString() : type == "Thang" ? row["Thang"].ToString() : row["Nam"].ToString();
+				float doanhThu = Convert.ToSingle(row["DoanhThu"]);
+				doanhThuSeries.Values.Add(doanhThu);
+				labels.Add(label);
+			}
 
-private void LoadChartData(string type, int? month, int? year)
-{
-	HoaDon_DAO hoaDonDao = new HoaDon_DAO();
-	DataTable? data = null;
-	if (type == "Ngay" && month.HasValue && year.HasValue)
-	{
-		data = hoaDonDao.layDoanhThu("Ngay" ,month.Value, year.Value);
-	}
-	else if (type == "Thang" && year.HasValue)
-	{
-		data = hoaDonDao.layDoanhThu("Thang", null, year.Value);
-	}
-	else if (type == "Nam")
-	{
-		data = hoaDonDao.layDoanhThu("Nam", null, null);
-	}
+			barChart.Series.Clear();
+			barChart.Series.Add(doanhThuSeries);
 
-	if (data == null)
-	{
-		MessageBox.Show("Không có dữ liệu cho khoảng thời gian đã chọn.");
-		return;
-	}
+			barChart.AxisX.Clear();
+			barChart.AxisX.Add(new Axis
+			{
+				Title = type == "Ngay" ? "Ngày" : type == "Thang" ? "Tháng" : "Năm",
+				Labels = labels
+			});
 
-	LineSeries doanhThuSeries = new LineSeries
-	{
-		Title = $"Doanh thu theo {type}",
-		Values = new ChartValues<float>()
-	};
+			barChart.AxisY.Clear();
+			barChart.AxisY.Add(new Axis
+			{
+				Title = "Doanh thu (VND)",
+				LabelFormatter = value => value.ToString("N0")
+			});
+		}
 
-	List<string> labels = new List<string>();
-	foreach (DataRow row in data.Rows)
-	{
-		string? label = type == "Ngay" ? row["Ngay"].ToString() : type == "Thang" ? row["Thang"].ToString() : row["Nam"].ToString();
-		float doanhThu = Convert.ToSingle(row["DoanhThu"]);
-		doanhThuSeries.Values.Add(doanhThu);
-		labels.Add(label);
-	}
+		private void LoadChartBySelection()
+		{
+			ComboBoxItem? selectedItem = cb.SelectedItem as ComboBoxItem;
+			string? content = selectedItem?.Content.ToString();
 
-	barChart.Series.Clear();
-	barChart.Series.Add(doanhThuSeries);
+			if (content == "Doanh thu theo ngày" && cb_thang.SelectedItem != null && cb_nam.SelectedItem != null)
+			{
+				ComboBoxItem? selectedMonth = cb_thang.SelectedItem as ComboBoxItem;
+				ComboBoxItem? selectedYear = cb_nam.SelectedItem as ComboBoxItem;
 
-	barChart.AxisX.Clear();
-	barChart.AxisX.Add(new Axis
-	{
-		Title = type == "Ngay" ? "Ngày" : type == "Thang" ? "Tháng" : "Năm",
-		Labels = labels
-	});
+				if (int.TryParse(selectedMonth?.Content.ToString(), out int month) &&
+					int.TryParse(selectedYear?.Content.ToString(), out int year))
+				{
+					LoadChartData("Ngay", month, year);
+				}
+			}
+			else if (content == "Doanh thu theo tháng" && cb_nam.SelectedItem != null)
+			{
+				ComboBoxItem? selectedYear = cb_nam.SelectedItem as ComboBoxItem;
 
-	barChart.AxisY.Clear();
-	barChart.AxisY.Add(new Axis
-	{
-		Title = "Doanh thu (VND)",
-		LabelFormatter = value => value.ToString("N0")
-	});
-}
+				if (int.TryParse(selectedYear?.Content.ToString(), out int year))
+				{
+					LoadChartData("Thang", null, year);
+				}
+			}
+			else if (content == "Doanh thu theo năm")
+			{
+				LoadChartData("Nam", null, null);
+			}			
+		}
 
-private void LoadChartBySelection()
-{
-	ComboBoxItem? selectedItem = cb.SelectedItem as ComboBoxItem;
-	string? content = selectedItem?.Content.ToString();
-
-	if (content == "Doanh thu theo ngày" && cb_month.SelectedItem != null && int.TryParse(txtYear.Text, out int year))
-	{
-		ComboBoxItem? selectedMonth = cb_month.SelectedItem as ComboBoxItem;
-		int month = int.Parse(selectedMonth.Content.ToString());
-		LoadChartData("Ngay", month, year);
-	}
-	else if (content == "Doanh thu theo tháng" && int.TryParse(txtYear.Text, out year))
-	{
-		LoadChartData("Thang", null, year);
-	}
-	else if (content == "Doanh thu theo năm")
-	{
-		LoadChartData("Nam", null, null);
-	}			
-}		
+		private void btnThongKe_Click(object sender, RoutedEventArgs e)
+		{
+			LoadChartBySelection();
+		}
 	}
 }
