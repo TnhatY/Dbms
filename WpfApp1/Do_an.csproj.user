@@ -106,10 +106,16 @@
     <Compile Update="UC_SuaNhanVien.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="UC_TaiKhoan.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="UC_ThemKhachHang.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="UC_ThemNhanVien.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UC_ThemTaiKhoan.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="UC_Thongke.xaml.cs">
@@ -228,10 +234,16 @@
     <Page Update="UC_SuaNhanVien.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="UC_TaiKhoan.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="UC_ThemKhachHang.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UC_ThemNhanVien.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UC_ThemTaiKhoan.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UC_Thongke.xaml">

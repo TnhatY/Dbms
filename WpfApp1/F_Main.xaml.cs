@@ -69,6 +69,8 @@ namespace Do_an
             btnHoaDon.BorderThickness = new Thickness(0);
             btnThongKe.Background = null;
             btnThongKe.BorderThickness = new Thickness(0);
+            btnTaiKhoan.Background = null;
+            btnTaiKhoan.BorderThickness = new Thickness(0);
         }
         public static bool checkThemSp = false;
 
@@ -158,6 +160,8 @@ namespace Do_an
             btnNguoiMua.BorderThickness = new Thickness(0);
             btnNhanvien.Background = new SolidColorBrush(Color.FromRgb(136, 0, 204));
             btnNhanvien.BorderThickness = new Thickness(2, 0, 0, 2);
+            btnTaiKhoan.Background = null;
+            btnTaiKhoan.BorderThickness = new Thickness(0);
         }
 
         private void btnNguoiMua_Click(object sender, RoutedEventArgs e)
@@ -180,6 +184,8 @@ namespace Do_an
             btnNhanvien.BorderThickness = new Thickness(0);
             btnNguoiMua.Background = new SolidColorBrush(System.Windows.Media.Color.FromRgb(136, 0, 204));
             btnNguoiMua.BorderThickness = new Thickness(2, 0, 0, 2);
+            btnTaiKhoan.Background = null;
+            btnTaiKhoan.BorderThickness = new Thickness(0);
         }
 
 		private void btnThongKe_Click(object sender, RoutedEventArgs e)
@@ -203,6 +209,8 @@ namespace Do_an
             bitmap.UriSource = new Uri("/image/thongke1.png", UriKind.RelativeOrAbsolute);
             bitmap.EndInit();
             imageTittle.Source = bitmap;
+            btnTaiKhoan.Background = null;
+            btnTaiKhoan.BorderThickness = new Thickness(0);
         }
 
         private void btnHoaDon_Click(object sender, RoutedEventArgs e)
@@ -227,6 +235,8 @@ namespace Do_an
             btnNguoiMua.BorderThickness = new Thickness(0);
             btnNhanvien.Background = null;
             btnNhanvien.BorderThickness = new Thickness(0);
+            btnTaiKhoan.Background = null;
+            btnTaiKhoan.BorderThickness = new Thickness(0);
         }
 
         private void btnTinhLuong_Click(object sender, RoutedEventArgs e)
@@ -250,6 +260,33 @@ namespace Do_an
             imageTittle.Source = bitmap;
             btnThongKe.Background = null;
             btnThongKe.BorderThickness = new Thickness(0);
+            btnTaiKhoan.Background = null;
+            btnTaiKhoan.BorderThickness = new Thickness(0);
+        }
+
+        private void btnTaiKhoan_Click(object sender, RoutedEventArgs e)
+        {
+            UC_TaiKhoan uC_TaiKhoan = new UC_TaiKhoan();
+            user.Content = uC_TaiKhoan;
+            btnHoaDon.Background = null;
+            btnHoaDon.BorderThickness = new Thickness(0);
+            btnTrangChu.BorderThickness = new Thickness(0);
+            btnTinhLuong.BorderThickness = new Thickness(0);
+            btnTrangChu.Background = null;
+            btnTinhLuong.Background = null;
+            btnNguoiMua.Background = null;
+            btnNguoiMua.BorderThickness = new Thickness(0);
+            btnNhanvien.Background = null;
+            btnNhanvien.BorderThickness = new Thickness(0);
+            BitmapImage bitmap = new BitmapImage();
+            bitmap.BeginInit();
+            bitmap.UriSource = new Uri("/image/taikhoan.png", UriKind.RelativeOrAbsolute);
+            bitmap.EndInit();
+            imageTittle.Source = bitmap;
+            btnThongKe.Background = null;
+            btnThongKe.BorderThickness = new Thickness(0);
+            btnTaiKhoan.Background = new SolidColorBrush(Color.FromRgb(136, 0, 204));
+            btnTaiKhoan.BorderThickness=new Thickness(2, 0, 0, 2);
         }
     }
 }

@@ -149,17 +149,20 @@ namespace Do_an.dao
                         {
                             MessageBox.Show("Xoá sản phẩm thành công");
                         }
-                        else
-                        {
-                            MessageBox.Show("Xoá không thành công");
-                        }
                     }
                     conn.Close();
                 }
             }
-            catch (Exception ex)
+            catch (SqlException ex)
             {
-                MessageBox.Show(ex.Message);
+                if (ex.Number == 229)
+                {
+                    MessageBox.Show("Bạn không có quyền truy cập");
+                }   
+                else
+                {
+                    MessageBox.Show("Có lỗi xảy ra: " + ex.Message);
+                }
             }
         }
     }

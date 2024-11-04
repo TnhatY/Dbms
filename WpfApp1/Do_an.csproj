@@ -102,6 +102,7 @@
     <None Remove="image\banghe.jpg" />
     <None Remove="image\banhang.png" />
     <None Remove="image\bell2.png" />
+    <None Remove="image\bill.png" />
     <None Remove="image\buy.png" />
     <None Remove="image\buy2.png" />
     <None Remove="image\buy3.png" />
@@ -187,6 +188,7 @@
     <None Remove="image\shutdown2.png" />
     <None Remove="image\sp.png" />
     <None Remove="image\spdamua.png" />
+    <None Remove="image\taikhoan.png" />
     <None Remove="image\th.jpg" />
     <None Remove="image\thethao.png" />
     <None Remove="image\thethao1.png" />
@@ -226,14 +228,12 @@
     <None Remove="image\x.png" />
     <None Remove="image\xanh.PNG" />
     <None Remove="image\xeco3.png" />
-    <None Remove="image\xedap.jpeg" />
-    <None Remove="image\xemay.jpeg" />
-    <None Remove="image\xuatfile.png" />
-    <None Remove="image\xuatfile2.png" />
-    <None Remove="image\xx.png" />
-    <None Remove="image\yeuthich01.png" />
     <None Remove="image\yeuthich2.png" />
-    <None Remove="image\yeuthichtile.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="image\bill.png" />
+    <Resource Include="image\taikhoan.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -323,7 +323,6 @@
     <Resource Include="HinhAnhSP\xedap01.jpg" />
     <Resource Include="HinhAnhSP\xedap02.jpg" />
     <Resource Include="HinhAnhSP\xedap03.jpg" />
-    <Resource Include="image\bell2.png" />
     <Resource Include="image\giamgia.png" />
     <Resource Include="image\giamgia1.png" />
     <Resource Include="image\hoadon.png" />
@@ -332,7 +331,6 @@
     <Resource Include="image\location.png" />
     <Resource Include="image\location1.png" />
     <Resource Include="image\location2.png" />
-    <Resource Include="image\macb.jpg" />
     <Resource Include="image\money.png" />
     <Resource Include="image\mua1.png" />
   </ItemGroup>
@@ -348,7 +346,6 @@
     <Resource Include="image\sp.png" />
     <Resource Include="image\thongke1.png" />
     <Resource Include="image\tk1.png" />
-    <Resource Include="image\user12.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -366,9 +363,7 @@
     <Resource Include="image\admin.png" />
     <Resource Include="image\admin2.png" />
     <Resource Include="image\back.png" />
-    <Resource Include="image\banghe.jpg" />
     <Resource Include="image\banhang.png" />
-    <Resource Include="image\buy2.png" />
     <Resource Include="image\caidat.png" />
     <Resource Include="image\caidat2.png" />
     <Resource Include="image\caidat3.png" />
@@ -384,18 +379,14 @@
     <Resource Include="image\dienthoai2.png" />
     <Resource Include="image\dientu.jpg" />
     <Resource Include="image\dodientu1.png" />
-    <Resource Include="image\dongho.jpg" />
     <Resource Include="image\edit.png" />
     <Resource Include="image\eye.png" />
     <Resource Include="image\fire.png" />
     <Resource Include="image\giadung.png" />
     <Resource Include="image\giadung1.png" />
-    <Resource Include="image\giaydabanh.jpg" />
     <Resource Include="image\giohang.png" />
     <Resource Include="image\giohang1.png" />
     <Resource Include="image\h_thongke.png" />
-    <Resource Include="image\iphone.jpg" />
-    <Resource Include="image\laptop.jpg" />
     <Resource Include="image\logoUser.png" />
     <Resource Include="image\logout.png" />
     <Resource Include="image\market2.png" />
@@ -403,8 +394,6 @@
 
   <ItemGroup>
     <Resource Include="image\home.png" />
-    <Resource Include="image\mayanh.jpg" />
-    <Resource Include="image\maytinhban.jpg" />
     <Resource Include="image\menu.png" />
     <Resource Include="image\menu2.png" />
     <Resource Include="image\nenDangNhap.jpg" />
@@ -414,13 +403,10 @@
     <Resource Include="image\order.png" />
     <Resource Include="image\oto.jpeg" />
     <Resource Include="image\price.png" />
-    <Resource Include="image\save.png" />
-    <Resource Include="image\search.png" />
     <Resource Include="image\search2.png" />
     <Resource Include="image\setting.png" />
     <Resource Include="image\shutdown2.png" />
     <Resource Include="image\spdamua.png" />
-    <Resource Include="image\th.jpg" />
     <Resource Include="image\thethao.png" />
     <Resource Include="image\thethao1.png" />
     <Resource Include="image\thoitrang.png" />
@@ -429,44 +415,25 @@
     <Resource Include="image\tivi.jpg" />
     <Resource Include="image\top.png" />
     <Resource Include="image\trangchu.png" />
-    <Resource Include="image\trash.png" />
     <Resource Include="image\uneye.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="image\trangchu1.png" />
     <Resource Include="image\uploadImage.png" />
-    <Resource Include="image\user11.png" />
-    <Resource Include="image\user13.png" />
     <Resource Include="image\user14.png" />
     <Resource Include="image\user2.png" />
     <Resource Include="image\user3.png" />
     <Resource Include="image\user4.png" />
-    <Resource Include="image\user5.png" />
-    <Resource Include="image\user6.png" />
-    <Resource Include="image\user7.png" />
-    <Resource Include="image\user8.png" />
-    <Resource Include="image\user9.png" />
     <Resource Include="image\userT.png" />
-    <Resource Include="image\vc.png" />
-    <Resource Include="image\votcaulong.jpg" />
-    <Resource Include="image\voucher.png" />
-    <Resource Include="image\voucher1.png" />
     <Resource Include="image\x.png" />
     <Resource Include="image\xanh.PNG" />
     <Resource Include="image\xeco3.png" />
-    <Resource Include="image\xedap.jpeg" />
-    <Resource Include="image\xemay.jpeg" />
-    <Resource Include="image\xuatfile.png" />
-    <Resource Include="image\xuatfile2.png" />
-    <Resource Include="image\xx.png" />
-    <Resource Include="image\yeuthich01.png" />
-    <Resource Include="image\yeuthich2.png" />
-    <Resource Include="image\yeuthichtile.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="image\tinhluong.png" />
+    <Resource Include="image\yeuthich2.png" />
   </ItemGroup>
 
   <ItemGroup>

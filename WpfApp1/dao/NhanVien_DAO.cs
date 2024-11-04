@@ -218,7 +218,6 @@ namespace Do_an.dao
             {
                 SqlCommand cmd = new SqlCommand("EXEC proc_SuaNhanVien @manv, @honv, @tennv, @diachi, @sodt, @gioitinh, @ngaysinh, @macv", connection);
 
-
                 cmd.Parameters.AddWithValue("@manv", id);
                 cmd.Parameters.AddWithValue("@honv", ho);
                 cmd.Parameters.AddWithValue("@tennv", ten);

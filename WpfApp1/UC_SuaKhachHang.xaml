@@ -59,7 +59,7 @@
                     Background="#FF96C8D9"
                     
                     FontWeight="Bold"
-                    Click="btnSua_Click"
+                    
                     BorderThickness="0"
                     Cursor="Hand"/>
         </StackPanel>

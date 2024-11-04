@@ -1250,3 +1250,9 @@ D:\Deadline\DBMS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\UC_HoaDon.baml
 D:\Deadline\DBMS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\UC_SuaNhanVien.baml
 D:\Deadline\DBMS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\UC_ThemNhanVien.baml
 D:\Deadline\DBMS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\UC_XemChiTietNhanVien.baml
+D:\Deadline\DBMS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\UC_TaiKhoan.g.cs
+D:\Deadline\DBMS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\UC_TaiKhoan.baml
+D:\Deadline\DBMS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\UC_ThemTaiKhoan.g.cs
+D:\Deadline\DBMS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\UC_ThemTaiKhoan.baml
+D:\Deadline\DBMS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\UC_SuaKhachHang.g.cs
+D:\Deadline\DBMS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\UC_SuaKhachHang.baml

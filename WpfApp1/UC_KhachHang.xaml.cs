@@ -57,7 +57,7 @@ namespace Do_an
 			else
 			{				
 				KhachHang_DAO khachHang_DAO = new KhachHang_DAO();
-				dg_khachhang.ItemsSource = khachHang_DAO.KhachHang_SDT(txtsdt.Text).DefaultView;
+				dg_khachhang.ItemsSource = khachHang_DAO.TimKiemKhachHang(txtsdt.Text).DefaultView;
 			}
 		}
 		string ID;
@@ -87,8 +87,8 @@ namespace Do_an
 
 		private void suaKH_click(object sender, RoutedEventArgs e)
 		{
-			UC_SuaKhachHang uC_SuaKhachHang = new UC_SuaKhachHang(ID);
-			uC_SuaKhachHang.ShowDialog();
+			//UC_SuaKhachHang uC_SuaKhachHang = new UC_SuaKhachHang(ID);
+			//uC_SuaKhachHang.ShowDialog();
 		}	
 	}
 }
