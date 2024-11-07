@@ -154,6 +154,7 @@ namespace Do_an
             btnThongKe.BorderThickness = new Thickness(0);
             btnTinhLuong.Background = null;
             btnHoaDon.BorderThickness = new Thickness(0);
+            btnHoaDon.Background = null;
             btnTrangChu.Background = null;
             btnTrangChu.BorderThickness = new Thickness(0);
             btnNguoiMua.Background = null;

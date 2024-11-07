@@ -181,6 +181,7 @@
     <None Remove="image\save.png" />
     <None Remove="image\search.png" />
     <None Remove="image\search2.png" />
+    <None Remove="image\search3.png" />
     <None Remove="image\setting.png" />
     <None Remove="image\shoping.png" />
     <None Remove="image\shopping.png" />
@@ -228,11 +229,13 @@
     <None Remove="image\x.png" />
     <None Remove="image\xanh.PNG" />
     <None Remove="image\xeco3.png" />
+    <None Remove="image\xx.png" />
     <None Remove="image\yeuthich2.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="image\bill.png" />
+    <Resource Include="image\search3.png" />
     <Resource Include="image\taikhoan.png" />
   </ItemGroup>
 
@@ -433,6 +436,7 @@
 
   <ItemGroup>
     <Resource Include="image\tinhluong.png" />
+    <Resource Include="image\xx.png" />
     <Resource Include="image\yeuthich2.png" />
   </ItemGroup>
 
@@ -442,7 +446,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
-    <Compile Update="UC_NhanVien.xaml.cs">
+    <Compile Update="UC_NhanVien\UC_NhanVien.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

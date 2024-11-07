@@ -7,252 +7,144 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="DanhGiaSp_Window.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="F_Main.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="LyDoHuyDon_WD.xaml.cs">
+    <Compile Update="UC_HoaDon\TaoHoaDon.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="PhieuGiamGia.xaml.cs">
+    <Compile Update="UC_SanPham\ThanhToan_Window.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="TaoHoaDon.xaml.cs">
+    <Compile Update="UC_NhanVien\ThemCaLam_Window.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="ThanhToan_Window.xaml.cs">
+    <Compile Update="UC_SanPham\ThemSP_Window.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="ThemCaLam_Window.xaml.cs">
+    <Compile Update="UC_SanPham\ThongTin_Window.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="ThemSP_Window.xaml.cs">
+    <Compile Update="UC_NhanVien\UC_BangLuong.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="ThemVoucher.xaml.cs">
+    <Compile Update="UC_NhanVien\UC_BangPhanCa.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="ThongTin_Window.xaml.cs">
+    <Compile Update="UC_NhanVien\UC_ConfigAutoPhanca.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="TongPhieuGiam.xaml.cs">
+    <Compile Update="UC_NhanVien\UC_DanhSachCaLam.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="TopBan_Window.xaml.cs">
+    <Compile Update="UC_HoaDon\UC_HoaDon.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="TopSanPham_Window.xaml.cs">
+    <Compile Update="UC_KhachHang\UC_KhachHang.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="UC_BangLuong.xaml.cs">
+    <Compile Update="UC_SanPham\UC_MuaSam.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="UC_BangPhanCa.xaml.cs">
+    <Compile Update="UC_NhanVien\UC_NhanVien.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="UC_CaiDat.xaml.cs">
+    <Compile Update="UC_SanPham\UC_SanPham.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="UC_ConfigAutoPhanca.xaml.cs">
+    <Compile Update="UC_SanPham\UC_SP_ThanhToan.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="UC_DaMua.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="UC_DanhGia.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="UC_DanhSachCaLam.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="UC_gioHang.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="UC_HoaDon.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="UC_KhachHang.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="UC_MuaSam.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="UC_NguoiBan.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="UC_NhanVien.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="UC_QL_NguoiBan.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="UC_SanPham.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="UC_SpBan.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="UC_SpGioHang.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="UC_SP_DaMua.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="UC_SP_ThanhToan.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="UC_SuaNhanVien.xaml.cs">
+    <Compile Update="UC_NhanVien\UC_SuaNhanVien.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="UC_TaiKhoan.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="UC_ThemKhachHang.xaml.cs">
+    <Compile Update="UC_KhachHang\UC_ThemKhachHang.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="UC_ThemNhanVien.xaml.cs">
+    <Compile Update="UC_NhanVien\UC_ThemNhanVien.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="UC_ThemTaiKhoan.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="UC_Thongke.xaml.cs">
+    <Compile Update="UC_HoaDon\UC_Thongke.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="UC_TopTimKiem.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="UC_XemChiTietNhanVien.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="XemDanhGia_Window.xaml.cs">
+    <Compile Update="UC_NhanVien\UC_XemChiTietNhanVien.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="DanhGiaSp_Window.xaml">
-      <SubType>Designer</SubType>
-    </Page>
     <Page Update="F_Main.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="LyDoHuyDon_WD.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="PhieuGiamGia.xaml">
+    <Page Update="UC_HoaDon\TaoHoaDon.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="TaoHoaDon.xaml">
+    <Page Update="UC_SanPham\ThanhToan_Window.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="ThanhToan_Window.xaml">
+    <Page Update="UC_NhanVien\ThemCaLam_Window.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="ThemCaLam_Window.xaml">
+    <Page Update="UC_SanPham\ThemSP_Window.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="ThemSP_Window.xaml">
+    <Page Update="UC_SanPham\ThongTin_Window.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="ThemVoucher.xaml">
+    <Page Update="UC_NhanVien\UC_BangLuong.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="ThongTin_Window.xaml">
+    <Page Update="UC_NhanVien\UC_BangPhanCa.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="TongPhieuGiam.xaml">
+    <Page Update="UC_NhanVien\UC_ConfigAutoPhanca.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="TopBan_Window.xaml">
+    <Page Update="UC_NhanVien\UC_DanhSachCaLam.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="TopSanPham_Window.xaml">
+    <Page Update="UC_HoaDon\UC_HoaDon.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="UC_BangLuong.xaml">
+    <Page Update="UC_KhachHang\UC_KhachHang.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="UC_BangPhanCa.xaml">
+    <Page Update="UC_SanPham\UC_MuaSam.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="UC_CaiDat.xaml">
+    <Page Update="UC_NhanVien\UC_NhanVien.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="UC_ConfigAutoPhanca.xaml">
+    <Page Update="UC_SanPham\UC_SanPham.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="UC_DaMua.xaml">
+    <Page Update="UC_SanPham\UC_SP_ThanhToan.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="UC_DanhGia.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="UC_DanhSachCaLam.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="UC_gioHang.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="UC_HoaDon.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="UC_KhachHang.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="UC_MuaSam.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="UC_NguoiBan.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="UC_NhanVien.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="UC_QL_NguoiBan.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="UC_SanPham.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="UC_SpBan.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="UC_SpGioHang.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="UC_SP_DaMua.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="UC_SP_ThanhToan.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="UC_SuaNhanVien.xaml">
+    <Page Update="UC_NhanVien\UC_SuaNhanVien.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UC_TaiKhoan.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="UC_ThemKhachHang.xaml">
+    <Page Update="UC_KhachHang\UC_ThemKhachHang.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="UC_ThemNhanVien.xaml">
+    <Page Update="UC_NhanVien\UC_ThemNhanVien.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UC_ThemTaiKhoan.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="UC_Thongke.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="UC_TopTimKiem.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="XemDanhGia_Window.xaml">
+    <Page Update="UC_HoaDon\UC_Thongke.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

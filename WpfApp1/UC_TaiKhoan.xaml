@@ -189,9 +189,9 @@
                         SelectionChanged="dg_TaiKhoan_SelectionChanged"
                         SelectedItem="dg_TaiKhoan_SelectedItem"
                         RowHeight="40" Margin="0,50,0,0"
-                          >
+                        GridLinesVisibility="None" FontSize="15"  >
                     <DataGrid.Columns>
-                        <DataGridTextColumn Header="Tên Đăng nhập" Binding="{Binding TenDangNhap}" Width="100"/>
+                        <DataGridTextColumn Header="Tên Đăng nhập" Binding="{Binding TenDangNhap}" Width="150"/>
                         <DataGridTextColumn Header="Mật Khẩu" Binding="{Binding MatKhau}" Width="150"/>
                         <DataGridTextColumn Header="Mã Nhân Viên" Binding="{Binding MaNV}" Width="150"/>
                         <DataGridTextColumn Header="Tên Nhân Viên" Binding="{Binding TenNV}" Width="150"/>

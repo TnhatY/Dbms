@@ -677,7 +677,7 @@
                                    HorizontalAlignment="Left"
                                    Margin="10,0,0,0" BorderThickness="0,0,0,0" BorderBrush="Black" FontSize="16" Background="{x:Null}"/>
                                 <Button  Style="{DynamicResource ButtonStyle6}" x:Name="timkiem" Width="38" Height="38" HorizontalAlignment="Right" Margin="0,0,0,0" Background="Transparent" BorderBrush="{x:Null}" Click="timkiem_Click">
-                                    <Image Source="/image/search.png" Width="25" />
+                                    <Image Source="/image/search3.png" Width="25" />
 
                                 </Button>
 

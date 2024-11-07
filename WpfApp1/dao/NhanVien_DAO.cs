@@ -33,7 +33,6 @@ namespace Do_an.dao
         {
             try
             {
-
                 using (SqlConnection conn = new SqlConnection(ConnectDB.connectionString))
                 {
                     conn.Open();
