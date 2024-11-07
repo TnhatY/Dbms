@@ -8,20 +8,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid Background="#FF854F8F">
-        <DataGrid x:Name="TimetableDataGrid" AutoGenerateColumns="False" HeadersVisibility="Column"
-                  CanUserAddRows="False" CanUserResizeColumns="True" Margin="0,59,0,0">
-            <DataGrid.Columns>
-                <DataGridTextColumn Header="Ca Làm" Binding="{Binding CaLam}" Width="100"/>
-                <DataGridTextColumn Header="Thứ 2" Binding="{Binding Thu2}" Width="100"/>
-                <DataGridTextColumn Header="Thứ 3" Binding="{Binding Thu3}" Width="100"/>
-                <DataGridTextColumn Header="Thứ 4" Binding="{Binding Thu4}" Width="100"/>
-                <DataGridTextColumn Header="Thứ 5" Binding="{Binding Thu5}" Width="100"/>
-                <DataGridTextColumn Header="Thứ 6" Binding="{Binding Thu6}" Width="100"/>
-                <DataGridTextColumn Header="Thứ 7" Binding="{Binding Thu7}" Width="100"/>
-                <DataGridTextColumn Header="Chủ Nhật" Binding="{Binding ChuNhat}" Width="100"/>
-            </DataGrid.Columns>
-        
-        </DataGrid>
-        <Button Name="btn_phancatudong" Content="Phân ca tự động" HorizontalAlignment="Left" Margin="640,6,0,0" VerticalAlignment="Top" Height="44" Width="122" Click="btn_phancatudong_Click"/>
+        <Button Name="btn_phancatudong" Content="Phân ca tự động" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="44" Width="122" Click="btn_phancatudong_Click"/>
+        <DataGrid Name="datagrid" Loaded="load_datagrid" Margin="0,59,0,0"/>
     </Grid>
 </UserControl>
