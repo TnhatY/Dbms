@@ -1,4 +1,5 @@
 ﻿using Do_an.dao;
+using DocumentFormat.OpenXml.Wordprocessing;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,9 +29,9 @@ namespace Do_an
 
         void load_combobox()
         {
-            cbb_maclv.Items.Add("clv1");
-            cbb_maclv.Items.Add("clv2");
-            cbb_maclv.Items.Add("clv3");
+            cbb_maclv.Items.Add("ca 1");
+            cbb_maclv.Items.Add("ca 2");
+            cbb_maclv.Items.Add("ca 3");
 
         }
         public String manv;
@@ -46,8 +47,8 @@ namespace Do_an
                     String year = selectedDate.Year.ToString();
                     String month = selectedDate.Month.ToString();
                     String day = selectedDate.Day.ToString();
-                    String yymmdd = year + month + day;
-                    caLam.them_CaLamViec(manv, cbb_maclv.Text, yymmdd);
+                    string dateString = $"{year}-{month}-{day}";
+                    caLam.them_CaLamViec(manv, cbb_maclv.Text, dateString);
                     MessageBox.Show("Thêm ca làm việc thành công");
                     this.Close();
                 }
