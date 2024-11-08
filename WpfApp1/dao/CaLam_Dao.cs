@@ -100,7 +100,6 @@ namespace Do_an.dao
             try
             {
                 SqlCommand cmd = new SqlCommand(sql, ConnectDB.getconnection());
-
                 SqlDataAdapter da = new SqlDataAdapter(cmd);
                 da.Fill(dt);
                 return dt;
@@ -110,7 +109,7 @@ namespace Do_an.dao
                 MessageBox.Show(ex.ToString());
                 return null;
             }
-                }
+        }
         public void auto_phanca(int numstaffpershift, Dictionary<String, Dictionary<String, List<String>>> staff_off, Dictionary<String, List<String>> shop_off, Dictionary<String, int> socatoida)
         {
             // typ listNhanvienkhonglam
