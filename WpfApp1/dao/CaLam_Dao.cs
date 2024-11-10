@@ -37,9 +37,10 @@ namespace Do_an.dao
             }
             
         }
-        public void xoa_CalamViec(String manv, String maclv)
+        public void xoa_CalamViec(String manv, String maclv, String ngaylam)
         {
-            String sqlStr = $"exec xoa_calamviec {manv},  {maclv} ";
+            String sqlStr = $"exec proc_XoaPhanCa '{manv}',  '{maclv}', '{ngaylam}' ";
+            
             try
             {
                 SqlConnection conn = ConnectDB.getconnection();
@@ -77,7 +78,9 @@ namespace Do_an.dao
 
        public void them_CaLamViec(String manv, String maclv, String ngaylam)
         {
-            String sqlStr = $"exec them_calamviec '{manv}',  '{maclv}', '{ngaylam}'";
+            
+            String sqlStr = $"exec proc_PhanCa '{manv}',  '{maclv}', '{ngaylam}'";
+            
             try
             {
                 SqlConnection conn = ConnectDB.getconnection();

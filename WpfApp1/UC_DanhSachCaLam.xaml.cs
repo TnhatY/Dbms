@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -65,8 +66,15 @@ namespace Do_an
                     {
                         // Lấy giá trị của cột "maclv" từ dòng được chọn
                         String maclv = selectedRow["MaCLV"].ToString();
+                        String ngaylam = selectedRow["NgayLam"].ToString();
 
-                        calam.xoa_CalamViec(manv, maclv);
+                        // Chuyển chuỗi ngày thành DateTime
+                        DateTime date = DateTime.ParseExact(ngaylam, "dd/MM/yyyy HH:mm:ss", CultureInfo.InvariantCulture);
+
+                        // Định dạng lại DateTime thành chuỗi với định dạng "yyyy-MM-dd"
+                        string formattedDateString = date.ToString("yyyy-MM-dd");
+
+                        calam.xoa_CalamViec(manv, maclv, formattedDateString);
                         this.load(sender, e);   
                     }
                 }

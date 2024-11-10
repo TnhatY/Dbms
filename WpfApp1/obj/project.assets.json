@@ -2992,11 +2992,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\Do_an.csproj",
+      "projectUniqueName": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\Backup\\CuoiKy\\Dbms\\WpfApp1\\Do_an.csproj",
       "projectName": "Do_an",
-      "projectPath": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\Do_an.csproj",
+      "projectPath": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\Backup\\CuoiKy\\Dbms\\WpfApp1\\Do_an.csproj",
       "packagesPath": "C:\\Users\\DoanQ\\.nuget\\packages\\",
-      "outputPath": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\obj\\",
+      "outputPath": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\Backup\\CuoiKy\\Dbms\\WpfApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DoanQ\\AppData\\Roaming\\NuGet\\NuGet.Config",

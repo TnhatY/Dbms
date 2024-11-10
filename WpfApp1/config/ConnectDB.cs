@@ -12,8 +12,7 @@ namespace Do_an.config
     {
         public static SqlDataAdapter adapter;
         public static SqlCommand cmd;
-        public static string connectionString = @"Data Source=DONQANGLAM;Initial Catalog=CUA_HANG_DO_CU;Integrated Security=True;";
-
+        public static string connectionString = @"Data Source=DONQANGLAM;Initial Catalog=CUA_HANG_DO_CU;Integrated Security=True;Connect Timeout=30;Encrypt=False;";
 
         public static SqlConnection getconnection()
         {

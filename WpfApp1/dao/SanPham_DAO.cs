@@ -22,7 +22,7 @@ namespace Do_an.dao
 
         public DataTable XemDanhMucSanPham()
         {
-            SqlCommand cmd = new SqlCommand("SELECT * FROM DanhSachSanPham ", ConnectDB.getconnection());
+            SqlCommand cmd = new SqlCommand("SELECT * FROM DanhMucSanPham", ConnectDB.getconnection());
             SqlDataAdapter adapter = new SqlDataAdapter(cmd);
             DataTable dataTable = new DataTable();
             adapter.Fill(dataTable);
