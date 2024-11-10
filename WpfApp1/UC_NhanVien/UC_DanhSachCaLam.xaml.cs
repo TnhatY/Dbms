@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -64,9 +65,22 @@ namespace Do_an
                     if (dg_danhsachcalam.SelectedItem is DataRowView selectedRow)
                     {
                         // Lấy giá trị của cột "maclv" từ dòng được chọn
+<<<<<<< Updated upstream:WpfApp1/UC_NhanVien/UC_DanhSachCaLam.xaml.cs
                         string maclv = selectedRow["MaCLV"].ToString();
                         string ngaylam = selectedRow["NgayLam"].ToString();
                         calam.xoa_CalamViec(manv, maclv,ngaylam);
+=======
+                        String maclv = selectedRow["MaCLV"].ToString();
+                        String ngaylam = selectedRow["NgayLam"].ToString();
+
+                        // Chuyển chuỗi ngày thành DateTime
+                        DateTime date = DateTime.ParseExact(ngaylam, "dd/MM/yyyy HH:mm:ss", CultureInfo.InvariantCulture);
+
+                        // Định dạng lại DateTime thành chuỗi với định dạng "yyyy-MM-dd"
+                        string formattedDateString = date.ToString("yyyy-MM-dd");
+
+                        calam.xoa_CalamViec(manv, maclv, formattedDateString);
+>>>>>>> Stashed changes:WpfApp1/UC_DanhSachCaLam.xaml.cs
                         this.load(sender, e);   
                     }
                 }

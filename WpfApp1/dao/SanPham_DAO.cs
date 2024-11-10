@@ -22,7 +22,11 @@ namespace Do_an.dao
 
         public DataTable XemDanhMucSanPham()
         {
+<<<<<<< Updated upstream
             SqlCommand cmd = new SqlCommand("SELECT * FROM DanhMucSanPham ", ConnectDB.getconnection());
+=======
+            SqlCommand cmd = new SqlCommand("SELECT * FROM DanhMucSanPham", ConnectDB.getconnection());
+>>>>>>> Stashed changes
             SqlDataAdapter adapter = new SqlDataAdapter(cmd);
             DataTable dataTable = new DataTable();
             adapter.Fill(dataTable);

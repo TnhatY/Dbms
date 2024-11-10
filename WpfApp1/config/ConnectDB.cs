@@ -12,6 +12,7 @@ namespace Do_an.config
     {
         public static SqlDataAdapter adapter;
         public static SqlCommand cmd;
+<<<<<<< Updated upstream
         public static string username = "sa";
         public static string password ="123456";
        // public static string connectionString = $@"Data Source=localhost;Initial Catalog=CUA_HANG_DO_CU;User ID={username};Password={password};Encrypt=True;TrustServerCertificate=True";
@@ -23,6 +24,9 @@ namespace Do_an.config
                 return $@"Data Source=localhost;Initial Catalog=CUA_HANG_DO_CU;User ID={username};Password={password};Encrypt=True;TrustServerCertificate=True";
             }
         }
+=======
+        public static string connectionString = @"Data Source=DONQANGLAM;Initial Catalog=CUA_HANG_DO_CU;Integrated Security=True;Connect Timeout=30;Encrypt=False;";
+>>>>>>> Stashed changes
 
         public static SqlConnection getconnection()
         {

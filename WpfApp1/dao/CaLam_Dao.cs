@@ -37,9 +37,16 @@ namespace Do_an.dao
             }
             
         }
+<<<<<<< Updated upstream
         public void xoa_CalamViec(string manv, string maclv,string ngaylam)
         {
             string sqlStr = $"exec proc_XoaPhanCa {manv},  {maclv},{ngaylam}";
+=======
+        public void xoa_CalamViec(String manv, String maclv, String ngaylam)
+        {
+            String sqlStr = $"exec proc_XoaPhanCa '{manv}',  '{maclv}', '{ngaylam}' ";
+            MessageBox.Show(sqlStr);
+>>>>>>> Stashed changes
             try
             {
                 SqlConnection conn = ConnectDB.getconnection();
@@ -64,7 +71,13 @@ namespace Do_an.dao
 
        public void them_CaLamViec(string manv, string maclv, string ngaylam)
         {
+<<<<<<< Updated upstream
             string sqlStr = $"exec them_calamviec '{manv}',  '{maclv}', '{ngaylam}'";
+=======
+            
+            String sqlStr = $"exec proc_PhanCa '{manv}',  '{maclv}', '{ngaylam}'";
+            
+>>>>>>> Stashed changes
             try
             {
                 SqlConnection conn = ConnectDB.getconnection();

@@ -175,7 +175,11 @@ namespace Do_an {
         /// InitializeComponent
         /// </summary>
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+<<<<<<< Updated upstream:WpfApp1/obj/Debug/net6.0-windows/UC_SanPham/ThongTin_Window.g.cs
         [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "7.0.10.0")]
+=======
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "8.0.8.0")]
+>>>>>>> Stashed changes:WpfApp1/obj/Debug/net6.0-windows/ThongTin_Window.g.cs
         public void InitializeComponent() {
             if (_contentLoaded) {
                 return;
@@ -191,7 +195,11 @@ namespace Do_an {
         }
         
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+<<<<<<< Updated upstream:WpfApp1/obj/Debug/net6.0-windows/UC_SanPham/ThongTin_Window.g.cs
         [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "7.0.10.0")]
+=======
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "8.0.8.0")]
+>>>>>>> Stashed changes:WpfApp1/obj/Debug/net6.0-windows/ThongTin_Window.g.cs
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Design", "CA1033:InterfaceMethodsShouldBeCallableByChildTypes")]
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Maintainability", "CA1502:AvoidExcessiveComplexity")]

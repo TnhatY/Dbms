@@ -1,5 +1,6 @@
 ﻿
 
+<<<<<<< Updated upstream
 FD:\Deadline\DBMS\Do_An_CK\WpfApp1\F_Main.xaml;;
 FD:\Deadline\DBMS\Do_An_CK\WpfApp1\MainWindow.xaml;;
 FD:\Deadline\DBMS\Do_An_CK\WpfApp1\UC_TaiKhoan.xaml;;
@@ -25,4 +26,46 @@ FD:\Deadline\DBMS\Do_An_CK\WpfApp1\UC_SanPham\ThongTin_Window.xaml;;
 FD:\Deadline\DBMS\Do_An_CK\WpfApp1\UC_SanPham\UC_MuaSam.xaml;;
 FD:\Deadline\DBMS\Do_An_CK\WpfApp1\UC_SanPham\UC_SanPham.xaml;;
 FD:\Deadline\DBMS\Do_An_CK\WpfApp1\UC_SanPham\UC_SP_ThanhToan.xaml;;
+=======
+FD:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\DanhGiaSp_Window.xaml;;
+FD:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\F_Main.xaml;;
+FD:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\LyDoHuyDon_WD.xaml;;
+FD:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\MainWindow.xaml;;
+FD:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\PhieuGiamGia.xaml;;
+FD:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\TaoHoaDon.xaml;;
+FD:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\ThanhToan_Window.xaml;;
+FD:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\ThemCaLam_Window.xaml;;
+FD:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\ThemSP_Window.xaml;;
+FD:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\ThemVoucher.xaml;;
+FD:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\ThongTin_Window.xaml;;
+FD:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\TongPhieuGiam.xaml;;
+FD:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\TopBan_Window.xaml;;
+FD:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\TopSanPham_Window.xaml;;
+FD:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\UC_BangLuong.xaml;;
+FD:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\UC_BangPhanCa.xaml;;
+FD:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\UC_CaiDat.xaml;;
+FD:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\UC_ConfigAutoPhanca.xaml;;
+FD:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\UC_DaMua.xaml;;
+FD:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\UC_DanhGia.xaml;;
+FD:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\UC_DanhSachCaLam.xaml;;
+FD:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\UC_gioHang.xaml;;
+FD:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\UC_HoaDon.xaml;;
+FD:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\UC_KhachHang.xaml;;
+FD:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\UC_MuaSam.xaml;;
+FD:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\UC_NguoiBan.xaml;;
+FD:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\UC_NhanVien.xaml;;
+FD:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\UC_QL_NguoiBan.xaml;;
+FD:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\UC_SanPham.xaml;;
+FD:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\UC_SpBan.xaml;;
+FD:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\UC_SpGioHang.xaml;;
+FD:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\UC_SP_DaMua.xaml;;
+FD:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\UC_SP_ThanhToan.xaml;;
+FD:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\UC_SuaNhanVien.xaml;;
+FD:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\UC_ThemKhachHang.xaml;;
+FD:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\UC_ThemNhanVien.xaml;;
+FD:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\UC_Thongke.xaml;;
+FD:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\UC_TopTimKiem.xaml;;
+FD:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\UC_XemChiTietNhanVien.xaml;;
+FD:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\XemDanhGia_Window.xaml;;
+>>>>>>> Stashed changes
 

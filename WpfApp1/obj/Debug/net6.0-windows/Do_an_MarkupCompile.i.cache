@@ -4,17 +4,30 @@
 winexe
 C#
 .cs
+<<<<<<< Updated upstream
 D:\Deadline\DBMS\Do_An_CK\WpfApp1\obj\Debug\net6.0-windows\
+=======
+D:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\
+>>>>>>> Stashed changes
 Do_an
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+<<<<<<< Updated upstream
 D:\Deadline\DBMS\Do_An_CK\WpfApp1\App.xaml
 25633455353
 
 38998371235
 231186279666
 F_Main.xaml;MainWindow.xaml;UC_HoaDon\TaoHoaDon.xaml;UC_HoaDon\UC_HoaDon.xaml;UC_HoaDon\UC_Thongke.xaml;UC_KhachHang\UC_KhachHang.xaml;UC_KhachHang\UC_SuaKhachHang.xaml;UC_KhachHang\UC_ThemKhachHang.xaml;UC_NhanVien\ThemCaLam_Window.xaml;UC_NhanVien\UC_BangLuong.xaml;UC_NhanVien\UC_BangPhanCa.xaml;UC_NhanVien\UC_ConfigAutoPhanca.xaml;UC_NhanVien\UC_DanhSachCaLam.xaml;UC_NhanVien\UC_NhanVien.xaml;UC_NhanVien\UC_SuaNhanVien.xaml;UC_NhanVien\UC_ThemNhanVien.xaml;UC_NhanVien\UC_XemChiTietNhanVien.xaml;UC_SanPham\ThanhToan_Window.xaml;UC_SanPham\ThemSP_Window.xaml;UC_SanPham\ThongTin_Window.xaml;UC_SanPham\UC_MuaSam.xaml;UC_SanPham\UC_SanPham.xaml;UC_SanPham\UC_SP_ThanhToan.xaml;UC_TaiKhoan.xaml;UC_ThemTaiKhoan.xaml;
+=======
+D:\Documents\Nam 3\HocKy I\DBMS\CuoiKy\Dbms\WpfApp1\App.xaml
+402050538480
+
+54671815566
+231-1364061501
+DanhGiaSp_Window.xaml;F_Main.xaml;LyDoHuyDon_WD.xaml;MainWindow.xaml;PhieuGiamGia.xaml;TaoHoaDon.xaml;ThanhToan_Window.xaml;ThemCaLam_Window.xaml;ThemSP_Window.xaml;ThemVoucher.xaml;ThongTin_Window.xaml;TongPhieuGiam.xaml;TopBan_Window.xaml;TopSanPham_Window.xaml;UC_BangLuong.xaml;UC_BangPhanCa.xaml;UC_CaiDat.xaml;UC_ConfigAutoPhanca.xaml;UC_DaMua.xaml;UC_DanhGia.xaml;UC_DanhSachCaLam.xaml;UC_gioHang.xaml;UC_HoaDon.xaml;UC_KhachHang.xaml;UC_MuaSam.xaml;UC_NguoiBan.xaml;UC_NhanVien.xaml;UC_QL_NguoiBan.xaml;UC_SanPham.xaml;UC_SpBan.xaml;UC_SpGioHang.xaml;UC_SP_DaMua.xaml;UC_SP_ThanhToan.xaml;UC_SuaNhanVien.xaml;UC_ThemKhachHang.xaml;UC_ThemNhanVien.xaml;UC_Thongke.xaml;UC_TopTimKiem.xaml;UC_XemChiTietNhanVien.xaml;XemDanhGia_Window.xaml;
+>>>>>>> Stashed changes
 
 True
 
