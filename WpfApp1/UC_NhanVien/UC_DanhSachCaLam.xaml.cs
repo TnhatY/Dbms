@@ -16,7 +16,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using static MaterialDesignThemes.Wpf.Theme;
+
 
 namespace Do_an
 {
@@ -66,8 +66,11 @@ namespace Do_an
                     if (dg_danhsachcalam.SelectedItem is DataRowView selectedRow)
                     {
                         // Lấy giá trị của cột "maclv" từ dòng được chọn
-                        String maclv = selectedRow["MaCLV"].ToString();
-                        String ngaylam = selectedRow["NgayLam"].ToString();
+
+                        string maclv = selectedRow["MaCLV"].ToString();
+                        string ngaylam = selectedRow["NgayLam"].ToString();
+                        calam.xoa_CalamViec(manv, maclv,ngaylam);
+
 
                         // Chuyển chuỗi ngày thành DateTime
                         DateTime date = DateTime.ParseExact(ngaylam, "dd/MM/yyyy HH:mm:ss", CultureInfo.InvariantCulture);
@@ -76,7 +79,8 @@ namespace Do_an
                         string formattedDateString = date.ToString("yyyy-MM-dd");
 
                         calam.xoa_CalamViec(manv, maclv, formattedDateString);
-                        this.load(sender, e);
+
+                        this.load(sender, e);   
                     }
                 }
 
