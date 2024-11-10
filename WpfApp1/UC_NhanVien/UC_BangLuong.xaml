@@ -96,14 +96,15 @@
         </StackPanel>
 
         <!-- DataGrid để hiển thị bảng lương -->
-        <DataGrid x:Name="dataGridBangLuong"  AutoGenerateColumns="False" Margin="10,50,10,10" IsReadOnly="True" GridLinesVisibility="None">
+        <DataGrid x:Name="dataGridBangLuong"  AutoGenerateColumns="False" Margin="10,50,10,10" IsReadOnly="True" GridLinesVisibility="None" RowHeight="40">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Mã NV" Binding="{Binding MaNV}" Width="100"/>
-                <DataGridTextColumn Header="Họ" Binding="{Binding HoNV}" Width="150"/>
+                <DataGridTextColumn Header="Mã NV" Binding="{Binding MaNV}" Width="80"/>
+                <DataGridTextColumn Header="Họ" Binding="{Binding HoNV}" Width="100"/>
                 <DataGridTextColumn Header="Tên" Binding="{Binding TenNV}" Width="150"/>
                 <DataGridTextColumn Header="Tên Công Việc" Binding="{Binding TenCV}" Width="200"/>
-                <DataGridTextColumn Header="Số Ca" Binding="{Binding SoCa}" Width="150"/>
-                <DataGridTextColumn Header="Số Giờ Làm" Binding="{Binding TongSoGio}" Width="150"/>
+                <DataGridTextColumn Header="Lương Theo Giờ" Binding="{Binding Luong , StringFormat=C}" Width="150"/>
+                <DataGridTextColumn Header="Số Ca" Binding="{Binding SoCa}" Width="100"/>
+                <DataGridTextColumn Header="Số Giờ Làm" Binding="{Binding TongSoGio}" Width="100"/>
                 <DataGridTextColumn Header="Tổng Lương" Binding="{Binding TongLuong, StringFormat=C}" Width="150"/>
             </DataGrid.Columns>
         </DataGrid>

@@ -158,5 +158,11 @@ namespace Do_an
 		{
 			LoadChartBySelection();
 		}
-	}
+
+        private void btnDudoandoanhthu_Click(object sender, RoutedEventArgs e)
+        {
+			UC_DuBaoDoanhThu uC_DuBaoDoanhThu = new UC_DuBaoDoanhThu();
+			uC_DuBaoDoanhThu.ShowDialog();
+        }
+    }
 }

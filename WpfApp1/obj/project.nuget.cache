@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UpYHinP/T+SrZa4CYOG+N7/onLItGYoDJm1J391xAgSj3w+G+mVYQxL/IBcIfKcqFESaPSIMpHBLeG+pnNgWWw==",
+  "dgSpecHash": "9WcmqgxNyjjje5/i/ge2yTpcBHwInOZpMZQkOx2iNq4k07PLCacImBprK8LH7zUnc4R+Ktd+0XBM2UccqrljQQ==",
   "success": true,
-  "projectFilePath": "D:\\Deadline\\DBMS\\Do_An_CK\\WpfApp1\\Do_an.csproj",
+  "projectFilePath": "D:\\Deadline\\DBMS\\Do_An_CK - Copy\\WpfApp1\\Do_an.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ACER\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

@@ -29,7 +29,7 @@
                 <TextBlock Text="Trị giá hoá đơn:" Width="120" VerticalAlignment="Center" FontSize="14" FontWeight="SemiBold"/>
                 <TextBox Name="txtTrigiahd" Width="200" Height="30" Padding="5" BorderBrush="Gray" BorderThickness="1"/>
             </StackPanel>
-
+            <TextBlock x:Name="diemquydoi" Width="0" Height="0"></TextBlock>
             <Button x:Name="btnXuatHoaDon" Content="Xuất hoá đơn" Width="150" Height="35" Margin="0,50,0,0" HorizontalAlignment="Center" Background="#a854c7" Foreground="White" FontSize="14" FontWeight="Bold" Click="btnXuatHoaDon_Click"/>
         </StackPanel>
     </Grid>

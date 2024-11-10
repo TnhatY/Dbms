@@ -291,12 +291,12 @@
         <TextBlock x:Name="tenshop" Width="0" Height="0"> </TextBlock>
         <TextBlock x:Name="masp" Width="0" Height="0" Margin="190,18,190,19"></TextBlock>
         <TextBlock Grid.Row="0" Text="  Thanh Toán" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,10" Width="130" />
-        <TextBlock Text="Thông tin sản phẩm" Margin="20 60" FontSize="16"></TextBlock>
-        <Image x:Name="hinhanh" Width="100" Height="100" Margin="20 100 350 0" VerticalAlignment="Top"></Image>
-        <StackPanel Margin="20,100,0,10" >
+        <TextBlock Text="Thông tin sản phẩm" Margin="20 40 0 0" FontSize="16"></TextBlock>
+        
+        <StackPanel Margin="20,80,0,10" >
             <ScrollViewer MaxHeight="300" >
                 <Grid>
-                    <ItemsControl x:Name="spmua" Margin="0 5 0 0">
+                    <ItemsControl x:Name="spmua" Margin="0 -5 0 0">
                         <ItemsControl.ItemTemplate>
                             <DataTemplate >
                                 <local:UC_SP_ThanhToan Margin="5"/>
@@ -305,10 +305,44 @@
                     </ItemsControl>
                 </Grid>
             </ScrollViewer>
-            <Expander Header="Chi tiết thanh toán" IsExpanded="True" Background="White" Margin="0,20,20,0" VerticalAlignment="Bottom">
+            <Grid Height="190"  Margin="20" Background="white">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Grid.ColumnSpan="2" Text="Quy đổi điểm" 
+               FontSize="16" FontWeight="Bold" 
+               HorizontalAlignment="Center" Margin="0,5,0,20"/>
+
+                <TextBlock Text="SĐT:" Grid.Row="1" Margin="10,-15 0 0" VerticalAlignment="Center"/>
+                <TextBox x:Name="txtsdt" Grid.Row="1" Grid.Column="1" Width="200" Height="25" Margin="10,-10 0 0" TextChanged="TextBox_TextChanged"/>
+
+                <TextBlock Text="Số điểm đang có:" Grid.Row="2" Margin="10,5" VerticalAlignment="Center"/>
+                <TextBox x:Name="txtdiemdangco" Grid.Row="2" Grid.Column="1" Width="100" Height="25" Margin="10,5"/>
+                <TextBlock Text="Số điểm muốn quy đổi:" Grid.Row="3" Margin="10,5" VerticalAlignment="Center"/>
+                <TextBox x:Name="txtdiemquydoi" Grid.Row="3" Grid.Column="1" Width="100" Height="25" Margin="10,5"/>
+
+                <Button x:Name="btnxacnhan" Content="Xác nhận" Grid.Row="4" Grid.ColumnSpan="2" 
+            Width="100" Height="30" 
+            HorizontalAlignment="Center" Margin="0,10,0,0" Click="btnxacnhan_Click"/>
+            </Grid>
+
+            <Expander Header="Chi tiết thanh toán" IsExpanded="True" Background="White" Margin="0,0,20,0" VerticalAlignment="Bottom">
                 <StackPanel Margin="10">
                     <TextBlock Text="Giá sản phẩm: ₫" FontSize="13" >
                         <Run x:Name="giaban1"></Run>
+                    </TextBlock>
+                    <TextBlock Text="Đổi điểm: ₫" FontSize="13" Margin="0 5 0 0" >
+                        <Run x:Name="giaquydoi"></Run>
                     </TextBlock>
                     <Separator Margin="0,10" />
                     <TextBlock Text="Tổng: ₫" FontWeight="Bold" Foreground="Green" FontSize="14" >

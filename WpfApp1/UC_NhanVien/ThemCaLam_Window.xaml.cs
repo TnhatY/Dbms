@@ -1,4 +1,5 @@
-﻿using Do_an.dao;
+﻿
+using Do_an.dao;
 using DocumentFormat.OpenXml.Wordprocessing;
 using System;
 using System.Collections.Generic;
@@ -40,8 +41,8 @@ namespace Do_an
         {
             try
             {
-                if(cbb_maclv.Text.Length > 0)
-            {
+                if (cbb_maclv.Text.Length > 0)
+                {
                     NhanVien_DAO nv = new NhanVien_DAO();
                     DateTime selectedDate = datetime.SelectedDate.Value;
                     String year = selectedDate.Year.ToString();
@@ -57,8 +58,8 @@ namespace Do_an
             {
                 MessageBox.Show(ex.Message);
             }
-            
-            
+
+
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)

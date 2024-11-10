@@ -1,4 +1,5 @@
-﻿using Do_an.dao;
+﻿
+using Do_an.dao;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -39,4 +40,4 @@ namespace Do_an
             F_Main.instance.user.Content = new UC_ConfigAutoPhanca();
         }
     }
-} 
+}

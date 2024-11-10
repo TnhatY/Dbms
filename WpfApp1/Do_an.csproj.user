@@ -10,6 +10,9 @@
     <Compile Update="F_Main.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="UC_DuBaoDoanhThu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="UC_HoaDon\TaoHoaDon.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -82,6 +85,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UC_DuBaoDoanhThu.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UC_HoaDon\TaoHoaDon.xaml">

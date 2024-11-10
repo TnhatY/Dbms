@@ -9,6 +9,6 @@
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid Background="#FF854F8F">
         <Button Name="btn_phancatudong" Content="Phân ca tự động" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="44" Width="122" Click="btn_phancatudong_Click"/>
-        <DataGrid Name="datagrid" Loaded="load_datagrid" Margin="0,59,0,0"/>
+        <DataGrid Name="datagrid" Loaded="load_datagrid" Margin="0,59,0,0"  RowHeight="40"/>
     </Grid>
 </UserControl>

@@ -25,7 +25,7 @@ namespace Do_an.dao
             try
             {
                 SqlCommand cmd = new SqlCommand(sql, ConnectDB.getconnection());
-      
+
                 SqlDataAdapter da = new SqlDataAdapter(cmd);
                 da.Fill(dt);
                 return dt;
@@ -35,11 +35,12 @@ namespace Do_an.dao
                 MessageBox.Show(ex.ToString());
                 return null;
             }
-            
+
         }
-        public void xoa_CalamViec(string manv, string maclv,string ngaylam)
+        public void xoa_CalamViec(String manv, String maclv, String ngaylam)
         {
-            string sqlStr = $"exec proc_XoaPhanCa {manv},  {maclv},{ngaylam}";
+            String sqlStr = $"exec proc_XoaPhanCa '{manv}',  '{maclv}', '{ngaylam}' ";
+
             try
             {
                 SqlConnection conn = ConnectDB.getconnection();
@@ -62,9 +63,24 @@ namespace Do_an.dao
                 {
                     bulkCopy.DestinationTableName = tableNameIntdatabase;
 
-       public void them_CaLamViec(string manv, string maclv, string ngaylam)
+                    try
+                    {
+                        bulkCopy.WriteToServer(dt);
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine("Error: " + ex.Message);
+                    }
+                }
+
+            }
+        }
+
+        public void them_CaLamViec(String manv, String maclv, String ngaylam)
         {
-            string sqlStr = $"exec them_calamviec '{manv}',  '{maclv}', '{ngaylam}'";
+
+            String sqlStr = $"exec proc_PhanCa '{manv}',  '{maclv}', '{ngaylam}'";
+
             try
             {
                 SqlConnection conn = ConnectDB.getconnection();
@@ -108,26 +124,26 @@ namespace Do_an.dao
             //type listCahd in sql
             DataTable list_cahd = new DataTable();
             list_cahd.Columns.Add("thu", typeof(String));
-            list_cahd.Columns.Add("ca", typeof(String)); 
+            list_cahd.Columns.Add("ca", typeof(String));
             list_cahd.Columns.Add("nextweekdate", typeof(DateTime));
 
             // đổ dữ liệu từ danh sách shop hoạt động vào datatable
             foreach (KeyValuePair<String, List<String>> item in shop_off)
             {
-                String thu = item.Key;  
-                foreach(String ca in item.Value)
+                String thu = item.Key;
+                foreach (String ca in item.Value)
                 {
                     list_cahd.Rows.Add(thu, ca, null);
                 }
             }
             // đổ dữ liệu và danh sách nhân viên và ca nhân viên đó không thể làm 
-            foreach(KeyValuePair<String, Dictionary<String, List<String>>> x in staff_off)
+            foreach (KeyValuePair<String, Dictionary<String, List<String>>> x in staff_off)
             {
                 String manv = x.Key;
-                foreach(KeyValuePair<String, List<String>> thuvaca in x.Value)
+                foreach (KeyValuePair<String, List<String>> thuvaca in x.Value)
                 {
                     String thu = thuvaca.Key;
-                    foreach(String ca in thuvaca.Value)
+                    foreach (String ca in thuvaca.Value)
                     {
                         list_nhanvien.Rows.Add(manv, thu, ca);
                     }
@@ -142,10 +158,10 @@ namespace Do_an.dao
             // manv và số ca tối đa nhân viên đó có thể làm được
             foreach (KeyValuePair<String, int> item in socatoida)
             {
-                String manv = item.Key; 
-                int toida = item.Value; 
+                String manv = item.Key;
+                int toida = item.Value;
 
-                DataRow row = dieukienNhanVien.NewRow();    
+                DataRow row = dieukienNhanVien.NewRow();
                 row[0] = manv;
                 row[1] = toida;
                 dieukienNhanVien.Rows.Add(row);
@@ -194,6 +210,6 @@ namespace Do_an.dao
                 }
                 MessageBox.Show("phân ca thành công");
             }
-        }  
+        }
     }
 }

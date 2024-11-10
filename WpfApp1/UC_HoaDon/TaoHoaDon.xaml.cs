@@ -66,6 +66,32 @@ namespace Do_an
             }
         }
 
+        public void quydoidiem(string maKH,int diemQuyDoi)
+        {
+            using (SqlConnection connection = new SqlConnection(ConnectDB.connectionString))
+            {
+                try
+                {
+                    connection.Open();
+
+                    using (SqlCommand command = new SqlCommand("proc_QuyDoiDiem", connection))
+                    {
+                        command.CommandType = CommandType.StoredProcedure;
+
+                        command.Parameters.AddWithValue("@MaKH", maKH);
+                        command.Parameters.AddWithValue("@DiemQuyDoi", diemQuyDoi);
+
+                        int rowsAffected = command.ExecuteNonQuery();
+
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+            }
+        }
+
         private void btnXuatHoaDon_Click(object sender, RoutedEventArgs e)
         {
             DateTime ngayGioHienTai = DateTime.Today;
@@ -83,6 +109,7 @@ namespace Do_an
                     command.ExecuteNonQuery();
                 }
                 Close();
+                quydoidiem(txtMakh.Text,int.Parse(diemquydoi.Text));
 
             }
             catch(Exception ex)

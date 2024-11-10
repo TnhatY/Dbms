@@ -203,6 +203,7 @@
                         <DataGridTextColumn Header="Tên Khách Hàng" Binding="{Binding TenKH}" Width="200"/>
                         <DataGridTextColumn Header="Số Điện Thoại" Binding="{Binding SoDT}" Width="200"/>
                         <DataGridTextColumn Header="Địa Chỉ" Binding="{Binding DiaChi}" Width="200"/>
+                        <DataGridTextColumn Header="Điểm Tích Luỹ" Binding="{Binding DiemTichLuy}" Width="200"/>
                     </DataGrid.Columns>
 
                 </DataGrid>

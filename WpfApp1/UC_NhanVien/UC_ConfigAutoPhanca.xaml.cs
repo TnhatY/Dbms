@@ -1,4 +1,5 @@
-﻿using Do_an.dao;
+﻿
+using Do_an.dao;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,7 +25,7 @@ namespace Do_an
         public UC_ConfigAutoPhanca()
         {
             InitializeComponent();
-            
+
         }
         private NhanVien_DAO nv = new NhanVien_DAO();
 
@@ -35,11 +36,11 @@ namespace Do_an
 
         Dictionary<String, List<String>> day_shop = new Dictionary<String, List<String>>();
 
-        Dictionary<String, Dictionary<String, List<String>>> day_staff = new Dictionary<string, Dictionary<string, List<string>>>() ;
+        Dictionary<String, Dictionary<String, List<String>>> day_staff = new Dictionary<string, Dictionary<string, List<string>>>();
 
         Dictionary<String, String> staff = new Dictionary<string, string>();
         List<String> week = new List<String>() { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" };
-        List<String> shift = new List<string>() { "ca 1", "ca 2", "ca 3"};
+        List<String> shift = new List<string>() { "ca 1", "ca 2", "ca 3" };
 
 
 
@@ -49,7 +50,7 @@ namespace Do_an
             {
                 day_shop.Add(item, new List<string>() { "ca 1", "ca 2", "ca 3" });
             }
-            
+
             staff = nv.get_staff();
             foreach (KeyValuePair<String, String> keyValuePair in staff)
             {
@@ -70,7 +71,7 @@ namespace Do_an
         private void select_manv(object sender, SelectionChangedEventArgs e)
         {
             String manv = ccb_manv.SelectedValue.ToString();
-            if(manv != null)
+            if (manv != null)
             {
                 lbl_hotennhanvien.Content = staff[manv];
             }
@@ -123,22 +124,22 @@ namespace Do_an
 
         private void btn_update_offday_Click(object sender, RoutedEventArgs e)
         {
-            if(ccb_thushop.SelectedItem == null)
+            if (ccb_thushop.SelectedItem == null)
             {
                 MessageBox.Show("Chọn ngày trong tuần không hoạt động !");
                 return;
             }
             String thu = ccb_thushop.SelectedItem.ToString();
-            String ca  = ccb_cashop.SelectedItem.ToString();    
-         
+            String ca = ccb_cashop.SelectedItem.ToString();
+
             day_shop[thu].Remove(ca);
             if (day_shop[thu].Count == 0)
             {
-               day_shop.Remove(thu);
+                day_shop.Remove(thu);
             }
 
             ccb_cashop.Items.Clear();
-            loadccb2(); 
+            loadccb2();
         }
 
         private void btn_excute_Click(object sender, RoutedEventArgs e)
@@ -152,17 +153,17 @@ namespace Do_an
 
         private void btn_update_offshift_staff_Click(object sender, RoutedEventArgs e)
         {
-            
+
             if (ccb_noworkweek_staff.SelectedItem == null)
             {
                 MessageBox.Show("Chọn ngày nhân viên không hoạt động");
                 return;
             }
-             if(ccb_manv.SelectedItem != null)
+            if (ccb_manv.SelectedItem != null)
             {
                 String manv = ccb_manv.SelectedItem.ToString();
-                String thu = ccb_noworkweek_staff.SelectedItem.ToString();  
-                String ca = ccb_noworkshift_staff.SelectedItem.ToString();  
+                String thu = ccb_noworkweek_staff.SelectedItem.ToString();
+                String ca = ccb_noworkshift_staff.SelectedItem.ToString();
                 if (day_staff.ContainsKey(manv))
                 {
                     Dictionary<String, List<String>> keyValuePairs = day_staff[manv];
@@ -178,7 +179,7 @@ namespace Do_an
                             lis.Add(ca);
                             MessageBox.Show("Thêm thành công");
                         }
-                        keyValuePairs[thu] = lis;    
+                        keyValuePairs[thu] = lis;
                     }
                     else
                     {
@@ -198,13 +199,13 @@ namespace Do_an
                     day_staff.Add(manv, keyValuePairs);
                     MessageBox.Show("Thêm thành công");
                 }
-            }   
+            }
             else
             {
                 MessageBox.Show("Chọn nhân viên !");
             }
         }
-        
+
         private void btn_save_Click(object sender, RoutedEventArgs e)
         {
             if (txt_totalnumstaffpershift.Text != "")
@@ -216,11 +217,13 @@ namespace Do_an
             {
                 totalnumstaffpershift = 3;
             }
-            
-            if (ccb_manv.SelectedItem != null) {
+
+            if (ccb_manv.SelectedItem != null)
+            {
                 String manv = ccb_manv.SelectedItem.ToString();
                 // số ca tối đa
-                if (txt_max_numshifts.Text != "") { 
+                if (txt_max_numshifts.Text != "")
+                {
                     int toida = int.Parse(txt_max_numshifts.Text);
                     if (socatoida.ContainsKey(manv))
                     {
@@ -228,11 +231,11 @@ namespace Do_an
                     }
                     else
                     {
-                        socatoida.Add(manv, toida); 
+                        socatoida.Add(manv, toida);
                     }
                 }
-                
-               
+
+
             }
             MessageBox.Show("Lưu thành công !");
         }
