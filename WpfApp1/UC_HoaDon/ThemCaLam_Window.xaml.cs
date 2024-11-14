@@ -30,9 +30,9 @@ namespace Do_an
 
         void load_combobox()
         {
-            cbb_maclv.Items.Add("ca 1");
-            cbb_maclv.Items.Add("ca 2");
-            cbb_maclv.Items.Add("ca 3");
+            cbb_maclv.Items.Add("ca1");
+            cbb_maclv.Items.Add("ca2");
+            cbb_maclv.Items.Add("ca3");
 
         }
         public String manv;

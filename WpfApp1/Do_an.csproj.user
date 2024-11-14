@@ -10,16 +10,22 @@
     <Compile Update="F_Main.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="UC_NhanVien\UC_DoanhThuNhanVienTheoThang.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="UC_DuBaoDoanhThu.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="UC_HoaDon\TaoHoaDon.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="UC_HoaDon\UC_DoanhThuLoaiSanPham.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="UC_SanPham\ThanhToan_Window.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="UC_NhanVien\ThemCaLam_Window.xaml.cs">
+    <Compile Update="UC_HoaDon\ThemCaLam_Window.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="UC_SanPham\ThemSP_Window.xaml.cs">
@@ -87,16 +93,22 @@
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="UC_NhanVien\UC_DoanhThuNhanVienTheoThang.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="UC_DuBaoDoanhThu.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UC_HoaDon\TaoHoaDon.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="UC_HoaDon\UC_DoanhThuLoaiSanPham.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="UC_SanPham\ThanhToan_Window.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="UC_NhanVien\ThemCaLam_Window.xaml">
+    <Page Update="UC_HoaDon\ThemCaLam_Window.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UC_SanPham\ThemSP_Window.xaml">
