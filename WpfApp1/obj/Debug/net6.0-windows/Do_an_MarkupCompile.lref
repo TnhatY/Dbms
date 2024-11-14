@@ -1,14 +1,14 @@
-
+﻿
 
 FC:\HeQTCSDL\DoAnCuoiKy\Dbms\WpfApp1\F_Main.xaml;;
 FC:\HeQTCSDL\DoAnCuoiKy\Dbms\WpfApp1\MainWindow.xaml;;
 FC:\HeQTCSDL\DoAnCuoiKy\Dbms\WpfApp1\UC_HoaDon\TaoHoaDon.xaml;;
+FC:\HeQTCSDL\DoAnCuoiKy\Dbms\WpfApp1\UC_HoaDon\UC_DoanhThuLoaiSanPham.xaml;;
 FC:\HeQTCSDL\DoAnCuoiKy\Dbms\WpfApp1\UC_HoaDon\UC_HoaDon.xaml;;
 FC:\HeQTCSDL\DoAnCuoiKy\Dbms\WpfApp1\UC_HoaDon\UC_Thongke.xaml;;
 FC:\HeQTCSDL\DoAnCuoiKy\Dbms\WpfApp1\UC_KhachHang\UC_KhachHang.xaml;;
 FC:\HeQTCSDL\DoAnCuoiKy\Dbms\WpfApp1\UC_KhachHang\UC_SuaKhachHang.xaml;;
 FC:\HeQTCSDL\DoAnCuoiKy\Dbms\WpfApp1\UC_KhachHang\UC_ThemKhachHang.xaml;;
-FC:\HeQTCSDL\DoAnCuoiKy\Dbms\WpfApp1\UC_NhanVien\ThemCaLam_Window.xaml;;
 FC:\HeQTCSDL\DoAnCuoiKy\Dbms\WpfApp1\UC_NhanVien\UC_BangLuong.xaml;;
 FC:\HeQTCSDL\DoAnCuoiKy\Dbms\WpfApp1\UC_NhanVien\UC_BangPhanCa.xaml;;
 FC:\HeQTCSDL\DoAnCuoiKy\Dbms\WpfApp1\UC_NhanVien\UC_ConfigAutoPhanca.xaml;;
@@ -25,4 +25,6 @@ FC:\HeQTCSDL\DoAnCuoiKy\Dbms\WpfApp1\UC_SanPham\UC_SanPham.xaml;;
 FC:\HeQTCSDL\DoAnCuoiKy\Dbms\WpfApp1\UC_SanPham\UC_SP_ThanhToan.xaml;;
 FC:\HeQTCSDL\DoAnCuoiKy\Dbms\WpfApp1\UC_TaiKhoan.xaml;;
 FC:\HeQTCSDL\DoAnCuoiKy\Dbms\WpfApp1\UC_ThemTaiKhoan.xaml;;
+FC:\HeQTCSDL\DoAnCuoiKy\Dbms\WpfApp1\UC_HoaDon\ThemCaLam_Window.xaml;;
+FC:\HeQTCSDL\DoAnCuoiKy\Dbms\WpfApp1\UC_NhanVien\UC_DoanhThuNhanVienTheoThang.xaml;;
 

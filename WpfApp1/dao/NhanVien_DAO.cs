@@ -295,7 +295,41 @@ namespace Do_an.dao
                 }
             }
         }
-        
+        public List<(string TenNhanVien, double DoanhThu)> GetRevenueByEmployee(int month, int year)
+        {
+            var revenueList = new List<(string, double)>();
+            SqlConnection connection = ConnectDB.getconnection();
+            try
+            {
+                var command = new SqlCommand("DoanhThuNhanVienTheoThang", connection)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
+                command.Parameters.AddWithValue("@Thang", month);
+                command.Parameters.AddWithValue("@Nam", year);
+
+                connection.Open();
+                using (var reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        string tenNhanVien = reader["TenNhanVien"].ToString();
+                        double doanhThu = reader.GetDouble(reader.GetOrdinal("DoanhThu"));
+                        revenueList.Add((tenNhanVien, doanhThu));
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                return null;  // Trả về null nếu có lỗi
+            }
+            finally
+            {
+                connection.Close();  // Đảm bảo kết nối được đóng
+            }
+            return revenueList;
+        }
     }
 }
 

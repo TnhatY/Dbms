@@ -1,4 +1,4 @@
-Do_an
+﻿Do_an
 1.0.0.0
 
 winexe
@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\HeQTCSDL\DoAnCuoiKy\Dbms\WpfApp1\App.xaml
-25633455353
+28-1718302249
 
-38998371235
+411739343941
 23132993676
-F_Main.xaml;MainWindow.xaml;UC_HoaDon\TaoHoaDon.xaml;UC_HoaDon\UC_HoaDon.xaml;UC_HoaDon\UC_Thongke.xaml;UC_KhachHang\UC_KhachHang.xaml;UC_KhachHang\UC_SuaKhachHang.xaml;UC_KhachHang\UC_ThemKhachHang.xaml;UC_NhanVien\ThemCaLam_Window.xaml;UC_NhanVien\UC_BangLuong.xaml;UC_NhanVien\UC_BangPhanCa.xaml;UC_NhanVien\UC_ConfigAutoPhanca.xaml;UC_NhanVien\UC_DanhSachCaLam.xaml;UC_NhanVien\UC_NhanVien.xaml;UC_NhanVien\UC_SuaNhanVien.xaml;UC_NhanVien\UC_ThemNhanVien.xaml;UC_NhanVien\UC_XemChiTietNhanVien.xaml;UC_SanPham\ThanhToan_Window.xaml;UC_SanPham\ThemSP_Window.xaml;UC_SanPham\ThongTin_Window.xaml;UC_SanPham\UC_MuaSam.xaml;UC_SanPham\UC_SanPham.xaml;UC_SanPham\UC_SP_ThanhToan.xaml;UC_TaiKhoan.xaml;UC_ThemTaiKhoan.xaml;
+F_Main.xaml;MainWindow.xaml;UC_DuBaoDoanhThu.xaml;UC_HoaDon\TaoHoaDon.xaml;UC_HoaDon\ThemCaLam_Window.xaml;UC_HoaDon\UC_DoanhThuLoaiSanPham.xaml;UC_HoaDon\UC_HoaDon.xaml;UC_HoaDon\UC_Thongke.xaml;UC_KhachHang\UC_KhachHang.xaml;UC_KhachHang\UC_SuaKhachHang.xaml;UC_KhachHang\UC_ThemKhachHang.xaml;UC_NhanVien\UC_BangLuong.xaml;UC_NhanVien\UC_BangPhanCa.xaml;UC_NhanVien\UC_ConfigAutoPhanca.xaml;UC_NhanVien\UC_DanhSachCaLam.xaml;UC_NhanVien\UC_DoanhThuNhanVienTheoThang.xaml;UC_NhanVien\UC_NhanVien.xaml;UC_NhanVien\UC_SuaNhanVien.xaml;UC_NhanVien\UC_ThemNhanVien.xaml;UC_NhanVien\UC_XemChiTietNhanVien.xaml;UC_SanPham\ThanhToan_Window.xaml;UC_SanPham\ThemSP_Window.xaml;UC_SanPham\ThongTin_Window.xaml;UC_SanPham\UC_MuaSam.xaml;UC_SanPham\UC_SanPham.xaml;UC_SanPham\UC_SP_ThanhToan.xaml;UC_TaiKhoan.xaml;UC_ThemTaiKhoan.xaml;
 
-False
+True
 

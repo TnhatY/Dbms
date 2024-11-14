@@ -1229,7 +1229,6 @@ C:\HeQTCSDL\DoAnCuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\UC_HoaDon\UC_Thongk
 C:\HeQTCSDL\DoAnCuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\UC_KhachHang\UC_KhachHang.g.cs
 C:\HeQTCSDL\DoAnCuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\UC_KhachHang\UC_SuaKhachHang.g.cs
 C:\HeQTCSDL\DoAnCuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\UC_KhachHang\UC_ThemKhachHang.g.cs
-C:\HeQTCSDL\DoAnCuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\UC_NhanVien\ThemCaLam_Window.g.cs
 C:\HeQTCSDL\DoAnCuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\UC_NhanVien\UC_BangLuong.g.cs
 C:\HeQTCSDL\DoAnCuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\UC_NhanVien\UC_BangPhanCa.g.cs
 C:\HeQTCSDL\DoAnCuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\UC_NhanVien\UC_ConfigAutoPhanca.g.cs
@@ -1328,7 +1327,6 @@ C:\HeQTCSDL\DoAnCuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\UC_HoaDon\UC_Thongk
 C:\HeQTCSDL\DoAnCuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\UC_KhachHang\UC_KhachHang.baml
 C:\HeQTCSDL\DoAnCuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\UC_KhachHang\UC_SuaKhachHang.baml
 C:\HeQTCSDL\DoAnCuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\UC_KhachHang\UC_ThemKhachHang.baml
-C:\HeQTCSDL\DoAnCuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\UC_NhanVien\ThemCaLam_Window.baml
 C:\HeQTCSDL\DoAnCuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\UC_NhanVien\UC_BangLuong.baml
 C:\HeQTCSDL\DoAnCuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\UC_NhanVien\UC_BangPhanCa.baml
 C:\HeQTCSDL\DoAnCuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\UC_NhanVien\UC_ConfigAutoPhanca.baml
@@ -1354,3 +1352,11 @@ C:\HeQTCSDL\DoAnCuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\Do_an.sourcelink.js
 C:\HeQTCSDL\DoAnCuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\Do_an.csproj.Up2Date
 C:\HeQTCSDL\DoAnCuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\Do_an.genruntimeconfig.cache
 C:\HeQTCSDL\DoAnCuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\ref\Do_an.dll
+C:\HeQTCSDL\DoAnCuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\UC_DuBaoDoanhThu.baml
+C:\HeQTCSDL\DoAnCuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\UC_DuBaoDoanhThu.g.cs
+C:\HeQTCSDL\DoAnCuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\UC_HoaDon\UC_DoanhThuLoaiSanPham.g.cs
+C:\HeQTCSDL\DoAnCuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\UC_HoaDon\UC_DoanhThuLoaiSanPham.baml
+C:\HeQTCSDL\DoAnCuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\UC_HoaDon\ThemCaLam_Window.g.cs
+C:\HeQTCSDL\DoAnCuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\UC_NhanVien\UC_DoanhThuNhanVienTheoThang.g.cs
+C:\HeQTCSDL\DoAnCuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\UC_HoaDon\ThemCaLam_Window.baml
+C:\HeQTCSDL\DoAnCuoiKy\Dbms\WpfApp1\obj\Debug\net6.0-windows\UC_NhanVien\UC_DoanhThuNhanVienTheoThang.baml
