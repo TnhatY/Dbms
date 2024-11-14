@@ -182,9 +182,7 @@
                     <TextBlock Text="Thêm khách hàng"></TextBlock>
                 </Button>
 
-                <Button Style="{DynamicResource ButtonStyle2}" x:Name="btnsuakhachhang" Background="#1497a3" Width="120" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="160 10 0 0">
-                    <TextBlock Text="Sửa khách hàng"></TextBlock>
-                </Button>
+                
 
                
 

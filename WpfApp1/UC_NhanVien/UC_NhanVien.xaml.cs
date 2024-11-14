@@ -70,12 +70,14 @@ namespace Do_an
         {
             UC_ThemNhanVien UC_themNhanVien = new UC_ThemNhanVien();
             UC_themNhanVien.ShowDialog();
+            this.UserControl_Loaded(sender,e);  
         }
         string ID;
         private void btnSuaNhanVien_Click(object sender, RoutedEventArgs e)
         {
             UC_SuaNhanVien UC_suaNhanVien = new UC_SuaNhanVien(ID);
             UC_suaNhanVien.ShowDialog();
+            this.UserControl_Loaded(sender, e);
         }
 
         private void dg_NhanVien_SelectionChanged(object sender, SelectionChangedEventArgs e)

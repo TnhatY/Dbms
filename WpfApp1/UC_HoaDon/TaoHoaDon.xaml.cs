@@ -87,7 +87,7 @@ namespace Do_an
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show(ex.Message);
+                   // MessageBox.Show(ex.Message);
                 }
             }
         }
@@ -109,7 +109,9 @@ namespace Do_an
                     command.ExecuteNonQuery();
                 }
                 Close();
-                quydoidiem(txtMakh.Text,int.Parse(diemquydoi.Text));
+                if (!string.IsNullOrEmpty(diemquydoi.Text)){
+                    quydoidiem(txtMakh.Text, int.Parse(diemquydoi.Text));
+                }
 
             }
             catch(Exception ex)

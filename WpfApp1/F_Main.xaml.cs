@@ -135,6 +135,7 @@ namespace Do_an
             ThemSP_Window themSP_Window = new ThemSP_Window();
             themSP_Window.btnchinhsua.Visibility = Visibility.Collapsed;
             themSP_Window.Show();
+            this.Window_Loaded(sender, e);
         }
 
       

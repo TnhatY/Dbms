@@ -99,7 +99,6 @@ namespace Do_an
                 // Thông tin tháng hiện tại
                 ThongTinThangHienTai = $"Tháng {data.ThangHienTai}/{data.NamHienTai}\n" +
                                        $"- Số ngày có giao dịch: {data.SoNgayCoGiaoDich}\n" +
-                                      // $"- Số ngày không có giao dịch: {data.SoNgayKhongGiaoDich}\n" +
                                        $"- Doanh thu trung bình ngày: {data.DoanhThuTrungBinhNgay:C}\n" +
                                        $"- Tổng doanh thu tháng: {data.DoanhThuThangHienTai:C}";
 

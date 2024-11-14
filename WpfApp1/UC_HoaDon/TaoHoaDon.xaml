@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Do_an"
         mc:Ignorable="d"
-        Title="Tạo Hoá Đơn" Height="450" Width="400">
+        Title="Tạo Hoá Đơn" Height="450" Width="400" WindowStartupLocation="CenterScreen">
     <Grid>
         <TextBlock Text="Thông tin hoá đơn" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,20,0,0" Foreground="#a854c7"/>
 

@@ -119,7 +119,7 @@ namespace Do_an
                     }
                 }
                 themSP_Window.ShowDialog();
-
+                this.Window_Loaded(sender, e);
             }
             catch (Exception ex)
             {
