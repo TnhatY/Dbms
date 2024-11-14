@@ -63,26 +63,12 @@ namespace Do_an.dao
                 using (SqlBulkCopy bulkCopy = new SqlBulkCopy(conn))
                 {
                     bulkCopy.DestinationTableName = tableNameIntdatabase;
-
-                    try
-                    {
-                        bulkCopy.WriteToServer(dt);
-                    }
-                    catch (Exception ex)
-                    {
-                        Console.WriteLine("Error: " + ex.Message);
-                    }
                 }
-
             }
         }
-
-        public void them_CaLamViec(String manv, String maclv, String ngaylam)
+       public void them_CaLamViec(string manv, string maclv, string ngaylam)
         {
-
-            
-            String sqlStr = $"exec proc_PhanCa '{manv}',  '{maclv}', '{ngaylam}'";
-            
+            string sqlStr = $"exec proc_PhanCa '{manv}',  '{maclv}', '{ngaylam}'";
             try
             {
                 SqlConnection conn = ConnectDB.getconnection();

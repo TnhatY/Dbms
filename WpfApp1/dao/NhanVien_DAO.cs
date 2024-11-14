@@ -251,7 +251,7 @@ namespace Do_an.dao
 
         public void them_CaLamViec(String manv, String maclv, DateTime ngaylam, String giobatdau, String giokethuc)
         {
-            String sqlStr = $"exec them_CaLamViec {manv},  {maclv}, {ngaylam}, {giobatdau}, {giokethuc}";
+            String sqlStr = $"exec proc_PhanCa {manv},  {maclv}, {ngaylam}, {giobatdau}, {giokethuc}";
             try
             {
                 SqlConnection conn = ConnectDB.getconnection();
@@ -274,7 +274,7 @@ namespace Do_an.dao
         }
         public void xoa_CalamViec(String manv, String maclv)
         {
-            String sqlStr = $"exec xoa_calamviec {manv},  {maclv}";
+            String sqlStr = $"exec proc_XoaPhanCa {manv},  {maclv}";
             try
             {
                 SqlConnection conn = ConnectDB.getconnection();

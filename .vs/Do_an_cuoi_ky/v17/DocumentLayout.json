@@ -1,58 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\",
+  "WorkspaceRootPath": "C:\\HeQTCSDL\\DoAnCuoiKy\\Dbms\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|d:\\documents\\nam 3\\hocky i\\dbms\\cuoiky\\dbms\\wpfapp1\\uc_danhsachcalam.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\uc_danhsachcalam.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|c:\\heqtcsdl\\doancuoiky\\dbms\\wpfapp1\\dao\\hoadon_dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\dao\\hoadon_dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|d:\\documents\\nam 3\\hocky i\\dbms\\cuoiky\\dbms\\wpfapp1\\uc_danhsachcalam.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\uc_danhsachcalam.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|d:\\documents\\nam 3\\hocky i\\dbms\\cuoiky\\dbms\\wpfapp1\\dao\\calam_dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|c:\\heqtcsdl\\doancuoiky\\dbms\\wpfapp1\\dao\\calam_dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\dao\\calam_dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|d:\\documents\\nam 3\\hocky i\\dbms\\cuoiky\\dbms\\wpfapp1\\themcalam_window.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\themcalam_window.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|c:\\heqtcsdl\\doancuoiky\\dbms\\wpfapp1\\uc_nhanvien\\uc_danhsachcalam.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\uc_nhanvien\\uc_danhsachcalam.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|d:\\documents\\nam 3\\hocky i\\dbms\\cuoiky\\dbms\\wpfapp1\\uc_xemchitietnhanvien.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\uc_xemchitietnhanvien.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|c:\\heqtcsdl\\doancuoiky\\dbms\\wpfapp1\\uc_nhanvien\\uc_bangphanca.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\uc_nhanvien\\uc_bangphanca.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|d:\\documents\\nam 3\\hocky i\\dbms\\cuoiky\\dbms\\wpfapp1\\uc_nhanvien.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\uc_nhanvien.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|c:\\heqtcsdl\\doancuoiky\\dbms\\wpfapp1\\uc_nhanvien\\uc_bangphanca.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\uc_nhanvien\\uc_bangphanca.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|d:\\documents\\nam 3\\hocky i\\dbms\\cuoiky\\dbms\\wpfapp1\\uc_bangphanca.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\uc_bangphanca.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|c:\\heqtcsdl\\doancuoiky\\dbms\\wpfapp1\\uc_nhanvien\\themcalam_window.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\uc_nhanvien\\themcalam_window.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|d:\\documents\\nam 3\\hocky i\\dbms\\cuoiky\\dbms\\wpfapp1\\dao\\nhanvien_dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|c:\\heqtcsdl\\doancuoiky\\dbms\\wpfapp1\\uc_nhanvien\\themcalam_window.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\uc_nhanvien\\themcalam_window.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|c:\\heqtcsdl\\doancuoiky\\dbms\\wpfapp1\\dao\\nhanvien_dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\dao\\nhanvien_dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|d:\\documents\\nam 3\\hocky i\\dbms\\cuoiky\\dbms\\wpfapp1\\config\\connectdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\config\\connectdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\UC_BangPhanCa.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|d:\\documents\\nam 3\\hocky i\\dbms\\cuoiky\\dbms\\wpfapp1\\dao\\sanpham_dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\dao\\sanpham_dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\UC_ConfigAutoPhanca.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|d:\\documents\\nam 3\\hocky i\\dbms\\cuoiky\\dbms\\wpfapp1\\uc_bangphanca.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\uc_bangphanca.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\UC_BangPhanCa.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|d:\\documents\\nam 3\\hocky i\\dbms\\cuoiky\\dbms\\wpfapp1\\uc_configautophanca.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\uc_configautophanca.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|d:\\documents\\nam 3\\hocky i\\dbms\\cuoiky\\dbms\\wpfapp1\\uc_configautophanca.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2C028170-F81D-4A8E-8762-080C0F9F1811}|WpfApp1\\Do_an.csproj|solutionrelative:wpfapp1\\uc_configautophanca.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\UC_ConfigAutoPhanca.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,143 +54,132 @@
       "DocumentGroups": [
         {
           "DockedHeight": 278,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ThemCaLam_Window.xaml.cs",
-              "DocumentMoniker": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\ThemCaLam_Window.xaml.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\ThemCaLam_Window.xaml.cs",
-              "ToolTip": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\ThemCaLam_Window.xaml.cs",
-              "RelativeToolTip": "WpfApp1\\ThemCaLam_Window.xaml.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAIwC4AAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T06:38:59.322Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UC_DanhSachCaLam.xaml.cs",
-              "DocumentMoniker": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\UC_DanhSachCaLam.xaml.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\UC_DanhSachCaLam.xaml.cs",
-              "ToolTip": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\UC_DanhSachCaLam.xaml.cs",
-              "RelativeToolTip": "WpfApp1\\UC_DanhSachCaLam.xaml.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAWwFMAAAAJAAAAAAAAAA==",
+              "Title": "HoaDon_DAO.cs",
+              "DocumentMoniker": "C:\\HeQTCSDL\\DoAnCuoiKy\\Dbms\\WpfApp1\\dao\\HoaDon_DAO.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\dao\\HoaDon_DAO.cs",
+              "ToolTip": "C:\\HeQTCSDL\\DoAnCuoiKy\\Dbms\\WpfApp1\\dao\\HoaDon_DAO.cs",
+              "RelativeToolTip": "WpfApp1\\dao\\HoaDon_DAO.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T06:31:26.585Z",
+              "WhenOpened": "2024-11-14T08:13:32.912Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UC_BangPhanCa.xaml.cs",
+              "DocumentMoniker": "C:\\HeQTCSDL\\DoAnCuoiKy\\Dbms\\WpfApp1\\UC_NhanVien\\UC_BangPhanCa.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\UC_NhanVien\\UC_BangPhanCa.xaml.cs",
+              "ToolTip": "C:\\HeQTCSDL\\DoAnCuoiKy\\Dbms\\WpfApp1\\UC_NhanVien\\UC_BangPhanCa.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\UC_NhanVien\\UC_BangPhanCa.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T07:12:18.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UC_BangPhanCa.xaml",
+              "DocumentMoniker": "C:\\HeQTCSDL\\DoAnCuoiKy\\Dbms\\WpfApp1\\UC_NhanVien\\UC_BangPhanCa.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\UC_NhanVien\\UC_BangPhanCa.xaml",
+              "ToolTip": "C:\\HeQTCSDL\\DoAnCuoiKy\\Dbms\\WpfApp1\\UC_NhanVien\\UC_BangPhanCa.xaml",
+              "RelativeToolTip": "WpfApp1\\UC_NhanVien\\UC_BangPhanCa.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-08T07:12:17.107Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "UC_DanhSachCaLam.xaml.cs",
+              "DocumentMoniker": "C:\\HeQTCSDL\\DoAnCuoiKy\\Dbms\\WpfApp1\\UC_NhanVien\\UC_DanhSachCaLam.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\UC_NhanVien\\UC_DanhSachCaLam.xaml.cs",
+              "ToolTip": "C:\\HeQTCSDL\\DoAnCuoiKy\\Dbms\\WpfApp1\\UC_NhanVien\\UC_DanhSachCaLam.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\UC_NhanVien\\UC_DanhSachCaLam.xaml.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T06:46:26.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NhanVien_DAO.cs",
+              "DocumentMoniker": "C:\\HeQTCSDL\\DoAnCuoiKy\\Dbms\\WpfApp1\\dao\\NhanVien_DAO.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\dao\\NhanVien_DAO.cs",
+              "ToolTip": "C:\\HeQTCSDL\\DoAnCuoiKy\\Dbms\\WpfApp1\\dao\\NhanVien_DAO.cs",
+              "RelativeToolTip": "WpfApp1\\dao\\NhanVien_DAO.cs",
+              "ViewState": "AgIAAO4AAAAAAAAAAAAwwP0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T06:40:32.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ThemCaLam_Window.xaml.cs",
+              "DocumentMoniker": "C:\\HeQTCSDL\\DoAnCuoiKy\\Dbms\\WpfApp1\\UC_NhanVien\\ThemCaLam_Window.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\UC_NhanVien\\ThemCaLam_Window.xaml.cs",
+              "ToolTip": "C:\\HeQTCSDL\\DoAnCuoiKy\\Dbms\\WpfApp1\\UC_NhanVien\\ThemCaLam_Window.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\UC_NhanVien\\ThemCaLam_Window.xaml.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAuwDEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T06:40:20.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ThemCaLam_Window.xaml",
+              "DocumentMoniker": "C:\\HeQTCSDL\\DoAnCuoiKy\\Dbms\\WpfApp1\\UC_NhanVien\\ThemCaLam_Window.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\UC_NhanVien\\ThemCaLam_Window.xaml",
+              "ToolTip": "C:\\HeQTCSDL\\DoAnCuoiKy\\Dbms\\WpfApp1\\UC_NhanVien\\ThemCaLam_Window.xaml",
+              "RelativeToolTip": "WpfApp1\\UC_NhanVien\\ThemCaLam_Window.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-08T06:40:16.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UC_BangPhanCa.xaml.cs",
+              "DocumentMoniker": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\UC_BangPhanCa.xaml.cs",
+              "ToolTip": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\UC_BangPhanCa.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAMwBYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T02:31:22.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CaLam_Dao.cs",
-              "DocumentMoniker": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\dao\\CaLam_Dao.cs",
+              "DocumentMoniker": "C:\\HeQTCSDL\\DoAnCuoiKy\\Dbms\\WpfApp1\\dao\\CaLam_Dao.cs",
               "RelativeDocumentMoniker": "WpfApp1\\dao\\CaLam_Dao.cs",
-              "ToolTip": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\dao\\CaLam_Dao.cs",
+              "ToolTip": "C:\\HeQTCSDL\\DoAnCuoiKy\\Dbms\\WpfApp1\\dao\\CaLam_Dao.cs",
               "RelativeToolTip": "WpfApp1\\dao\\CaLam_Dao.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAcwCkAAABQAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAkwCcAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-07T05:31:46.337Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UC_DanhSachCaLam.xaml",
-              "DocumentMoniker": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\UC_DanhSachCaLam.xaml",
-              "RelativeDocumentMoniker": "WpfApp1\\UC_DanhSachCaLam.xaml",
-              "ToolTip": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\UC_DanhSachCaLam.xaml",
-              "RelativeToolTip": "WpfApp1\\UC_DanhSachCaLam.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-08T06:31:23.726Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UC_XemChiTietNhanVien.xaml",
-              "DocumentMoniker": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\UC_XemChiTietNhanVien.xaml",
-              "RelativeDocumentMoniker": "WpfApp1\\UC_XemChiTietNhanVien.xaml",
-              "ToolTip": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\UC_XemChiTietNhanVien.xaml",
-              "RelativeToolTip": "WpfApp1\\UC_XemChiTietNhanVien.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-08T06:31:16.553Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UC_NhanVien.xaml",
-              "DocumentMoniker": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\UC_NhanVien.xaml",
-              "RelativeDocumentMoniker": "WpfApp1\\UC_NhanVien.xaml",
-              "ToolTip": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\UC_NhanVien.xaml",
-              "RelativeToolTip": "WpfApp1\\UC_NhanVien.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-08T06:30:27.474Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "NhanVien_DAO.cs",
-              "DocumentMoniker": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\dao\\NhanVien_DAO.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\dao\\NhanVien_DAO.cs",
-              "ToolTip": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\dao\\NhanVien_DAO.cs",
-              "RelativeToolTip": "WpfApp1\\dao\\NhanVien_DAO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T06:15:37.142Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "SanPham_DAO.cs",
-              "DocumentMoniker": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\dao\\SanPham_DAO.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\dao\\SanPham_DAO.cs",
-              "ToolTip": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\dao\\SanPham_DAO.cs",
-              "RelativeToolTip": "WpfApp1\\dao\\SanPham_DAO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T06:00:08.709Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ConnectDB.cs",
-              "DocumentMoniker": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\config\\ConnectDB.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\config\\ConnectDB.cs",
-              "ToolTip": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\config\\ConnectDB.cs",
-              "RelativeToolTip": "WpfApp1\\config\\ConnectDB.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAACiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T05:57:26.034Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UC_BangPhanCa.xaml.cs",
-              "DocumentMoniker": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\UC_BangPhanCa.xaml.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\UC_BangPhanCa.xaml.cs",
-              "ToolTip": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\UC_BangPhanCa.xaml.cs",
-              "RelativeToolTip": "WpfApp1\\UC_BangPhanCa.xaml.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAADwvyEAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T02:31:22.718Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "UC_ConfigAutoPhanca.xaml.cs",
               "DocumentMoniker": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\UC_ConfigAutoPhanca.xaml.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\UC_ConfigAutoPhanca.xaml.cs",
               "ToolTip": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\UC_ConfigAutoPhanca.xaml.cs",
-              "RelativeToolTip": "WpfApp1\\UC_ConfigAutoPhanca.xaml.cs",
               "ViewState": "AgIAAIkAAAAAAAAAAAAswJoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-07T05:41:06.676Z",
@@ -209,21 +190,16 @@
               "DocumentIndex": 10,
               "Title": "UC_BangPhanCa.xaml",
               "DocumentMoniker": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\UC_BangPhanCa.xaml",
-              "RelativeDocumentMoniker": "WpfApp1\\UC_BangPhanCa.xaml",
               "ToolTip": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\UC_BangPhanCa.xaml",
-              "RelativeToolTip": "WpfApp1\\UC_BangPhanCa.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-07T05:22:11.836Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T05:22:11.836Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "UC_ConfigAutoPhanca.xaml",
               "DocumentMoniker": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\UC_ConfigAutoPhanca.xaml",
-              "RelativeDocumentMoniker": "WpfApp1\\UC_ConfigAutoPhanca.xaml",
               "ToolTip": "D:\\Documents\\Nam 3\\HocKy I\\DBMS\\CuoiKy\\Dbms\\WpfApp1\\UC_ConfigAutoPhanca.xaml",
-              "RelativeToolTip": "WpfApp1\\UC_ConfigAutoPhanca.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-11-07T05:41:00.719Z"
             }
@@ -233,6 +209,10 @@
           "DockedHeight": 63,
           "SelectedChildIndex": -1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"

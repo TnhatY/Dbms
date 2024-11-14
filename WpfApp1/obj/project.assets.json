@@ -2987,19 +2987,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ACER\\.nuget\\packages\\": {}
+    "C:\\Users\\huanc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Deadline\\DBMS\\Do_An_CK - Copy\\WpfApp1\\Do_an.csproj",
+      "projectUniqueName": "C:\\HeQTCSDL\\DoAnCuoiKy\\Dbms\\WpfApp1\\Do_an.csproj",
       "projectName": "Do_an",
-      "projectPath": "D:\\Deadline\\DBMS\\Do_An_CK - Copy\\WpfApp1\\Do_an.csproj",
-      "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-      "outputPath": "D:\\Deadline\\DBMS\\Do_An_CK - Copy\\WpfApp1\\obj\\",
+      "projectPath": "C:\\HeQTCSDL\\DoAnCuoiKy\\Dbms\\WpfApp1\\Do_an.csproj",
+      "packagesPath": "C:\\Users\\huanc\\.nuget\\packages\\",
+      "outputPath": "C:\\HeQTCSDL\\DoAnCuoiKy\\Dbms\\WpfApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\huanc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3019,6 +3019,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -3069,7 +3074,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   },
